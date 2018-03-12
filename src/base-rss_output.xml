@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <atom:link href="https://distributedfutu.re/rss/DistributedFuture.rss" rel="self" type="application/rss+xml"/>
+    <title>Distributed Future Podcast</title>
+    <link>https://distributedfutu.re/</link>
+    <description>In this podcast we interview interesting people who are doing new things in tech that may give us some insight into future society.</description>
+    <managingEditor>tim@distributedfutu.re()</managingEditor>
+    <webMaster>tim@distributedfutu.re()</webMaster>
+    <language>en-gb</language>
+    <copyright>Copyright (C) 2018 The contributors, all rights reserved</copyright>
+    <creativeCommons:license>
+                    https://creativecommons.org/licenses/by-nc-nd/4.0/
+                </creativeCommons:license>
+    <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Mar 2018 17:45:28 +0000</lastBuildDate>
+    <image>
+      <url>http://distributedfutu.re/cover.jpg</url>
+      <title>Distributed Future Podcast</title>
+      <link>https://distributedfutu.re/</link>
+    </image>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <itunes:author>Distributed Future Podcast</itunes:author>
+    <itunes:keywords>future,technology,society</itunes:keywords>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://distributedfutu.re/cover.jpg"/>
+    <itunes:owner>
+      <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
+      <itunes:email>tim@distributedfutu.re()</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>Magic and Blockchain</title>
+      <link>https://distributedfutu.re/episodes/1/</link>
+      <description>A conversation about the future impact of blockchain on society</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/1/</guid>
+      <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
+        <media:title type="plain">Magic and Blockchain</media:title>
+        <media:description>A conversation about the future impact of blockchain on society</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/1/thumb.jpg"/>
+        <media:keywords>blockchain,society,technology,magic</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" length="35862903" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/1/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:26:00</itunes:duration>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<cast>
+    <name>DistributedFuture</name>
+    <site>distributedfutu.re</site>
+    <rssDir>rss/</rssDir>
+    <epDir>episodes/</epDir>
+    <title>Distributed Future Podcast</title>
+    <description>In this podcast we interview interesting people who are doing new things in tech that may give us some insight into future society.</description>
+    <email>tim@</email>
+    <owner>Tim Panton</owner>
+    <episodes>
