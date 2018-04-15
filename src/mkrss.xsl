@@ -86,7 +86,7 @@
                         <xsl:value-of select="$email"/>
                     </itunes:email>
                 </itunes:owner>
-                <xsl:for-each select="/cast/episodes/episode" sort="date">
+                <xsl:for-each select="document('episode*.xml')//episode" sort="date">
                     <xsl:variable name="epUrl">
                         <xsl:value-of select="$secureUrl"/>
                         <xsl:value-of select="/cast/epDir"/>
