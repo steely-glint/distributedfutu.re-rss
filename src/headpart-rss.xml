@@ -10,7 +10,7 @@ and open the template in the editor.
     <name>DistributedFuture</name>
     <site>distributedfutu.re</site>
     <rssDir>rss/</rssDir>
-    <epDir>episodes/</epDir>
+    <epDir>episodes</epDir>
     <title>Distributed Future Podcast</title>
     <description>In this podcast we interview interesting people who are doing new things in tech that may give us some insight into future society.</description>
     <email>tim@</email>

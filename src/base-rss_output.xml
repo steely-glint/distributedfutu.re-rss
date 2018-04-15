@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Apr 2018 11:55:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 15:13:51 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/cover.jpg</url>
       <title>Distributed Future Podcast</title>
@@ -29,5 +29,41 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Quantified self</title>
+      <link>https://distributedfutu.re/episodes/2/</link>
+      <description>A conversation about how the future of our wellbeing is in our own data</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/2/</guid>
+      <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
+        <media:title type="plain">Quantified self</media:title>
+        <media:description>A conversation about how the future of our wellbeing is in our own data</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/2/thumb.jpg"/>
+        <media:keywords>Quantified self, wellness, sleep</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" length="35862903" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/2/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:26:00</itunes:duration>
+    </item>
+    <item>
+      <title>Magic and Blockchain</title>
+      <link>https://distributedfutu.re/episodes/1/</link>
+      <description>A conversation about the future impact of blockchain on society</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/1/</guid>
+      <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
+        <media:title type="plain">Magic and Blockchain</media:title>
+        <media:description>A conversation about the future impact of blockchain on society</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/1/thumb.jpg"/>
+        <media:keywords>blockchain,society,technology,magic</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" length="35862903" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/1/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:26:00</itunes:duration>
+    </item>
   </channel>
 </rss>
