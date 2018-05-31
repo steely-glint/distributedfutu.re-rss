@@ -1,5 +1,12 @@
 #!/bin/sh
-#cat src/headpart-rss.xml src/episode1.xml src/tailpart-rss.xml | \
-xsltproc --stringparam maxEpisode 2 --stringparam current-date "`date -R`" -o src/base-rss_output.xml  src/mkrss.xsl src/headpart-rss.xml 
+MAXEP=2
+xsltproc --stringparam maxEpisode ${MAXEP} --stringparam current-date "`date -R`" -o docs/rss/DistributedFuture.rss  src/mkrss.xsl src/headpart-rss.xml 
+xsltproc --stringparam maxEpisode ${MAXEP} --stringparam current-date "`date -R`" -o docs/index.html  src/mkindex.xsl src/headpart-rss.xml 
+
+echo now 
+echo scp docs/rss/DistributedFuture.rss pi@distributedfutu.re:/usr/share/nginx/html/rss
+echo scp docs/index.html pi@distributedfutu.re:/usr/share/nginx/html
+
+
 
 
