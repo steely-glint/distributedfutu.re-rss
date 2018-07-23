@@ -56,8 +56,8 @@
             <xsl:value-of select="$insecureUrl"/>
             <xsl:value-of select="$epDir"/>
             <xsl:value-of select="number"/>/thumb.jpg</xsl:variable>
-        <xsl:variable name="hh" select="round(duration div 3600)"/>
-        <xsl:variable name="mm" select="round(duration div 60) mod 3600"/>
+        <xsl:variable name="hh" select="floor(duration div 3600)"/>
+        <xsl:variable name="mm" select="floor(duration div 60) mod 3600"/>
         <xsl:variable name="ss" select="duration mod 60"/>
         <xsl:variable name="hmsDur">
             <xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/>
