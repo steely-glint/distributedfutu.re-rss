@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Jul 2018 12:46:38 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 12:51:26 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -71,7 +71,7 @@
       <description>A conversation about how the future of our well-being is in our own data</description>
       <guid isPermaLink="true">https://distributedfutu.re/episodes/2/</guid>
       <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
-      <media:content medium="audio" url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1852">
         <media:title type="plain">Quantified self</media:title>
         <media:description>A conversation about how the future of our well-being is in our own data</media:description>
         <media:rating scheme="urn:simple">nonadult</media:rating>
@@ -81,7 +81,7 @@
       <enclosure url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" length="35862903" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/2/thumb.jpg"/>
       <itunes:explicit>clean</itunes:explicit>
-      <itunes:duration>00:26:00</itunes:duration>
+      <itunes:duration>00:30:52</itunes:duration>
     </item>
     <item>
       <title>Magic and Blockchain</title>
