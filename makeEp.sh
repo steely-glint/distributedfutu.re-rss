@@ -2,13 +2,14 @@
 echo "<episode>"
 echo "<mp3>distributedFuture-"$1".mp3</mp3>"
 echo "<number>"$1"</number>"
-ls -g --time-style=+'%a, %d %b %Y %T %z' episodes/$1/*.mp3 \
- | awk  '   {print "<size>" $4 "</size>" 
-             print "<date>" $5 " " $6 " " $7 " " $8 " " $9 " " $10 "</date>"}'
+ls  -lu  docs/episodes/$1/*.mp3 \
+ | awk  '   {print "<size>" $5 "</size>" }'
+echo "<date>" `date -R -j -r docs/episodes/$1/*.mp3 `"</date>"
 echo "<description>Text here please</description>"
 echo "<tags>tags,here,please</tags>"
-eyeD3 --jep-118 episodes/$1/*.mp3 | awk '/\<length/ { gsub(/length/,"duration"); print $0}
-/\<title/ {print $0}'
+# estimated duration: 1560.408000 sec
+afinfo docs/episodes/$1/*.mp3 | awk '/^ estimated duration:/ { print "<duration>" int($3) "</duration"}'
+echo "<title>Title here</title>"
 echo "<guest>Text here please</guest>"
 echo "<transcription></transcription>"
 echo "<links><link></link></links>"

@@ -137,7 +137,7 @@
                 </lastBuildDate>
                 <image>
                     <url>
-                        <xsl:value-of select="$insecureUrl"/>cover.jpg</url>
+                        <xsl:value-of select="$insecureUrl"/>img/distributedFutureIcon.jpeg</url>
                     <title>
                         <xsl:value-of select="/cast/title"/>
                     </title>

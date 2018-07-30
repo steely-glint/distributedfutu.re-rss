@@ -105,6 +105,7 @@
                 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
                 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
                 <!-- Custom CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
                 <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 
                 <title>Distributed Future - a podcast</title>
@@ -120,7 +121,7 @@
                         </p>
                         <p class="text-primary">Vim and Tim</p>
                         <p>
-                            <a href="rss/DistributedFuture.rss">subscribe</a>
+                            <a class="btn btn-success" href="rss/DistributedFuture.rss"><span> <i class="fa fa-rss"></i></span>subscribe</a>
                         </p>
                     </div>
                 </header>
@@ -131,6 +132,9 @@
                         </xsl:call-template>
                     </div>
                 </div>
+                <footer>
+                <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a> and transcribed with the help of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a></p>
+                </footer>
             </body>
         </html>
     </xsl:template>
