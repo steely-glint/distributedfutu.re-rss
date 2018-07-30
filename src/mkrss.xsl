@@ -156,7 +156,7 @@
                 <itunes:explicit>clean</itunes:explicit>
                 <itunes:image >
                     <xsl:attribute name="href">
-                        <xsl:value-of select="$insecureUrl"/>cover.jpg</xsl:attribute>
+                        <xsl:value-of select="$insecureUrl"/>img/distributedFutureIcon.jpeg</xsl:attribute>
                 </itunes:image>
                 <itunes:owner>
                     <itunes:name>
