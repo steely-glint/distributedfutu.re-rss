@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 05 Aug 2018 15:52:11 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Aug 2018 09:21:37 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Makers and individuals</title>
+      <link>https://distributedfutu.re/episodes/6/</link>
+      <description>A conversation about personalization and the maker movement</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/6/</guid>
+      <pubDate> Sun, 12 Aug 2018 17:36:13 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/6/distributedFuture-6.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2364">
+        <media:title type="plain">Makers and individuals</media:title>
+        <media:description>A conversation about personalization and the maker movement</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/6/thumb.jpg"/>
+        <media:keywords>maker,individual,custom</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/6/distributedFuture-6.mp3" length="47291601" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/6/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:39:24</itunes:duration>
+    </item>
     <item>
       <title>The future of love and dating</title>
       <link>https://distributedfutu.re/episodes/5/</link>
