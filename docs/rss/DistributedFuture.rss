@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 09 Sep 2018 23:41:13 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Sep 2018 20:24:43 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Privacy and the Quantified Self</title>
+      <link>https://distributedfutu.re/episodes/8/</link>
+      <description>We discuss the ethical and privacy problems associated with fitness trackers and other 'Quantified Self' data collection.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/8/</guid>
+      <pubDate> Sun, 23 Sep 2018 20:12:01 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/8/distributedFuture-8.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3096">
+        <media:title type="plain">Privacy and the Quantified Self</media:title>
+        <media:description>We discuss the ethical and privacy problems associated with fitness trackers and other 'Quantified Self' data collection.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/8/thumb.jpg"/>
+        <media:keywords>data,Quantified self,fitness,privacy</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/8/distributedFuture-8.mp3" length="61930099" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/8/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:51:36</itunes:duration>
+    </item>
     <item>
       <title>Remote working - it it the Future?</title>
       <link>https://distributedfutu.re/episodes/7/</link>
