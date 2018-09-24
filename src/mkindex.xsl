@@ -76,11 +76,12 @@
                 <a class="btn btn-primary">
                     <xsl:attribute name="href">
                         <xsl:value-of select="$mp3Url"/>
-                    </xsl:attribute>MP3</a>
+                    </xsl:attribute>
+                    <i class="fa fa-headphones-alt fa-lg"></i>Listen Now</a><xsl:text> </xsl:text>
                 <a href="episodes/1/DistributedFuture1.rtf" class="btn btn-primary">
                     <xsl:attribute name="href">
                         <xsl:value-of select="$transUrl"/>
-                    </xsl:attribute>Transcript rtf</a>
+                    </xsl:attribute>Read Transcript</a>
 
                 <div class="podcast-details row">
                     <!-- Postcast Guests-->
