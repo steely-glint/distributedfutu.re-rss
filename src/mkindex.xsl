@@ -91,6 +91,20 @@
                         <xsl:value-of select="hmsDur"/>
                     </div>
                 </div>
+                <div class="podcast-links row">
+                    <div class="col">
+                       Links
+                    </div>
+                    <div class="col">
+                    <xsl:for-each select="links/link">
+                       <a><xsl:attribute name="href">
+                            <xsl:value-of select="."/>
+                          </xsl:attribute>
+                          <xsl:value-of select="."/>
+                       </a>
+                    </xsl:for-each>
+                    </div>
+                </div>
             </div>
         </div>
     </xsl:template>
