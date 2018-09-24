@@ -84,24 +84,22 @@
 
                 <div class="podcast-details row">
                     <!-- Postcast Guests-->
-                    <div class="col text-left">Guest:<xsl:value-of select="guest"/>
+                    <div class="col text-left">Guest: <xsl:value-of select="guest"/>
                     </div>
                     <!-- Postcast Date-->
                     <div class="col text-right">
                         <xsl:value-of select="hmsDur"/>
                     </div>
                 </div>
-                <div class="podcast-links row">
-                    <div class="col">
-                       Links
-                    </div>
-                    <div class="col">
+                <div class="podcast-links row well ">
+                       Links: <div>
                     <xsl:for-each select="links/link">
+                       <xsl:variable name="href" select="."/>
                        <a><xsl:attribute name="href">
-                            <xsl:value-of select="."/>
+                            <xsl:value-of select="$href"/>
                           </xsl:attribute>
-                          <xsl:value-of select="."/>
-                       </a>
+                          <xsl:value-of select="$href"/>
+                       </a><br/>
                     </xsl:for-each>
                     </div>
                 </div>
