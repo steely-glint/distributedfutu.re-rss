@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 24 Sep 2018 19:33:31 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Oct 2018 23:23:43 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of (personal) branding.</title>
+      <link>https://distributedfutu.re/episodes/9/</link>
+      <description>What is a brand? How do you build a startup's brand? How does it relate to your personal brand? Where does brand building happen? Get (some) answers here...</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/9/</guid>
+      <pubDate> Sun, 07 Oct 2018 23:09:54 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/9/distributedFuture-9.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2426">
+        <media:title type="plain">The future of (personal) branding.</media:title>
+        <media:description>What is a brand? How do you build a startup's brand? How does it relate to your personal brand? Where does brand building happen? Get (some) answers here...</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/9/thumb.jpg"/>
+        <media:keywords>Brand, tech, privacy</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/9/distributedFuture-9.mp3" length="48535018" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/9/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:40:26</itunes:duration>
+    </item>
     <item>
       <title>Privacy and the Quantified Self</title>
       <link>https://distributedfutu.re/episodes/8/</link>
