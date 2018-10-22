@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Oct 2018 23:23:43 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 Oct 2018 23:57:54 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The Ecological future of data centers</title>
+      <link>https://distributedfutu.re/episodes/10/</link>
+      <description>Conversation on the ecological future of Server hosting</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/10/</guid>
+      <pubDate> Mon, 22 Oct 2018 23:43:53 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/10/distributedFuture-10.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2771">
+        <media:title type="plain">The Ecological future of data centers</media:title>
+        <media:description>Conversation on the ecological future of Server hosting</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/10/thumb.jpg"/>
+        <media:keywords>DataCenters, Renewables, Serverless, Fog, Bitcoin</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/10/distributedFuture-10.mp3" length="55425088" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/10/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:46:11</itunes:duration>
+    </item>
     <item>
       <title>The future of (personal) branding.</title>
       <link>https://distributedfutu.re/episodes/9/</link>

@@ -1,0 +1,350 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sa240\pardirnatural\partightenfactor0
+
+\f0\b\fs48 \cf0 Untitled 1\
+\
+
+\f1\b0\fs24 [00:00:00] Chime.  \
+
+\f0\b Tim: 
+\f1\b0 this is the distributed Futures podcast and I'm Tim  Panton\
+
+\f0\b Vim: 
+\f1\b0  and I'm Vimla Appadoo.\
+
+\f0\b Tim: 
+\f1\b0  And this episode's about how do you choose server hosting for your your internet project? Where do you put them how what are the issues that you might have to think about and I had to kind of think about this in terms of.\
+Of this podcast, like where was I going to put my, you know, the files that you're listening to now and in the end I kind of did a little bit irrational and put on a Raspberry Pi in the  Czech Republic\
+A low powered way to do it. It turns out that actually that that might actually might be a solution to one of the problems that crops up which that the energy consumption of servers is huge its kind of heading towards 10 percent of the world consumption and that's without Bitcoin. \
+
+\f0\b Vim: 
+\f1\b0 Yeah. I find that really interesting. So I've just finished reading a book called people versus Tech which addresses kind of all [00:01:00] of the democratic issues around technology and the decisions that we now have to start making as we think about the future of the planet and the future of society and all of these things and server hosting came up on it as one of those decisions we need to think about in what can if.\
+Technology is the new Industrial Revolution. We have seen the impact of the Industrial Revolution on climate change and consumerism and the way things are done. And what's happening. Now. What can we prevent happening from this new Revolution to prevent the same issues in the future. And I think hosting is a really really big part of that like you said energy consumption.\
+It's the new thing we need to be conscious of to prevent that future issue. \
+
+\f0\b Tim: 
+\f1\b0 Yeah, I mean it was kind of a bit of a shock to me when I was last time. I did kind of series hosting for people like the big part of the bill is looking at the power consumption and you're you know, and and I don't know how\
+[00:02:00] projects you work on in that space how much lee way you've got but the conversation I you know in the interview is is really around the engineering decisions around that and then to what extent are the people who are specifying a project able to influence the ecological outcome and and to some extent also the ethical outcome and you know, there's a limited amount of room for maneuver and and.\
+But like we're looking for the best possible thing there which is you know, probably to try and get more green energy or into the data centers.\
+
+\f0\b Vim: 
+\f1\b0  Yeah. Yeah. Absolutely.\
+
+\f0\b Tim: 
+\f1\b0  Well, I mean, I think the other option is to do not have the data centers as big as they are but that's a like a harder problem.\
+
+\f0\b Vim: 
+\f1\b0 Yeah, so I think that's probably where the space for Innovation is at the moment is thinking rethinking what that looks like because we're stuck in the frame of mind of that. This is how it is in. This is how it needs to be. No one's stopping a bill. Actually. Is there a different way of doing this that I've seen \
+[00:03:00] 
+\f0\b Tim: 
+\f1\b0 right?\
+I mean at that also crops up in the interview and the feeling there is that it's actually like the risk of well, the thing about being things being easy means that you consume more of them. And so \
+
+\f0\b Vim: 
+\f1\b0 yeah \
+
+\f0\b Tim: 
+\f1\b0 progress we make about it's easier to set up a website means that there are more websites and then power consumption.\
+So this is sort of. Reinforcing Tech Circle. Anyway, I mean, I think it's a problematic area and one that's you know, we don't always think about we kind of you know, when we're doing these projects. We just kind of tick off  yeah we will host it there or you know, obviously on this cloud and and it's kind of thing without really thinking about it.\
+
+\f0\b Vim: 
+\f1\b0 It's yeah, it's just another decision you have to make \
+
+\f0\b Tim: 
+\f1\b0 right. So I think we will let let people put into that and we'll go from there. \
+
+\f0\b Vim: 
+\f1\b0 Oh, that's thank you.\
+
+\f0\b Anne: 
+\f1\b0   [00:04:00] So hi. My name is Anne  Currie and I've been in tech industry for just a little under 25 years doing a huge number of different things. So I was an engineer developer back-end developer in the 90s.\
+In the in the 2000 I was head of Tech for one of the earliest pure-play e-commerce companies called figleaves.com. We sold lingerie online all over the world and these days I'm a consultant. I'm a tech strategist for a company called container Solutions. I've also done those of startups various things over the years and these days.\
+I mostly look at is the future of where we're going to run our applications. So data centers how they work what technologies we should take advantage of now, where are they going to go? So that's what I will be looking forward to talking about this morning. \
+
+\f0\b Tim: 
+\f1\b0 That's great. I mean, I think I [00:05:00] came across the also the idea that you were interested in the like risks of power consumption risks associated with that as well.\
+So I think it would be great to try and touch on that as well. Not that was I think that's something I mean, I thought about that from a totally different angle, which I ended up running servers occasionally running end up running servers in strange places that need solar power and at that point you suddenly realize that the energy economics of these things is just not obvious, like you know plugging into 13 amp socket in the wall is like is an easy thing. But like if you had to have to source that with the five nines, it's get it's a different game and then cool it, you know, it's a totally different game. So how I mean are you are you a container person you are you somebody who believes in kind of bare servers?\
+What's your where are you on that sliding scale? \
+
+\f0\b Anne: 
+\f1\b0 Well, I came into this I as a strong container person. So the oddly [00:06:00] enough my interest has been in efficiency machine efficiency for a very long time and containers were invented for machine efficiency. So they were invented by Google people like Sun but mostly used by Google back\
+nearly 20 years ago now and they were used to get better users resource utilization on service because they could mean that you could run lots and lots of different applications on the same server and really reuse the hardware and the all of the CPU and the memory and the electricity very efficiently and Google use that to achieve they have data centers that are running at over.\
+It's over 65 percent efficiency, which is amazing because most data centers worldwide on-prem running at about 10 to 15 percent efficiency, and that offended me. So I got into containers because of their possibilities for [00:07:00] resource efficiency. However, that isn't necessarily what they're being used for.\
+
+\f0\b Tim: 
+\f1\b0 Right. So just to kind of finish out the container efficiency thing. What we're saying is that by putting applications disparate applications together kind of isolated from each other on the same server. You can get a kind of much  much more Blended flatter utilization by saying hey, well, here's something that runs at night.\
+Here's something runs in the day. Let's mix them around and so that we end up with the constant utilization. On the on a server so that you're kind of actually using all the CPU all the core and and consuming does that not put the power consumption of the server up or is that only a marginal effect?\
+
+\f0\b Anne: 
+\f1\b0 It's only a marginal effect. So yes, it does but it's the on off of the on/off difference is huge compared to just running it more full-on, \
+
+\f0\b Tim: 
+\f1\b0 right? Okay, so to like just switching [00:08:00] it on as you've done 80% of the damage already and you may as well use it. This is sort of. \
+
+\f0\b Anne: 
+\f1\b0 Exactly. \
+
+\f0\b Tim: 
+\f1\b0 Sorry, I hit you you were you were talking about what containers are now being used for and I'd kind of backtracked a bit, but that let's go forward.\
+
+\f0\b Anne: 
+\f1\b0 No. No, that's all right, and actually out you might correctly point out that that's actually really what VM's were designed for was carving up machine so you can have a bigger machine with more stuff running on it and it's certainly so containers in that sense are kind of like lightweight VMS that.\
+They let you carve up the machine, but they let you carve up on the machine much more because they're much lighter weight than VMs. They let you carve up the machine much more efficiently. So they have that potential but that isn't why they became popular because Google ran them to do that for a decade before anybody else pick them up.\
+That isn't what made containers become super popular what made containers become super popular was [00:09:00] when Docker came along and said, this is a really excellent packaging format now, I'm sure that if. I'm sure that most of us some point in our careers came up with the appalingly terrible idea and did and implemented the appalling the terrible idea of using VMS to package up.\
+And deliver applications that circumstance don't know if you've ever tried that \
+
+\f0\b Tim: 
+\f1\b0 I'm only only in kind of his well to to context there's the there's the original IBM 360 VMS which are essentially kind of the only way that time sharing work to that point. And then of course, there's the fun with the Java VM and the attempt to isolate the program by making it live inside Java, but not not the classic sort of VM that you're talking about now.\
+
+\f0\b Anne: 
+\f1\b0 Yeah, because you can pack it. You can build a whole whole boxes of virtual machine and then ship it somebody else and they can run it on their physical machines. It's not impossible but [00:10:00] it's there are no tools for doing that and this is very hard to manage it occasionally, you know, it seems like a good idea to me and it's not really the right kind of things to do.\
+But but the concepts are just being able to package up a box and give it to somebody else. But is virtual and then they run it on their physical machine is actually really nice idea and Docker went with that and provided the tooling to make it really work very well. So having a really nice packaging format.\
+Is what made containers this successful and the packaging format that you can very easily move from machine to machine. It's very good for automation. So it fits in extremely well with the whole CICD automation of workflows move that that's the direction that we've gone in. So although I really likes containers for I got into containers because I was interested in the [00:11:00] efficiency.\
+That isn't why anybody else did? \
+
+\f0\b Tim: 
+\f1\b0 But so I mean, I think one of the other things were containers which because I'm kind of come from a security background one of the things that's interesting from my point of view is that there for them to work they have to be strongly isolating the various components.\
+I mean to get that kind of it runs it, you know, you can just deliver it. It will run you have to have like all the dependencies internal to The Container so you have to kind of isolate and that has a side effect of isolating it effectively from from everything else that's outside the container and not completely but certainly a pair of containers running on same box should be largely unaware of each other and that, you know, although we've seen recently kind of some failures in that model, but still that's the concept and from the security point of view.\
+That's kind of interesting. You see whole OS is based on that concept which is kind of interesting from security point of view and also in the kind of [00:12:00] OCD putting everything in the right Cutlery drawer type mindset is actually also quite compelling. \
+
+\f0\b Anne: 
+\f1\b0 Yes, yes it is. It's interesting that it is difficult to isolate the the containers that you know, that's still not perfect.\
+And I think the reason why it's not perfect is because that wasn't what containers were invented for that where that we use them now for we're thinking about we think about with think we think about them like VMS that VMS in a the cloud for example used to completely isolate one workload from another in case workload a attacks workload be because they could be from two different companies in the cloud.\
+But the being on the same server apart from meltdown and Specter and all the problems we had last year generally speaking. If you're within a VM, you're completely safe from other people who are on the same machine no matter how malign their intentions might be and that isn't necessarily the case [00:13:00] yet for containers because they weren't built for the would create it and vented for that.\
+Inara they were invented for us like within within Google. You got a whole load of co-located workloads, but they're not inimical. They're not inimical. They're all from Google. You don't really expect them to be attacking one another so you don't necessarily have to have designed containers for that, which is probably why they don't\
+cope with it quite as well as we might hope because now it seems like the obvious use case. It wasn't the use cases.\
+
+\f0\b Tim: 
+\f1\b0  Yeah, people never use tech for what you built it for do they\
+
+\f0\b Anne: 
+\f1\b0  no indeed, but they are very, I mean certainly containerization. It's it's incredibly Zeitgeist e for a good reason because it has this this lovely wrapping its lovely packaging and it see it's time kind of had come because.\
+Everybody was wanting to automate their deployment processes at the same time as you invent [00:14:00] this or you discover this way of packaging applications so that they can be moved around more easily. \
+
+\f0\b Tim: 
+\f1\b0 So one of the joys I mean of this kind of automated deployment is the ability to ramp up and ramp down scale.\
+I mean, that's the that's the. At least the business case is always been around. Well, hey, we could run up another thousand of these if we hit a, you know, get suddenly get popular or something and I think that's been that's been the driving force from I've never been totally convinced that it totally works but I get the point.\
+Anyway, \
+
+\f0\b Anne: 
+\f1\b0 well, it's interesting actually because you say that that's the business case and I thought that was the business case because I wrote a book on.  What are people actually using containers for last year and I went out and interviewed loads of Enterprises in Europe and in the UK big big people like the financial times and Skyscanner and ASOS and [00:15:00] ITV.\
+And said, well we'll see. You know, they got them to talk me through why they were doing it what they're doing how they're done it and I was expecting people to tell me it was about cutting costs not you know, as you say being able to scale up when you needed to but not before you need it to and I was expecting all of those kind of operational reasons for why people were doing containers and micro services and cloud and what kind of stuff which all work very well together, but that wasn't that was not the reason that anybody gave me for why they were doing it business case was that if you also make deployment completely which you can do using all of these systems, they could get deployments out much much more quickly and to a crazy extent. So it was going from so the FT for example went from deploying once every six months to being able to deploy once every 15 minutes.\
+That's so we're talking about five hundred, thousand fold [00:16:00] increase in feature of velocity. And this is not in the old days because I'm old so I now have a bit of a soft spot for waterfall development. We used to kind of plan everything and you design if you design and careful carefully plan upfront huge. Products and then you'd work exactly what you're going to do and then everybody Golf and do it and you did deploy in a month in a month in a year or something this doing this kind of very fast iterations. It doesn't mean that it you would you go thousand times faster at building one giant thing because it just means that you can take small bits off it off your original design put them out into production and see whether they really land very well with your users see whether they work and then you can change your mind \
+
+\f0\b Tim: 
+\f1\b0 right?\
+I mean, I like you I have a soft spot for waterfall partly because of age but also because one of the most one of the best projects I [00:17:00] worked on was software for an infrared Space Telescope and when you launch the thing like actually you better get it, right and we also had that one had a classic thing where the deadline the launch deadline was actually to do with planetary alignment.\
+So. Like the deadline was actually about the hardest deadline you ever see which is like, you know, if we don't launch it now the planets weren't be align for another correctly aligned line for another 10 years. It's just like this is the date. So that like when that was a that was an absolute classic waterfall model of design because you had to know what you what it was you're going to fire up there.\
+You couldn't like iteratively update it as well. It was running \
+
+\f0\b Anne: 
+\f1\b0 absolutely and there are still loads of use cases where you can't if you can't update things that are running. You have have hard deadlines and in those cases really I know that we all say nobody wants to use waterfall anymore but there are course.\
+It's still horses for courses. There are still very good reasons for Sometimes [00:18:00] using waterfall. \
+
+\f0\b Tim: 
+\f1\b0  I think the most most interesting. I mean, we're straying slightly off topic but not actually very much I think, which is the most interesting thing I've seen there. Is that Tesla you think about cars as. Like classic waterfall like all of the automation a car when you buy it\
+that's what it is and it's been part of the five-year design process. But if you look at what Tesla doing this shipping software updates that improve the behavior of the car and and shift feature updates on to a running car. So they're they're starting. I mean, they don't do it at a one-week interval, but but they're starting to move away like even what you think of as the strongest possible case for waterfall.\
+I'm not strong as possible. But pretty close that is now moving towards something. That's a much more. Granular slow Improvement rapid update type scenario. So like really, you know, this this philosophy is taking over in places which five years ago. I [00:19:00] wouldn't have believed. So kind of it is like this probably almost nowhere safe.\
+
+\f0\b Anne: 
+\f1\b0 Yeah, and it does I have to say the businesses that to go down that very fast iteration route they do. They are extremely successful as a result of it because you don't know what customers going to want. If you can iterate it's a really good thing to do, but there are downsides which is so I'm a huge believer that you have to do this really to be you you have to give you know, I have to say goodbye to waterfall  we have to to address this kind of CICD process, but there are problems with it and there are two sets.\
+Problems with it both of which I'm doing a lot of talking and thinking and organizing conferences on about a moment one is. Resource utilization and and the the scale of energy use in data centers that one of the things that the cloud [00:20:00] gives you is the ability to turn on machines really easily and just try them out and see see whether you like them.\
+And then if you don't mind turning off which is an enormous change, that's completely de-risked Hardware purchasing. It doesn't make it cheaper just makes it less risky. Because you don't have to you know by machine and they go bloody hell that was half the size I needed or twice the size. I need \
+
+\f0\b Tim: 
+\f1\b0 well also I mean I don't know if this is came out in your survey, but it moves it to a different part of the balance sheet no longer Capital purchase and that I think that's almost like, you know, it's just, you know, accounting but is actually a thing that makes almost as much difference as anything else.\
+
+\f0\b Anne: 
+\f1\b0 Yeah, yeah, you're right. I mean it's two big things. Yes. It's the opex capex thing and the fact that you don't have to commit to I mean, I remember what it was like 10 years ago in one of my darker days. At figleaves but medium-sized Enterprise we implant we were running colos. We were running all our own servers.\
+And we decided [00:21:00] as many Enterprises do to do an ERP project and SAP sap project and we had to buy our servers six months in advance. And we had a we had only had a very limited budget. We had really no idea what we needed but it was hugely risk of the business enormously risky and you know, it was the kind of thing you lay in bed at night and think I have no idea what we what we need to buy.\
+You know, it's. But we have to buy it six months before we make it. \
+
+\f0\b Tim: 
+\f1\b0 Right right right. Now that was always insane, you know you and you kept a few quietly in a corner because he thought you might need them but kept them off book somehow \
+
+\f0\b Anne: 
+\f1\b0 we were very tight with our money back that I have to say.\
+We didn't have we had yes, I mean he certainly but but you quite often needed more than that. It was very difficult to work out what you're going to need and of course estimating what your usage was going to be in six months time, which. Total stab in the [00:22:00] dark. \
+
+\f0\b Tim: 
+\f1\b0 Right? Right. Absolutely. So yeah, I mean, I think I think there's good just coming back to the power problem.\
+I mean I've seen to statistics which were saying that we're going to actually ask, you know data centers are going to be the largest going to soon be the largest polluting element because they're there they don't tend to get on with with Renewables because the usage pattern is kind of inimical to to renewable usage and I seen a statue I don't think I believe but I've seen a starter system by 2025 which is what seven years time.\
+
+\f0\b Anne: 
+\f1\b0 Yeah, \
+
+\f0\b Tim: 
+\f1\b0 they'll be using a fifth of the Earth's power consumption.\
+
+\f0\b Anne: 
+\f1\b0  I think that's quite plausible. \
+
+\f0\b Tim: 
+\f1\b0 God really ?\
+
+\f0\b Anne: 
+\f1\b0 why I think that's on the high end, but it's not impossible. So I've certainly seen very Port so at the moment we use about two percent, which is the same as the aviation industry. Just for DC's so that's not all all of that's just for servers [00:23:00] running in data centers.\
+That's not like your phone and your laptop at home. Like I'm stuff you add that is crazy that it's 12% There's two percent of its just data centers we under no well Cisco and Huawei are estimating that that will at least that will increase but at least 5 fold within the next five years. That would take us up to 10% just for data centers \
+
+\f0\b Tim: 
+\f1\b0 we are on Moore's law for data centers.\
+It's like \
+
+\f0\b Anne: 
+\f1\b0 yeah \
+
+\f0\b Tim: 
+\f1\b0 every 18 months we're going to double is that it is that really like, \
+
+\f0\b Anne: 
+\f1\b0 I think that's really quite plausible.\
+
+\f0\b Tim: 
+\f1\b0  Horrific.\
+
+\f0\b Anne: 
+\f1\b0  So what it is, it's something we absolutely need to start addressing because we're not likely aviation industry because we're under no Pressure from outside of Technology at the moment to to be more efficient or even internal pressure because very few people know this they Data centers are\
+almost invisible [00:24:00] culturally within the larger nobody knows but Datacenter is even within the industry very few people. Think about the service that they're running on.\
+
+\f0\b Tim: 
+\f1\b0  I remember being tracking back a little bit, but I remember being utterly shocked the first time I bought a Colo with a for a bunch of servers here in the UK being presented with a question.\
+Like how many amps you going to consume? And that this was a big factor in the bill my like prior to that we'd always run our own and somebody else would pay the electricity bill and like it never really cropped up and I looked at this and the numbers that that it is it's pretty much the dominant cost of running them now which is horrific.\
+And as you say people aren't aware of it like, you know, it's not until the bill lands on your desk that you realize but actually it is the case.\
+
+\f0\b Anne: 
+\f1\b0  It's it wouldn't be oddly enough. It would not be such a problem if people were very motivated by their bill. Well, they're not motivated by the bills especially when they go into the cloud [00:25:00] because cloud is really expensive.\
+You don't go into the cloud to save money or you know, it might have been 10 years ago. We may have thought that the cloud was saying was made does not save you money, but it does make life very much more convenient and one of the ways it makes your life very much more convenient. If you don't have to worry before we turn on the new machine, you don't have to worry about where the electricity's come for anything like that.\
+Just turn it on and it cost me cash, but for most businesses is that's not the that's not their biggest Outlet. You know, it's not that not their biggest operational cost. It's the biggest operational cost is is Personnel. So if they don't have to worry about things and that saves you money, so you just turn on more and more and more machines.\
+It's almost it's a kind of I think it's called jevons Paradox. It's a kind of. Variants of that jevons Paradox things that become more efficient to get cheaper and so everybody buys more of them. So actually the usage goes up efficiency goes up. It's not [00:26:00] quite the same in the cloud. It's it's because the cloud is like an ease of use variance of jevons paradox as things get easier to turn on.\
+You turn them on.\
+
+\f0\b Tim: 
+\f1\b0  Yeah. Yeah. Absolutely. I mean that that that's horrific. Actually occasionally you get kind of Bill shock. You got that Amazon bill at the end of the month and you think how do I do that? You know, but but even so that's still not not enough. I ran across it a really interesting article of this guy which is kind of plays to me my some of my history this guy decided so website called low-tech magazine.com \
+
+\f0\b Anne: 
+\f1\b0 I love that.\
+
+\f0\b Tim: 
+\f1\b0 And he decided to try and run the Magazine's website on a solar powered device and and there's this really nice article about the practicalities of it. And you said the biggest thing that he made made a difference with was that he basically stripped the website down like you got rid of a lot of stuff.\
+So he reduced [00:27:00] the reduce the size of the website by a tremendous and I forgotten the numbers I'll put I will actually put a link in the transcript to this. Here we go. It's a factor of 10. You got a factor of ten smaller website by by stripping out things. That weren't totally necessary and and and changing the image formats and stuff like that.\
+And that means that he's server is a factor of ten less busy for exactly the same number of visitors. And this means that it can just about squeeze it onto the solar panel now, he also says that he's prepared to accept a higher level of  of down time. So like he reckons I forgotten the number again, but I think you reckons this five days in the year when there's been repeatedly not enough sunshine.\
+In the preceding week so his battery will be flat. So it'll be down around Christmas presumably or whenever is the darkest time of the year and that but that's that, you know. He's worked through the numbers of that and the like [00:28:00] I say the biggest saving is slimming the thing down, but what you're saying is there's no incentive for doing that.\
+There's no perceived incentive in the tech in the tech world for slimming down your website for reducing functionality to save costs because the costs aren't significant compared with. The upside and the labor costs are doing that. \
+
+\f0\b Anne: 
+\f1\b0 Yes, correct. Not only there's the no incentive There's an actual disincentive because you just want your people to have more time spend on writing code spend and and that isn't going to change because that's the entire direction of technology.\
+So the question is, how do we resolve that because yeah, we're going to be best case ten percent of the world's energy just for data centers in 5 years, and that will be a very big problem that doesn't even take into account Bitcoin because Bitcoin alone is Bitcoin mining alone separate to the data center [00:29:00] use stuff\
+it's another by the end of this year should be about half a percent of the world's energy use and if that keeps growing but with the bitcoiners will close all so we need to have a it can't be that cheap to use DC power. We are going to have to do something to either make it more expensive or we're going to have to move to renewables, so right now I'm running a campaign that I've set up a petition. We said stop about two weeks ago and got 400 signers, which is not too bad a petition that where as developers as Engineers. We can say actually we do care about this in the long run. We want to move the also have a five-year goal to move all data centers over to sustainable power now, it doesn't necessarily in the short-term need to\
+be renewable could be [00:30:00] nuclear could be. Hydro like that is renewable. But we we have a lot of money to spend and we have an extraordinary need for electricity. We should be driving this \
+
+\f0\b Tim: 
+\f1\b0 so so if that's successful what sorts of changes do you think that that could drive a man? I saw I saw my first advert for a largish arm-based server with which one of its merits is that you know.\
+Per watt you get old or per CPU cycle you get fewer Watts or forgotten how they expressed it. But basically they're saying there's more power efficient power efficient for the same workload. Is that a direction or do you think there's going to be a technological shift in in in changing the way that\
+like people think about Computing just just just things like, you know serverless help. I mean, I know that serveless is  well, I think it's a misnomer, but maybe we touch on that in a minute, but but they're like [00:31:00] do you think that there are technological solutions to this is basicly what I'm asking and what might they be.\
+
+\f0\b Anne: 
+\f1\b0 Well originally when I started thinking about this, I was convinced by technological solutions because as you say serverless should be it's not there at the moment because AWS play their cards very close to their chest in theory serverless should be a lot more efficient. And you've got all of these machines that are more efficient.\
+As I said containers are much more efficient than vm's but I think we're into the trouble with that is that we are into jevons Paradox again. So let's as Things become more efficient. We use more of them. So we don't necessarily get savings and well Jevons historically we don't get Savings in overall energy.\
+From becoming more efficient and it's disappointing. It made me very sad when I realized that is because I did a whole load of work on this how we can make things more efficient and it was clear that it wasn't actually going to deliver anything for the I think the only thing we can do [00:32:00] is do what Google have done and they really have led the world in this.\
+So the moment Google run all of their servers worldwide on offset. Or directly Renewable Power. So they're one of the biggest probably the biggest operator servers in the world and all of their servers are running on Renewable Power so they can do it. I mean they can do it because they have Limitless money, but nonetheless it can be done and the way they do it is they subsidize production of renewable energy.\
+And you know, they can sign up as long-term customers for new solar farms and you hybrid farms and by guaranteeing that income they make it worthwhile for people to build that infrastructure. \
+
+\f0\b Tim: 
+\f1\b0 So essentially they are de-risking the capital by buying by committing to buy up front. \
+
+\f0\b Anne: 
+\f1\b0 Yes \
+
+\f0\b Tim: 
+\f1\b0 right\
+
+\f0\b Anne: 
+\f1\b0  we could [00:33:00] all be doing that because we're a wealthy,\
+we are the wealthiest industry. If not else then who? We're not only the wealthiest industry. We are an industry which is utterly and completely dependent upon electricity if there was no electricity there would be no Tech sector \
+
+\f0\b Tim: 
+\f1\b0 so looking at. I mean like slight counterexample on the idea that you know efficiency doesn't always win you anything.\
+I mean, I think the LED lightbulb thing is actually he's the the only counterexample I'm successfully coming up with but it does seem to have work that you know, the legislation around around lightbulbs has driven down power consumption as far as what can see so it is doable. Although it wasn't voluntary.\
+But yeah. I think they're you know, you can combine a technological fix potentially with with legislation or regulation of some sort and then then then they can maybe happen. I don't know that's \
+
+\f0\b Anne: 
+\f1\b0 that's that's a really odd. I [00:34:00] hadn't thought about that. That is a really interesting example, and I'm going to come back with a counter on that and I really thought about it.\
+So this might be a foolish counter. There is a limit to how much light you want. It's you know, once you've got your LEDs that you probably were using enough back bulbs to like your house to the level of light that you want it and then you replace them with LEDs. You don't make your house much much brighter because you can \
+
+\f0\b Tim: 
+\f1\b0 right right \
+
+\f0\b Anne: 
+\f1\b0  there is a there is a limit.\
+We don't we haven't like covered everything in LEDs just because we can because actually we don't necessarily want everywhere to be unbelievably light all the time. \
+
+\f0\b Tim: 
+\f1\b0 We've been switched actually does lead me to the other thing, which is that I think that we maybe just starting to be heading into that same direction with data and we're just starting to see a bit of a pushback about like, what do we really need to collect this [00:35:00] data?\
+Like I mean, you know, the GDPR is starting to push in on that space and you start to see things like and if you saw Tim Berners-Lee's things this week that he's launching a product, which well as you know, he's not launching. He's talking about a product where he's decentralizing your data. So you hold your own data in a pod and then you manage access or it manages access on your behalf from third parties.\
+But so you're starting to see that our demand for data might be topping out. Not sure I believe that but it's like. It's arguable at least that it might be and that a personal data. Anyway, I mean I think data about the rest of the world not so much but I think the personal data grab everything day as a I think they're over at least ending I hope so.\
+Anyway, \
+
+\f0\b Anne: 
+\f1\b0 yes, I think you might be right but I don't see the demand for Computer Resources. Tailing off things like the trouble is machine learning [00:36:00] AI is massively cpu-intensive. So although we might be collecting less data. We processing what we have very intensively and I don't really think we're prayer collect less data.\
+I can see where you make what you mean, but we can still use it it you know it we might want to anonymize it more which again takes more CPU. I think that we can't rely on efficiency to save us. I think we have to go for someone said to me the other day the means of production \
+
+\f0\b Tim: 
+\f1\b0 right? \
+
+\f0\b Anne: 
+\f1\b0 I would I would love I would love it if we could do it through it efficiency because I'm an engineer and I like efficiency I love efficiency.\
+I was thinking well, we know why do we run things less efficiently than we could but unfortunately we do now the cloud could be a lot more efficient and it could be. [00:37:00] So as I said before Google is the is very energy, which is very good when it comes to energy. They are the biggest corporate purchaser of Renewables in the world.\
+And that does feel like it is the underlying way to get around the fact that that we aren't very efficient and. If we get increases in efficiency of the underlying Hardware, we just tend to use it to make it easier to code and to make our lives easier as developers. I do think that energy generation is our only is our only hope.\
+
+\f0\b Tim: 
+\f1\b0 Hmm, that's interesting because I mean if you look at some of the other things that Google have done that in order to achieve that they also effectively redesign the server. I bet that, you know, the their service are mechanically quite different from you know, the the 1U racks we used to buy from Dell, although the components in their [00:38:00] recognizably know the same the actual\
+mechanical and particularly the heat flow design is completely different and and part of the part of their efficiency is if I understand it correctly is that fact that all of the boxes in a given data center are the same which means that they can model the airflow very precisely. Whereas when you like if you think about your code low you had a pile of servers and no two of them were identical and they all had different airflow and so you had to as a data center manager you had to build an air flow and a cooling\
+which is if I remember rightly is something like half the load you had to build it that airflow in that cooling around the worst-case box that might be in one of those racks. And so it's like, you know think one of the plays that Google has taken is that they are because they control absolutely every aspect of it.\
+They're able to optimize every aspect of it. I wonder to what extent. I suppose the cloud can do that as well. [00:39:00] Amazon and can do exactly the same thing. I asked and as you earn and everybody else, so this is that stats acute. That is technological win. That's kind of almost completely invisible to the rest of us.\
+
+\f0\b Anne: 
+\f1\b0 Yes. Yeah, I agree and I think you're right only the cloud will do it. But I think we're all going to move into the cloud. I think the cloud because it works so well with the kind of gets rid of a whole load of hard really hard operations work and risk associated with Hardware purchases. There's there's no doubt in my mind that we will all move into the cloud.\
+So so actually we the problem with energy use we need to solve in the cloud because that's where we're going to be. And so and really I have enormous faith in the ability of the cloud providers to solve problem if they consider it to be in their best interest to solve it, \
+
+\f0\b Tim: 
+\f1\b0 right and they need to know your game is to incentivize them.\
+
+\f0\b Anne: 
+\f1\b0 Yes, which basically means we have to demand it as customers AWS are utterly demand Focus. [00:40:00] Customers say we want this and we are willing to pay for it and we are willing to step away. If you don't do it for us, they will do it. And of course the cloud is very good for the sorting out that problem with you know, it might be sunny it maybe it's sunny in California, but it's night in London.\
+Well, you can have machines in California and London, you know, and you can route your users to the one that's currently in the best situation to be used it's is that the cloud can cope with these things? I say easily. Nothing's ever easy is it but I have extraordinary faith in the innovation of the AWS Cloud team \
+
+\f0\b Tim: 
+\f1\b0 just took a couple of things that if we before we kind of wrap up one which was around kind of buzz words were to buzz words that are floating around which I think we should like touch on in this one of which is is.\
+Serverless this we mentioned it, but we didn't really talk about what it really means to you [00:41:00] know, and your furry or if you're a product manager and you're looking at building the next thing in two years time or something. What does serverless mean to then? \
+
+\f0\b Anne: 
+\f1\b0 Yes, so it's obviously Serverless the extreme form of what we talked about earlier to do with encapsulation and then running lots and lots of things on the same machine.\
+So serverless is it's taking your application down to a tiny tiny little code snippets really and then being able to and then operationally as being about being able to run all of those code Snippets simultaneously on one machine. So it's it's. Take a it could be phenomenally efficient and cheap for can't Cloud providers to provide. Now\
+it's it's it's not serverless is running on a server in some ways. It's not that different. It's our server which is one of the reasons why everybody gets annoyed about the serverless term. [00:42:00] So let's because there are other ways that you can get the effect of not having to worry about the server and which your code.\
+Executing other than Lambda. So there's there's the kind of serverless suggest you don't worry about machine, but there are lots of ways you can not worry about machine and you then you've got the kind of smaller and smaller units of execution which sometimes people refer to as function as a service.\
+So yes, there's a lot of confusion over the term serverless. \
+
+\f0\b Tim: 
+\f1\b0 So to that's bringing the the other password of the moment, which is fog do we do we think that that serverless allows our our little functions our little Snippets of code to migrate out of the cloud and out to the edge where where they run on a little machine that's like sitting in my car or in my office or you know, Under the Stairs do we think that's a plausible future?\
+
+\f0\b Anne: 
+\f1\b0 Well, it's an interesting one. Is that because there's theoretically there's absolutely no reason why that shouldn't [00:43:00] be the case because you know, it's a lightweight little bit of code. It can run or it can run on any machine anywhere. That's the kind of nature of serverless. But but one of the things about this function or service Lambda serve less kind of stuff is that it's stateless that just runs one thing and then it then it returns you a result.\
+It doesn't store anything locally, which is absolutely fine in some cases and a lot of cases. You do actually want to store State now. If you're in the cloud I can see why the cloud love serverless because it's a way of saying well, you know, actually we provide loads of State status of service options for you really quite expensive, but very good things like key value stores or managed\
+relational databases managed managed queues that kind of thing all which will store your state for you and [00:44:00] serverless often or Lambda is often used to connect up those things. Of course, those things are not of the edge those things written Center because they're heavy machine resource intensive applications.\
+So but yeah, There are potentially use uses of serverless that maybe less. state dependence that could easily go out to the edge I would have said \
+
+\f0\b Tim: 
+\f1\b0 okay. I mean, I think I'm well it sounds to me like there's a whole other interview there some we're somebody who's a fog proponent. I mean, I'm sort of I'm interested in it as an area or but I don't feel qualified to comment at the moment, but I but I do think I mean so so we we kind of to sum up you think that it's it's about.\
+Technological drivers are not going to be sufficient. It has to be a commercial driver [00:45:00] in the commercial driver has to be people saying kind of almost morally this is what we expect our providers our suppliers to provide and they will do that if we push them hard enough is that fair summary? \
+
+\f0\b Anne: 
+\f1\b0 Yes, it is.\
+It's effectively a cultural change. And there was a very interesting article. I'll send you the link in vox magazine came out quite recently about how American consumers are really really pushing for renewable. Now interesting despite that they don't believe in climate change become massively pushing for renewable.\
+This is one of the bizarrely hi, high consumer demand for it. So we are likely to come under pressure from consumer of our own consumers as technologists. Our own end users are likely to start asking these questions. So we need to get ahead of it. So but yeah, I have no problem with that cultural [00:46:00] change is faster than technological change.\
+So if we can push things in the right direction with cultural change, that's absolutely fine by me.\
+
+\f0\b Tim: 
+\f1\b0  Brilliant. Well, thank you so much for the interview. }
