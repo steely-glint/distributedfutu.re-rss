@@ -1,0 +1,65 @@
+# You may add here your
+# server {
+#	...
+# }
+# statements for each of your virtual hosts to this file
+
+##
+# You should look at the following URL's in order to grasp a solid understanding
+# of Nginx configuration files in order to fully unleash the power of Nginx.
+# http://wiki.nginx.org/Pitfalls
+# http://wiki.nginx.org/QuickStart
+# http://wiki.nginx.org/Configuration
+#
+# Generally, you will want to move this file somewhere, and start with a clean
+# file but keep this around for reference. Or just disable in sites-enabled.
+#
+# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+##
+
+server {
+	listen 80 default_server;
+
+    server_name distributedfutu.re;
+    root /project2/github/steely-glint/distributedfutu.re-rss/docs/;
+    location / {  # the default location redirects to https
+        return 301 https://$server_name$request_uri;
+    }
+
+    location /img/ {}  # do not redirect requests for img location
+
+}
+
+
+
+# HTTPS server
+#
+server {
+	listen 443;
+	server_name distributedfutu.re;
+
+	root /project2/github/steely-glint/distributedfutu.re-rss/docs/;
+	index index.html index.htm;
+
+        location ~ /.well-known {
+                allow all;
+        }
+
+
+	ssl on;
+        ssl_certificate /etc/letsencrypt/live/distributedfutu.re/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/distributedfutu.re/privkey.pem;
+
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+	ssl_prefer_server_ciphers on;
+	ssl_dhparam /etc/ssl/certs/dhparam.pem;
+        ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
+        ssl_session_timeout 1d;
+        ssl_session_cache shared:SSL:50m;
+        add_header Strict-Transport-Security max-age=15768000;
+
+	location / {
+		chunked_transfer_encoding on;
+		try_files $uri $uri/ =404;
+	}
+}
