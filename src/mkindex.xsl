@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <footer>
-                <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a>, transcribed with the help of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by <a href="https://www.instagram.com/allegro_alchemist/">Ellie</a>, website help from <a href="http://www.birgitpohl.com/">Birgit Pohl</a> and graphic by <a href="chrispanton.com">Chris Panton</a> </p>
+                <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a>, transcribed with the help of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by <a href="https://www.instagram.com/allegro_alchemist/">Ellie</a>, website help from <a href="http://www.birgitpohl.com/">Birgit Pohl</a> and graphic by Chris Panton </p>
                 </footer>
             </body>
         </html>
