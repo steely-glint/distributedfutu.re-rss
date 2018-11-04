@@ -27,6 +27,8 @@ server {
     }
 
     location /img/ {}  # do not redirect requests for img location
+    location /episodes/ {}  # do not redirect requests for episodes location
+    location /rss/ {}  # do not redirect requests for episodes location
 
 }
 
@@ -39,7 +41,7 @@ server {
 	server_name distributedfutu.re;
 
 	root /project2/github/steely-glint/distributedfutu.re-rss/docs/;
-	index index.html index.htm;
+	index index.html ;
 
         location ~ /.well-known {
                 allow all;
