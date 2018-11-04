@@ -42,17 +42,11 @@
     </xsl:template>
     
     <xsl:template match="episode">
-        <xsl:variable name="epUrl">
-            <xsl:value-of select="$secureUrl"/>
-            <xsl:value-of select="$epDir"/>
-            <xsl:value-of select="number"/>/</xsl:variable>
         <xsl:variable name="mp3Url">
-            <xsl:value-of select="$secureUrl"/>
             <xsl:value-of select="$epDir"/>
             <xsl:value-of select="number"/>/<xsl:value-of select="mp3"/>
         </xsl:variable>
         <xsl:variable name="transUrl">
-            <xsl:value-of select="$secureUrl"/>
             <xsl:value-of select="$epDir"/>
             <xsl:value-of select="number"/>/<xsl:value-of select="transcription"/>
         </xsl:variable>
