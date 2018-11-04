@@ -56,8 +56,13 @@
             <xsl:value-of select="$epDir"/>
             <xsl:value-of select="number"/>/<xsl:value-of select="transcription"/>
         </xsl:variable>
-        <xsl:variable name="hh" select="round(duration div 3600)"/>
-        <xsl:variable name="mm" select="round(duration div 60) mod 3600"/>
+        <xsl:variable name="thumbUrl">
+            <xsl:value-of select="$epDir"/>
+            <xsl:value-of select="number"/>
+            <xsl:text>/thumb.jpg</xsl:text>
+        </xsl:variable>
+        <xsl:variable name="hh" select="floor(duration div 3600)"/>
+        <xsl:variable name="mm" select="floor(duration div 60) mod 3600"/>
         <xsl:variable name="ss" select="duration mod 60"/>
         <xsl:variable name="hmsDur">
             <xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/>
@@ -86,10 +91,16 @@
                 <div class="podcast-details row">
                     <!-- Postcast Guests-->
                     <div class="col text-left">Guest: <xsl:value-of select="guest"/>
+                    <br/>
+                    <img height="40" width="40">
+                        <xsl:attribute name="src">
+                        <xsl:value-of select="$thumbUrl"/>
+                    </xsl:attribute>
+                    </img>
                     </div>
                     <!-- Postcast Date-->
                     <div class="col text-right">
-                        <xsl:value-of select="hmsDur"/>
+                        <xsl:value-of select="$hmsDur"/>
                     </div>
                 </div>
                 <div class="podcast-links row well ">
