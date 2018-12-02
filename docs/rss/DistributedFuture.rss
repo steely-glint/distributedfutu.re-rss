@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 19 Nov 2018 15:50:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Dec 2018 20:33:21 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>A better future through Walking, Wellness, Whisky and work</title>
+      <link>https://distributedfutu.re/episodes/13/</link>
+      <description>A conversation about the benefits of getting out from behind our screens everyday</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/13/</guid>
+      <pubDate> Sun, 02 Dec 2018 20:08:03 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/13/distributedFuture-13.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3155">
+        <media:title type="plain">A better future through Walking, Wellness, Whisky and work</media:title>
+        <media:description>A conversation about the benefits of getting out from behind our screens everyday</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/13/thumb.jpg"/>
+        <media:keywords>Walking, Wellness, Whisky, work</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/13/distributedFuture-13.mp3" length="63121806" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/13/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:52:35</itunes:duration>
+    </item>
     <item>
       <title>The future of transport including personal jetsuits!</title>
       <link>https://distributedfutu.re/episodes/12/</link>
