@@ -61,7 +61,8 @@
         <xsl:variable name="hmsDur">
             <xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/>
         </xsl:variable>
-        <div class="card podcast-element" id="podcastElement">
+        <div class="card podcast-element">
+            <xsl:attribute name="id">episode<xsl:value-of select="number"/></xsl:attribute>
             <!-- Postcast Image-->
             <div class="card-body">
                 <!-- Postcast Title-->
