@@ -1,0 +1,718 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sa240\pardirnatural\partightenfactor0
+
+\f0\b\fs48 \cf0 Software eats radio\
+\
+
+\f1\b0\fs24 [00:00:00] \
+
+\f0\b Tim: 
+\f1\b0  So I'm Tim Panton \
+
+\f0\b Vim: 
+\f1\b0 and I'm Vimla Appadoo\
+
+\f0\b Tim: 
+\f1\b0  and this is the distributed future podcast. So this episode is about the idea that software is eating the world and specifically software-defined radio and it's kind of a know if you come across this this this idea before that software is eating the world.\
+
+\f0\b Vim: 
+\f1\b0 No, I haven't \
+
+\f0\b Tim: 
+\f1\b0 right. So I think the best illustration is if you think about like a caricature 1960s office desk. Right, you have a typewriter in the middle and off to one side you have a calculator and also the other side you have a Rolodex and then a telephone and a filing cabinet. And all these say things are sitting there oh and a calendar on the wall.\
+
+\f0\b Vim: 
+\f1\b0 Yeah,\
+
+\f0\b Tim: 
+\f1\b0  all of those things are sitting there around your desk. And if you look at a modern desk, the only thing on it is a laptop because all of the features of those things have been [00:01:00] sucked. Out of the physical analogue space and into software like so basically all of that stuff is just gone and it's replaced by a glass screen that can mimic each of them and do better than any one of them or all of them.\
+And so that's the extreme example is like the office desk and to an extent you can see the same thing happening in with your pocket like that all of the things you used to get to go out of the house with: like your keys your money you. But they're all in your phone now. The a compass in principle like they're all in your phone now and they're all behind like \
+an opaque glass slab that only comes to life when you switch it on. So it's just sort of you know, that idea that physical objects can be converted into software and run on a sort of almost an anonymous device that only takes form when you kind of choose it too. So that's the [00:02:00] idea and then and then I mean there's a whole bunch of places where that happens.\
+It would be really fun to talk to somebody about like, you know other places. Where this I mean cars is another one, you know, you see Tesla shipping updates to the car to make it go faster. \
+
+\f0\b Vim: 
+\f1\b0 Yeah, that's really interesting. I um, so it's funny you bring up cars because my dad's about to get a new mom and he still uses a TomTom sat-nav.\
+And I was like and he's got a smart phone, he's got like an iPhone 6 and I kind of said to him you don't need your TomTom anymore. You just use your phone. It's better and it's easier to use and it's live whereas Tom Tom doesn't update with the newest roads. It's not, it's an it's an old TomTom \
+
+\f0\b Tim: 
+\f1\b0 right \
+
+\f0\b Vim: 
+\f1\b0 and he was like, "no.\
+No I can't do it. I won't do it" because he's so used to using the different devices for different things and I'll even looking at newer cars. The built-in screens that has the sat-nav built into it the connection to [00:03:00] phones to play music like all of those things as well just like totally makes sense for people of a Generation that one sort of that but for someone that's used to having those separate devices doesn't it's not intuitive \
+
+\f0\b Tim: 
+\f1\b0 right right no and I think that's absolutely right.\
+I mean, I'm kind of I'm halfway with him. I don't like the idea of not to be fair. I've not driven one, but I don't like the idea of having like all of the controls on a car kind of just disappear into a screen. It doesn't feel tactile enough for me for driving on the other hand. I have no desire to have an old-style sat-nav know the like the, you know specifically for me the Google Navigation.\
+
+\f0\b Vim: 
+\f1\b0 Life changing, \
+
+\f0\b Tim: 
+\f1\b0 Magic, you know it changes the way particularly if you're driving you're on your own. It just changes the experience completely. \
+
+\f0\b Vim: 
+\f1\b0 Yeah. Yeah, I and I don't know if any of these Wayz. Yeah, but it's [00:04:00] crowdsource like real-time routing. \
+
+\f0\b Tim: 
+\f1\b0 Right? \
+
+\f0\b Vim: 
+\f1\b0 So the drivers on a route will say will let you know when speed cameras are common or if there's particular traffic in an area or an accident on the motorway.\
+So that drivers on similar routes can be re routed \
+
+\f0\b Tim: 
+\f1\b0 right right,\
+
+\f0\b Vim: 
+\f1\b0  and it connects to your Spotify and it just does all these different things that uses Google Maps anyway, but it's just it's kind of that next step on. \
+
+\f0\b Tim: 
+\f1\b0 Yeah, I have a friend who's a she's a competitive relatively competitive Runner and she was running out in forgotten that in the backwoods somewhere and and her dad was like driving behind her to to do speed measurements and like you know, so he was driving really slowly and apparently what the result of this is because they were pretty much the only car on the road Google Maps showed a blockage on that road a traffic jam on that row because like the only.\
+traffic on it was moving at whatever she can run at eight miles an hour or something. [00:05:00] So you guys slightly deceptive you when you get down to small numbers of small amounts of data. It's quite deceptive that stuff. But you know, but mass stuff on motorways it works really well for certainly. \
+
+\f0\b Vim: 
+\f1\b0 Yeah,\
+
+\f0\b Tim: 
+\f1\b0  but yes, \
+
+\f0\b Vim: 
+\f1\b0 I think I find it really interesting that\
+we are becoming more dependent on software and less dependent on physical things. So even if we talk about a lot but smart devices and tracking and like using our bodies as part of that as well. So that feed into the software. Right? Right. \
+
+\f0\b Tim: 
+\f1\b0 So, I mean that's. What we're talking about there is mostly is about information.\
+And what's really exciting about this conversation with Harvind this about the idea that you could do. You could apply the same sorts of things to a domain that isn't information.  So software-defined radio lets you at least in theory replace all of the things that are in the [00:06:00] house\
+that do radio like FM radio your key fob, you know your DECT phone your mobile phone TV potentially whatever else Wi-Fi all those are all like specific bits of hardware. And in theory that with software defined radio good have one heart one piece of design that then you just load software in that today.\
+It's a Wi-Fi router tomorrow. It's a remote control for your TV or maybe does both. So it's like it's about kind of software-izing the radio signal and that that sounds like a kind of really. Really out there idea, but it turns out that it's actually kind of already sort of happening with there's a was doing a little bit of research on this is This brilliant story about so the most prized what one of the most priced hacker possessions is this like a real badge of honor to own one of these [00:07:00] things, which is a it's a 10 year old.\
+Instant messaging thing for aimed at teenage girls. It's called It's called The I think it's called the IM me from Girl Tech. And it's a little thing that's like basically built to you know, the thing where you like you want to connect connect with your neighbor your friend next door and you want to message them.\
+And before mobile you couldn't like do that. You know, you have  yogurt pots or whatever. But but what this was was a little little handheld keyboard. That would let you private message your friend across the road over radio.  And and the thing is that like the radio frequencies that you're allowed to do that in for free a different in different countries. So when they built this thing in rather than building like a model for England in the model for France or whatever with different Hardware, they built it with software defined radio.\
+And so that \
+[00:08:00] 
+\f0\b Vim: 
+\f1\b0 right \
+
+\f0\b Tim: 
+\f1\b0 when you sell it in France, it's just a like a different setting in the software. And so what you've got there is like for $20, you've got a software-defined radio, a keyboard a screen and and a little computer in there. So of course the hackers set to and turn it into a generic cheap software defined radio so that you can do things like open car doors open garages change your TV channel scan for other devices or whatever all on this $20 thing. Now the result of that is that set on the second-hand Market there $250.\
+
+\f0\b Vim: 
+\f1\b0  Yeah, \
+
+\f0\b Tim: 
+\f1\b0  So this technology actually exists and it's out there doing, you know, weird things already. So it's kind of really really strange. I don't know where it goes and that's what's kind of fun the chat with Harvin because he starts talking about where it might go but it's interesting this sort of business of software taking over in from physical space\
+
+\f0\b Vim: 
+\f1\b0  and it [00:09:00] do you think like we should be conscious of it happening\
+
+\f0\b Tim: 
+\f1\b0  well in general if the the thing of software taking over yes because it moves the power around like \
+
+\f0\b Vim: 
+\f1\b0 yeah,\
+
+\f0\b Tim: 
+\f1\b0  it changes who owns because it's malleable like and and you know, you know, your Rolodex wasn't going to get compromised, you know, you wouldn't suddenly find that\
+you know some advertising company had slotted in overnight new phone numbers into your Rolodex. That wasn't gonna happen. Where as with software that could easily happen, you know or somebody could steal every rolodex in the building and you'd never know with software. Whereas physically doing that mechanically.\
+It's like a big deal. So so I think yeah we need to because the risks are different basically mean it may be a lot easier but like privacy and security risks are massively bigger or any way different. So [00:10:00] yeah, we need we need to know but it also in theory, I guess it opens up opportunities like things you can do, you know, you can count your sheep electronically or something.\
+I don't know. \
+
+\f0\b Vim: 
+\f1\b0 Yeah, but it seems necessary I got. That's it. Like my other question is like how do we make sure that not only are we conscious but there's a need that's being addressed in it. So I think you know when the technology boom happened the first time around like before the dot.com bust it was internet for the internet sake and technology for technology so you can my thing is we're becoming more.\
+Understanding of the way, it's impacting our habits and rituals and the way we experience life. How do we keep making sure where it's being built for a need and not just for the sake of it? \
+
+\f0\b Tim: 
+\f1\b0 Yeah, but I mean I have to say having sat through the the dot.com boom and bust we weren't wrong we were less wrong than it [00:11:00] looked like a lot of things that you laugh at.\
+We laughed at the time the idea. Hey, you know people will be delivering groceries over via the Internet or all that, you know, there will be a huge thing for pet food. It's all real like it just took 20 years. \
+
+\f0\b Vim: 
+\f1\b0 Yeah, \
+
+\f0\b Tim: 
+\f1\b0 like all of the what look like really stupid Investments are now working. I mean, they were stupid Investments because financially they didn't work at the time but like.\
+As a value proposition turns out that people did want those things. So it's quite hard to judge technology right now. Like you have to somehow you have to look at what it will look like in the future from the future and that's I guess to an extent. That's what we're doing. \
+
+\f0\b Vim: 
+\f1\b0 Yeah. Yeah, exactly. \
+
+\f0\b Tim: 
+\f1\b0 But so do you I mean do you feel like there?\
+Like it's time to kind of create some way of formally looking at this stuff or do you think [00:12:00] that informally making those decisions is adequate.\
+
+\f0\b Vim: 
+\f1\b0  What do you mean by the decisions? \
+
+\f0\b Tim: 
+\f1\b0 Well, so you say, you know, do we know what the consequences are of this technology? How should we not like think it through that is that thinking through but it's that thinking through done on an individual basis or should it be done like collectively and what would be a collective structure for that?\
+
+\f0\b Vim: 
+\f1\b0 Yeah, that's interesting. I think it isn't an it on an individual basis, but it goes back to something. We spoke about on a really early and I'm not really a podcast of like Morality In this it's like when it's so individual become it comes down to what you think is right or what you think is wrong which is then down to perspective.\
+I guess they if you're thinking of from a business perspective, it's the it's the market definition. It's there's their people to people need it from a business perspective. Is there enough demand. But  I'm just overly conscious of it getting out of control. So it scares me that [00:13:00] so much is happening without an understanding of from from a consumers perspective of what you're giving away how it's being used what that means for your health and your lifestyle.\
+Buying decisions voting right all of that stuff without any kind of push back onto the people that building it. \
+
+\f0\b Tim: 
+\f1\b0 Yeah. I mean I think but think for me,  I totally agree with you, but I think the really scary thing is that a lot of that lack of information is deliberate. It's withheld. It's not that it wasn't understood by somebody who's designing the product.\
+They knew that. \
+
+\f0\b Vim: 
+\f1\b0 Yeah. Yeah. \
+
+\f0\b Tim: 
+\f1\b0 Yeah chose not to not to design it out or not to make it public that it was there. \
+
+\f0\b Vim: 
+\f1\b0 That's what I mean. It's totally at the whim of the people that have built it without the knowledge for the people the people that are using it,\
+
+\f0\b Tim: 
+\f1\b0  right right, and and I think. That's why we need hacker [00:14:00] culture.\
+
+\f0\b Vim: 
+\f1\b0 Yes,\
+
+\f0\b Tim: 
+\f1\b0  like, you know, the whole kind of questioning everything culture is all that can be a bit exhausting. It's actually really valuable in this case because you start to see like, you know, you see a product and then some very cynical hacker will say but that like this thing this week with like the.\
+Then and now the Ten Years Later did you see that? Like the the thing somebody was saying? "Well, actually what you've got there is a very good data set for training an aging model facial aging model" and like \
+
+\f0\b Vim: 
+\f1\b0 yeah,\
+
+\f0\b Tim: 
+\f1\b0  and was that why it was kicked off ? \
+
+\f0\b Vim: 
+\f1\b0 Absolutely, which is really really interesting.\
+
+\f0\b Tim: 
+\f1\b0 It's kind of scary. Actually that that you but you need that mindset. \
+
+\f0\b Vim: 
+\f1\b0 Yes you do and I'd like. It's funny that you say that because just last night. I when for dinner with the volunteers from hack Manchester. So a lot of the conversations were about this kind of stuff and we ended up talking about AI and facial [00:15:00] recognition.\
+And one of the the other people at the table pulled out a Guardian article that every image in the article was an AI built person and it just showed how unbelievably realistic. And easy it is to make fake people and it's exactly that it's not being aware of the way. We're interacting with technology and how it can be used by whom right?\
+We assume it's a safe space to be doing it, but we have no idea. \
+
+\f0\b Tim: 
+\f1\b0 Right right and you know, one of the things that the potentially coming back software-defined radio potentially that sort of Technology could do is is to democratize. \
+
+\f0\b Vim: 
+\f1\b0 Yep \
+
+\f0\b Tim: 
+\f1\b0 communication. So so one of the late we still live in a very centralized and even more so actually very centralized Information Society are information sources are I would [00:16:00] argue have shrunk in the last few years rather than grown and and and there are as you say, ameanable to being distorted and being deceptive and one of the ways.\
+Potentially to fight that or to counterbalance that is to have a more distributed information Highway effectively that can you can genuinely get information from from other sources that aren't quite so centralised and potentially financially compromised. I actually like a like a hacker dream, but I think it's an interesting idea.\
+
+\f0\b Vim: 
+\f1\b0 But how do you think more people can fit in power to challenge or ask those questions are not even ask them but feel like they can do something about it. So if someone makes that kind of the claim of over this is what this really is is a data search for building like for recognizing aging faces, what do you then do next?\
+Like how can that be used [00:17:00] or be helpful or change the way we're interacting with it? \
+
+\f0\b Tim: 
+\f1\b0 Well, so, I think I mean very simple thing is that you you remind your Facebook friends that these surveys and little things like the motivation behind them isn't pure. You know, some of them are like there's a very funny one about like those things where you know, your porn star name is your is your middle name and your your favorite, you know your your first pet with those are also really good password of reminders, right?\
+Exactly. So so, you know reminder that filling those things in is leaking data that you shouldn't be leaking. I'm just like every now and they're not, you know, not kind of annoyingly. But just every now and then mention to people I had on Facebook a little while ago friend of mines really excited that she she got a upgrade [00:18:00] for her  flight.\
+So she \
+
+\f0\b Vim: 
+\f1\b0 yeah \
+
+\f0\b Tim: 
+\f1\b0 put the first class ticket and on Facebook. I should never ever do that because somebody can cash it in.\
+
+\f0\b Vim: 
+\f1\b0  Yeah, \
+
+\f0\b Tim: 
+\f1\b0 you know, you need to obscure some of those details. And is she saying I hadn't crossed my mind like \
+
+\f0\b Vim: 
+\f1\b0 yeah, \
+
+\f0\b Tim: 
+\f1\b0 and so it's just about educating people to be a bit more skeptical and and like a bit more careful and not a less trusting.\
+Basically. I mean, it's very sad, but that's essentially what it comes down to we need to trust what we see and other people less than we do at the moment. \
+
+\f0\b Vim: 
+\f1\b0 Yeah, you're right, \
+
+\f0\b Tim: 
+\f1\b0 which is sad thing to say, but I'm afraid it's like. It's the reality of the situation at the moment. Anyway, it's probably good partly because you don't know who those people are.\
+Like, \
+
+\f0\b Vim: 
+\f1\b0 you don't know who they are and we're still not it's still not equal in not everyone has access to the same knowledge to know what's going on [00:19:00] or how things are going to be used. \
+
+\f0\b Tim: 
+\f1\b0 Yeah, and I like I said, oh, that's deliberate. \
+
+\f0\b Vim: 
+\f1\b0 Yeah. Yeah. \
+
+\f0\b Tim: 
+\f1\b0 Yeah. I think that's a moral question though. Well potentially legal one as well I suppose.\
+
+\f0\b Vim: 
+\f1\b0 Yeah, I'm all about the moral questions. \
+
+\f0\b Tim: 
+\f1\b0 Yeah. Yeah. I kind of I start to think that regulation may be like watching what's happening with the EU and in terms of GDPR starting to think the regulations actually not such a bad thing kind of been interesting watching that. Changes that brought about did you see that the who is New York Times fascinating.\
+They did it. They did an experiment where they ran the York Times website in Europe without targeted advertising so they just did just did it by Geographic targeting and association with the article that you were reading rather than by your demographic so the didn't personalize the ads [00:20:00] and they made more money.\
+
+\f0\b Vim: 
+\f1\b0 Did they\
+
+\f0\b Tim: 
+\f1\b0  they were more successful like their advertising income went up not much. But when up when they removed the personalization and ran it on Geographic targeting instead. \
+
+\f0\b Vim: 
+\f1\b0 That's interesting. Isn't it?\
+
+\f0\b Tim: 
+\f1\b0  Isn't it? So like all of this personalization stuff turns out not worth a sue now.\
+There's the thing was that actually it's partly to do with the fact that they're recognizable brand and they don't have like they're not trying to break through and you know, it's in there. Because they're advertising customers through particular sort like, you know, so there are they argue that they might be a special case, but the fact that it's there at all is like really interesting \
+
+\f0\b Vim: 
+\f1\b0 really.\
+That's that's yeah, that's insane.\
+
+\f0\b Tim: 
+\f1\b0  I know I know it kind of undermines an entire industry like boom anyway, so yeah, we should probably let let folks listen to the thing with Harvind turn on [00:21:00] software-defined radio, \
+
+\f0\b Harvind: 
+\f1\b0  I'm Harvind Samra, I'm the chief technical officer. And one of the founders of Range networks. We work on software-defined mobile networking. My sort of specialty is signal processing and software defined radio. \
+
+\f0\b Tim: 
+\f1\b0 Yeah, I mean software defined radio was the thing that like.\
+I thought would be really fun to talk about because it's sort of it gets bandied around but nobody really you either haven't heard of it or if you have you kind of got a vague idea what it is. But but tell me what it means to you\
+
+\f0\b Harvind: 
+\f1\b0  to me. It's it's it's basically writing software to do to generate and receive RF waveforms.\
+The idea is that you know, many, you know, historically speaking you used to have to use analog. Components in amplifiers transistors filters mixers detectors all these things to generate waveforms or receive waveforms, but with [00:22:00] the as with lot of other systems go from Hardware to software with the development of processors Digital Signal processors even FPGAs.\
+And better eye sees that can miniaturize a lot of the RF stuff to a point where most cost-effective now you can just do all basically all this mathematics you can do all and software now so although you know, so it makes it a lot more fun a lot more flexible and it's getting to the point where it's really cost-effective to do it.\
+
+\f0\b Tim: 
+\f1\b0 I mean, I guess if you're doing kind of millions of components rather product run with millions and millions of of devices. Then you kind of you can afford to do the analog design. But with a smaller product run then software wins out or is that like not where the cost benefit is? \
+
+\f0\b Harvind: 
+\f1\b0 Yeah, if you if you're making like say handsets and you know, exactly the type of waveform the type of protocols and running and that what the handsets going to use [00:23:00] it.\
+It makes a lot of its  still more cost effective to just makes you know application specific Hardware. That only does deals with the waveforms that you're interested in, you know, if you're doing something where you know, because the handsets, you know, you got to drive the cost down as much as possible for consumers stuff that's more for operating the network or doing stuff.\
+That's more enterprise-oriented where the you know cost isn't so crucial \
+
+\f0\b Tim: 
+\f1\b0  so so yeah. No, I mean I guess it does that is the volume thing and then the I guess the other trick is that there are I suppose there are other things you can do in software defined radio. You pretty much can't do in an analog components like, you know, there's this kind of set of things you can glue together in in software that you pretty much couldn't do with inductors and capacitors.\
+It's like. doesn't Stack Up physically. \
+
+\f0\b Harvind: 
+\f1\b0 Oh, certainly. I mean, you know, I mean, the flexibility is immense you can [00:24:00] switch between you know, I mean one of the earliest applications of switch between GSM and CDMA, you know, 20 years ago. You know, so you can install a base station someplace and start it with GSM.\
+And if you had more and more CDMA customers, you can flip it over to CDMA without you know, it's a software push rather than rolling somebody out and know setting up entirely new base station and I can you can update algorithms. You can upgrade the protocols. You can do things like, you know, you see this in cognitive radios and 5G where you do beamforming.\
+For your multiple antennas and it's really easy to from a software. It's really easy to do it when you're using software you can point beams specifically in certain directions to pick up certain users. \
+
+\f0\b Tim: 
+\f1\b0 Okay. So so you're kind of looking there about maybe kind of beamforming in the sense that there's a statue in the way or there's a building in the way, but there's a bunch of users who are [00:25:00] kind of over there.\
+And so you maybe want to kind of go. aim it from another towel, which wouldn't necessarily be the one you were thinking of or like the obvious one or what is that mean that kind of you know, it's about the kind of jigsaw puzzle of how do you get a get a good signal to somewhere that isn't like the obvious an obviously easy place to get to.\
+
+\f0\b Harvind: 
+\f1\b0 Yeah, I mean that's one of the big applications the other idea is I think you'll see this with 5G coming forward is that you know you when you're scheduling users to receive or transmit data. You can just point The Beam for their you know, during their schedule period and they can get the maximum amount of bandwidth that they need and you know, you can you can do so you kind of do the spatial time scheduling and it wouldn't be able to do that.\
+Easily or even cost effectively with analog components where it's hardwired. \
+
+\f0\b Tim: 
+\f1\b0 So you kind of the visual metaphore for that might be like the spotlight highlighting the current singer [00:26:00] on stage. So you can kind of move them around during the chorus or whatever. So you kind of \
+
+\f0\b Harvind: 
+\f1\b0 exactly \
+
+\f0\b Tim: 
+\f1\b0 highlight that wow and that and then that's and that's quick enough to like that\
+nobody notices and it you don't lose any efficiency. \
+
+\f0\b Harvind: 
+\f1\b0 No, you know we'll see you that's the idea with 5G. It'll be the CPUs and the fpgas the signal processors are able to operate fast enough that they can steer these beams fast enough that users can maintain video connections or virtual the ideas virtual reality will\
+to get to that soon. \
+
+\f0\b Tim: 
+\f1\b0 But yeah, I have a huge degree of cynicism about what's going to emerge out of 5 G. But \
+
+\f0\b Harvind: 
+\f1\b0 yeah,\
+
+\f0\b Tim: 
+\f1\b0  but that's so I guess the other thing to say that we kind of we've we've we need to bring up is a lot of the driving force for this is is to do with the fact that spectrum is scarce and expensive and that the smarter you can be [00:27:00] about how it's used and the more.\
+Kind of inventive and flexible you can be about how it's used like the more profitable your your you know, your customers are and you are presumably \
+
+\f0\b Harvind: 
+\f1\b0 right, right and you know part of it is there's been a push, you know, I always talk from a mobile perspective because that's where I spent a lot of time but the idea that there would be better Spectrum sharing policies for forging 5G because of software radios because it's really easy to.\
+Move radio to a different band or two different protocol depending on other networks that are co-located with you. The idea is you know, you have some central registry and when you operate the network and check into the rest of the registry and kind of claim your your frequency and your heart and your you know, your your network would move to that frequency,\
+
+\f0\b Tim: 
+\f1\b0  but I mean like again at the core of this is the\
+like these frequencies are at the [00:28:00] moment centrally allocated and cost billions to buy a slice of spectrum to to run phone network or something and everything else is like squeezed into this tiny narrow band of free spectrum that we all use for Wi-Fi and Bluetooth and garage door openers and actually microwave ovens and God knows what else and that's all kind of squeezed into this tiny space.\
+And so. Actually, it's kind of funny. I didn't you I guess you do look at this. But because it heck of a lot of innovation going on in that space. Its about avoidance and like, you know, if there's a ton of other stuff in the space, I still need to get the signal through and so kind of that the fact that you can't carve that space out and protect.\
+It means that people are being really Innovative about. You know pulling signal from the noise being able to pull something out from from a crowded space have you looked at any of [00:29:00] that stuff \
+
+\f0\b Harvind: 
+\f1\b0 somewhat? Yeah, I mean, you know I get this is where the the beamforming stuff we talked to a few minutes ago really helps because if you just trying to get it to one area and you just need to poke through and get a signal and noise manageable signal to noise ratio, you know you can.\
+tell all your your antennas and software to point as narrow as you can to one location or even you know, and in combination change of frequency to get around the interference that you're trying to get \
+
+\f0\b Tim: 
+\f1\b0 right \
+
+\f0\b Harvind: 
+\f1\b0 trying to avoid \
+
+\f0\b Tim: 
+\f1\b0 but I mean I was looking at I was trying to think where I sure I saw a really interesting talk where they reverse engineered the.\
+I think it was the Sig Fox protocol and and what the radio looked like and and they do this thing that it's quite low bandwidth. And basically what they do is they do a sweep and the direction of the sweep whether it's a rising picture [00:30:00] or lowering pitch tells you whether it's a one or a zero.\
+Right. So you kind of you only need like if you miss out a chunk in the middle. It doesn't have chunk a frequency in the middle. It doesn't matter because you can still tell whether it's going up or down by the by the edges. \
+
+\f0\b Harvind: 
+\f1\b0 So there's enough redundancy across the frequency spectrum that if you lose some of it \
+
+\f0\b Tim: 
+\f1\b0 right \
+
+\f0\b Harvind: 
+\f1\b0 will recover enough information, \
+
+\f0\b Tim: 
+\f1\b0 but it's done in this kind of quiet.\
+Flexible way that it doesn't actually have to make any knowledge about what where the hole is like if renew it can have multiple small holes. It it still doesn't matter. It's just like I mean aggregate it's going up. So it's a 1 all \
+
+\f0\b Harvind: 
+\f1\b0 right, \
+
+\f0\b Tim: 
+\f1\b0 which I thought was really interesting. It's like it's a wholly different way of looking at.\
+You know how you do radio, I guess.\
+
+\f0\b Harvind: 
+\f1\b0  Yeah. I mean it's a little to me. It sounds related to spread Spectrum, which was a great application of sdrs. But you know the idea is that you spread the signal over a bandwidth so that if certain areas of the the. [00:31:00] Spectrum get knocked out. You still have enough information that passes through that you can reconstruct the signal in the receiver.\
+And it's of a usable link \
+
+\f0\b Tim: 
+\f1\b0 that the thing that was invented by Heidi Lamar. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah,. Well she invented frequency hopping which was a kind of a core principle spread Spectrum. \
+
+\f0\b Tim: 
+\f1\b0 All right. Okay, so you're not using them all at once. You're kind of choosing to move between them.\
+
+\f0\b Harvind: 
+\f1\b0  Yeah, so your frequency hopping is the simplest just hopping the carrier to different frequencies, usually with a known pattern between the transmitter and receiver.\
+And of course spread Spectrum. You're just using all the frequencies all the time.\
+
+\f0\b Tim: 
+\f1\b0  Right? Right. So I I kind of curious to see where you think any of this might kind of take us. I mean particularly in the I guess there anything that's going to. Come down to the corporate level or the kind of you know, we're going to get to run around cells in.\
+Our own Warehouse is can we use [00:32:00] 5G on our Farms? Like how does that how is this going to play out in reality for normal people who don't run phone networks,\
+
+\f0\b Harvind: 
+\f1\b0  but I mean, I think SDR is going to empower. You know small Enterprises small entities to be able to host their own networks.\
+
+\f0\b Tim: 
+\f1\b0  Is that going to be cost effective? Is that something they're going to actually really do? I can we you know you and I've been dreaming about doing this for 10 years now, but like is it something that's actually going get cost-effective and and practical stuff do you think \
+
+\f0\b Harvind: 
+\f1\b0 yeah.\
+I think I think the costs are there. Actually I actually think the bigger issue Spectrum policy. I mean, I always like to compare Wi-Fi with mobile, you know with 4G right 4G the technology the underlying radio Technologies ofdm orthogonal frequency division multiplexing that's been around for like 50 years.\
+And wifi I was doing that ten years before mobile. What's the difference was [00:33:00] that you know, the Spectrum policy is very different for Wi-Fi. So it enabled a lot of innovation a lot of smaller entities to opportu build systems and operating it networks. \
+
+\f0\b Tim: 
+\f1\b0 Yes. I mean, I think the thing the kind of crucial thing with Wi-Fi is well a it's free.\
+So I don't have to ask permission to switch your wifi node on, I just like \
+
+\f0\b Harvind: 
+\f1\b0 right \
+
+\f0\b Tim: 
+\f1\b0 I just do it. But the other thing is that the part of the side thing of that is that the. Power is very low. So the range of it is like physically unless you're really careful about how you focus it. The range is quite short.\
+So you kind of is a limit to how much you can interfere with with, you know down the street. I mean you do get these apartment buildings where everybody's Wi-Fi is on top of everybody else's. Which is hideous.\
+
+\f0\b Harvind: 
+\f1\b0  Yeah, I'm in an office with about 50 Wi-Fi networks operating at once it's rice. You get [00:34:00] stomped on once in a while.\
+
+\f0\b Tim: 
+\f1\b0 Yeah. No, I went to I went to visit a company who make Wi-Fi base stations for the Enterprise market and I was saying hey, you know, I bet the Wi-Fi is great here and they all looked at me and said there are too many Engineers. They will got a cell on each. They've got a Wi-Fi base station on each of them got a Wi-Fi base station on their desk or two.\
+It's like, you know, the spectrum is really crowded, \
+
+\f0\b Harvind: 
+\f1\b0 right? \
+\
+
+\f0\b Tim: 
+\f1\b0 Which is kind of yeah, a little little little difficult, but but yeah, so yeah, \
+
+\f0\b Harvind: 
+\f1\b0 that's I mean that's one of my worries with 5G is there's a you know, because they're looking at other frequency, you know, I saw some demonstration of like 39 gigahertz and you can literally block the signal with your with your hand, right?\
+So. I can see like some links being at 30 gigahertz other links having to drop to 600 megahertz and this one that's where the software flexibility in the radio really helps because you can have different [00:35:00] links it totally totally different bands. Right? \
+
+\f0\b Tim: 
+\f1\b0 Right. So but still be as far as the user is concerned still be on the same.\
+Network in quotes \
+
+\f0\b Harvind: 
+\f1\b0 right the current course this all assumes that the you know, your the handset or your laptop or whatever other device has the same intelligence in it. \
+
+\f0\b Tim: 
+\f1\b0 Right? Right. So you actually go to have both ends being as flexible as each other. You can't have you can't have one and dumb and the other end smart \
+
+\f0\b Harvind: 
+\f1\b0 you have one end be Dumber in the other end be smarter, but.\
+You know, it's got to meet the you know, the rest-- the mobile user has to be able to move with the base station and the base station can have all the smarts is the deciding where to move and how to move maybe over time. You can move some of that to them to the mobile and you know, I mean one of the things that could come along as met our mesh Network as a real solution, \
+
+\f0\b Tim: 
+\f1\b0 right, but again you go to Spectrum problem like.\
+You know, there is actually there's a [00:36:00] huge Wi-Fi mesh Network in in. Berlin like collaborative everyone points their Wi-Fi base station seed each other and whatever but in practice it gets congested really quickly. I mean the fact that it works at all. It's like a huge technical achievement but it isn't actually usable for like, you know, real people can't just sign up for it as a service.\
+I mean, I guess there are some some in smaller cities where that might work. But like it's it's I haven't seen it work yet. Basically I guess I'm saying \
+
+\f0\b Harvind: 
+\f1\b0 yeah, I think there might be suited for more ad hoc situations where you got to stand up a network really fast, you know really quickly or for a short period of time \
+
+\f0\b Tim: 
+\f1\b0 so you mean like kind of concerts or disasters or anything kind of where you suddenly get sixty thousand users without.\
+
+\f0\b Harvind: 
+\f1\b0 Like right exactly. I mean [00:37:00] I know, you know, one of the big initiatives with the US government, you know after the 9/11 attacks was you know, we have all these Public Safety agencies. They all have their own radios and own bands and our own protocols. And so, you know to try to coordinate Communications between all these agencies is just a nightmare.\
+And so having these, you know having the software-defined approach, you know, you can have radios. That can switch on the Fly you can have radios that can do multiple protocols at the same time. \
+
+\f0\b Tim: 
+\f1\b0 So, all right. So you you load in the fire department personality and it right, huh? I'd not\
+
+\f0\b Harvind: 
+\f1\b0  fire people can't talk to the police people who can't talk to the you know, Homeland Security people.\
+I mean, there's this just look nightmare. \
+
+\f0\b Tim: 
+\f1\b0 Right. I mean they solved that here, huh? I say solved but like everybody ordered the same like specified centrally that everyone was going to order this system, which I guess was called Tetra here, [00:38:00] which is kind of and and but that's now like all of the police hate them because the handsets were designed 10 years ago.\
+You know, they still have buttons on them. \
+
+\f0\b Harvind: 
+\f1\b0 Well, you know, there's some applications where they want the push-to-talk versus having right? \
+
+\f0\b Tim: 
+\f1\b0 Right, right. Right, right, but but push-to-talk should be on the on the microphone these days not on the handset,\
+
+\f0\b Harvind: 
+\f1\b0  right? \
+
+\f0\b Tim: 
+\f1\b0 I think but hey, so I mean, is there any magic in like happening?\
+Outside the mobile phone networks and outside wifi. I am and I'm like I said, I mentioned Sig Fox but if there any other kind of you know, cool things that we should be we should be looking at for like I'm particularly interested in like warehouses and factories and to an extent Farms. I think those are places that are basically really badly served by Wi-Fi and by 4G  like neither of those places work well, Like a happy with [00:39:00] either of those Solutions, I think\
+
+\f0\b Harvind: 
+\f1\b0  yeah, so I think there are a lot of iot technologies that you know involved really clever radio approaches, you know, I mean the start with the sort of the 3gpp alliance or whatever.\
+Developed all these sort of iot offshoots of 2G and 4G and you know, there's a lot of stuff out there called 5G you what you're really just iot ripoffs of 4G in my opinion. So yeah, they're suited for things like Farms or four networks where the device really only has to send a very tiny amount of information on a very sporadicly\
+you know The Preserve the batteries on the devices, \
+
+\f0\b Tim: 
+\f1\b0 right? That's the kind of the the the, you know, the water the water but for the cows is full or empty kind of thing. And yeah, you only need to know every hour or two, right? \
+
+\f0\b Harvind: 
+\f1\b0 You know, I you know, I know of other Technologies using IV, I mean seeing [00:40:00] stuff, he's an amateur radio for you have radios that kind of Scan they need an ionosphere to degree.\
+
+\f0\b Tim: 
+\f1\b0 All right, okay \
+
+\f0\b Harvind: 
+\f1\b0 and and figure out what frequencies are, you know what sort of you know because they work like a few kilohertz scale, right? So they just find like the few kilohertz that are clear and then they can shoot something a few hundred miles back to a network and \
+
+\f0\b Tim: 
+\f1\b0 then I mean, I guess that's again that's good for like, you know unmanned stuff that's sitting out in the and the backwoods somewhere like, you know.\
+
+\f0\b Harvind: 
+\f1\b0 Yeah, you're not going to Pilot with that\
+
+\f0\b Tim: 
+\f1\b0 counting sheep or something. \
+
+\f0\b Harvind: 
+\f1\b0 They're not going to piloted vegans. Don't really address Warehouse excatly. But here in the Bay Area. There's several sort of nanosatellite startups that are using SDRs. Now. They've even got stuff lying around.\
+
+\f0\b Tim: 
+\f1\b0  Is that the kind of cubesat thing where you take it like a.\
+Whatever It Is [00:41:00] 40 centimeter Cube and you throw it into space and it does something for you, \
+
+\f0\b Harvind: 
+\f1\b0 yeah, I think I think the set I think the probably a little bigger and a little sturdier than that cubesat that I mean, I'm not you know, I'm kind of speculating here. I'm not certain, but I know their Technologies based on software-defined radios and the idea is that you can get smaller.\
+The other business models are sort of that they get they can provide smaller chunks of data at a reasonable cost. Because the satellite infrastructure is a lot cheaper \
+
+\f0\b Tim: 
+\f1\b0 and I guess it means that if you you could throw the thing up there and then like to an extent update it because that always I mean back in the day when\
+I had anything to do with with space stuff. The problem was that you once you've launched it. You've pretty much had done the design like they were you know, and you had to think about all of the failure cases and and like all of the ways you're going to get out of trouble build them all in because that there [00:42:00] was\
+you know, there wasn't much you could do in terms of the radio like and and various other things like it was once you shipped it. Once it was up there. You were like you were committed to running it exactly the way you designed it 10 years earlier and \
+
+\f0\b Harvind: 
+\f1\b0 exactly and and you know, when I was, you know, the I was always taught that sellers really just dumb bent pipes, right?\
+They just got a signal coming up from the earth and they just redirected it back down. To a different location on the planet and they didn't do any real processing of the signal? Like I said, you couldn't change it once it was launched. Right? And so now that not only can they change it but they can actually, you know, legitimately like receive the signal and do you want clean it up and maybe send it back down \
+
+\f0\b Tim: 
+\f1\b0 right and and that or even like.\
+Change the waveform like this suddenly decided. Hey, you know we this isn't getting through clouds or hey, we're [00:43:00] actually marketing it now at you know, airplanes. So it needs to be being formed or whatever. Although I guess in that case. Yes. So that's the the fly in the ointment in all of this is always the antenna because the antenna has to know what it's going to do or is that not true anymore?\
+
+\f0\b Harvind: 
+\f1\b0 Yes, and no, I mean I mean the big you know, when you're talking about networks operate over to have to cover large distances right now, you're talking about transmission power. So you have to have stuff that handles some analog RF stuff. Right? So you have to have Amplified stuff to have like power amplifiers and maybe some filters but now there's even research in the how to make those things really tunable in a way that's cost effective.\
+Antennas are not so bad because you can get you know, General wideband antennas and then you can do stuff down in the baseband, you know with with math to kind of Point beams in different directions. But of course, you know different antenna, you know, you have different antenna designs that work better as certain bands and other [00:44:00] bands.\
+So when I guess that's kind of like the next breakthrough, I think for some really make things true. I think like 90% of the way there but they're really making a hundred percent software-defined is that when they get these RF components that are better tunable to lower frequencies you want and then work well at specific at the band that you care about then I think we're all the way there.\
+
+\f0\b Tim: 
+\f1\b0 So then you kind of fit the vision of like, you know, you buy a generic radio component and you pretty much only say, you know what its power is and then everything else is like pure software. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah, but that's the idea and then we kind of the Holy Grail software-defined. Networks, right all the way from the sense does the application layer all the way down through the physical layer\
+
+\f0\b Tim: 
+\f1\b0  the kind of interesting to see but like we said earlier and until the Spectrum.\
+Like if you don't have Spectrum to do that in kinda doesn't help you,\
+
+\f0\b Harvind: 
+\f1\b0  [00:45:00] right? So yeah, there has to be a big rethink Spectrum policy. \
+
+\f0\b Tim: 
+\f1\b0 There's something like hint that might be I haven't read it, but I was reading that there was a paper issued by ofcom here in the UK that was kind of going to have some relatively liberal licensing of some of the 5 G Spectrum, but I you know, I'll believe it when I see it.\
+
+\f0\b Harvind: 
+\f1\b0 Right, you know there there are companies that have paid a lot of money on the spectrum they have and they're not going to be quick to think just relinquish it I think \
+
+\f0\b Tim: 
+\f1\b0 right right. Yeah and and and but also. They're very wedded to the market structure that they have. I mean not just the Spectrum but to the like the fact that they're I don't know whatever it is four players with the bulk of the Spectrum in it in any given country does tell you what shape the markets going to be.\
+You know, they can change the order but you still know that they're only 4 [00:46:00] providers. Whereas that's like. Contrast that with Wi-Fi were you know in my apartment block there? Well, actually that's not true my apartment block. There are three, in Berlin. There are three potential routes in for the internet.\
+So they're only effectively only 3 ISPs, but I can buy one of light. Several hundred Wi-Fi routers and choose what shape they are and like how they behave and how much money I spend on it and all of that and don't have to ask anyone any permission for that. It's just kind of I guess the big big deal.\
+All right, but yeah, and so like what do we like throw throw ourselves five years in the future and let's. For the moment like cast pessimism aside, what what could we where could we get two in five or ten years if like if the Spectrum thing happens and and if as you say the [00:47:00] the RF components get like as flexible as we believe they might where does that leave us?\
+What does that give us? \
+
+\f0\b Harvind: 
+\f1\b0 Yeah. That's a that's an interesting picture to think about. You know, my thinking is always been you know, you have like Starbucks or , you know these sort of you know Walmart talking in some American here, but these sort of companies have their own networks in there aren't you know, whether they use a warehouse to factories are in the shop new shopping centers, right and then they can deliver they can deliver specific services.\
+Tailored to what they're selling or what their business models are and they're not beholden to the carrier's anymore from a mobile perspective.\
+\
+
+\f0\b Tim: 
+\f1\b0  Right? I mean I was thinking I as you were saying that I was thinking well actually one of the things that you could do is you could tune your RF behavior for the environment that you know, you're in [00:48:00] so if you're like\
+you know, I can't think what it's called the big frozen goods store in the US actually if you if you're in one of those then like there's an awful lot of of metal loafing around absorbing signal and so your your the way that you would construct a mobile network for a place like that or anywhere with like, you know, With huge amounts of racking steel racking you'll like the way you construct a network is completely different for that radio-wise then then if you're building one for a farm or just you know, like there was fascinating when I talk I heard about caves and underground like the.\
+That's really hard. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah. Yeah, I mean you I mean, it's just I think there's there would be a huge political relation of these sort of private networks that can be specifically tailored to the environment to the usage to [00:49:00] you know, if you're involving consumers business models, you know, I think I think we'd see a lot of that.\
+You know 5G really took off and we'd have you know, the thinking is that I'm trying not to be pessimistic but every light pole has a basement as a little miniature base station on her, you know, and you know now we're yes your cars driving around, you know, you're getting video into your car cars being, you know, one of our other services I think.\
+Self-driving, which I try not to be pessimistic, but I'm at the acting thing one of the big pushes for software radio. Not not the biggest but one of the bigger ones is the idea of autonomous vehicles. \
+\
+
+\f0\b Tim: 
+\f1\b0 And well, this is total. There's the whole kind of radar stuff as well like so that's not kind of conventional radio communications.\
+That's just like sensing. \
+\
+
+\f0\b Harvind: 
+\f1\b0 Yeah. Yes. We've kind of just focused on [00:50:00] Communications, but three others a lot of other. Radio applications where you talking sensing geolocation, you know, and I know and I also know that there's you know, it's been a big Improvement for astronomy having software radios,\
+
+\f0\b Tim: 
+\f1\b0  huh?\
+Right right, so you can pick. Yeah. I mean, I remember one of this kind of first kind of virtual antenna examples was this thing about having a stack of different radio telescopes like spread around the world and then doing the math on them to treat them as if they were a single antenna. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah. Yeah.\
+
+\f0\b Tim: 
+\f1\b0 Like when very long antennae or whether it was long or wide? I don't know anyway, whatever. \
+\
+
+\f0\b Harvind: 
+\f1\b0 It's just it's become a little Hobby of mind of getting to SBR in astronomy. so maybe maybe a couple of years we can learn more we can talk more about this issue has been so serious.\
+
+\f0\b Tim: 
+\f1\b0  I mean I'm going to ask [00:51:00] you is that ground-based or is that something that you do from a satellite?\
+\
+
+\f0\b Harvind: 
+\f1\b0 Mostly what I've seen is ground-based, you know, you're able to you know, you set up a big satellite or some kind of listening that or even Imaging you have some kind of Imaging system and with today's processing capabilities and with the SDR as you can you can do so many different things. You're not locked into one way of the you know, one band of the spectrum light spectrum not really expecting that.\
+Is right here, but light we can move to different wavelengths to see different phenomenon going on in the universe \
+
+\f0\b Tim: 
+\f1\b0 cool. So I actually that raises an interesting question, which I'm really not thought about which is what it what's the applicability of machine learning because like machine learning for vision recognition\
+it's like really kicked off. Can you do that with with with radio as well? \
+
+\f0\b Harvind: 
+\f1\b0 Oh, certainly. I mean there's so much. I mean they're you know, when you're you know, go back to Communications, but you [00:52:00] know, when you have a link you have all these phone service or so many measurements being made so much data being acquired just on the radio performance that having, you know, having an artificial intelligence from machine learning real time looking at all these measurements and figuring out which radiation point to which users are.\
+What bands that can use to optimize performance? I think there's a big opportunity. \
+
+\f0\b Tim: 
+\f1\b0 Yeah, okay interesting\
+
+\f0\b Harvind: 
+\f1\b0  and you know and you know and then geolocation sensing whether \
+
+\f0\b Tim: 
+\f1\b0 one of the wackiest sensing examples, I came across when I was kind of reading a little bit around this was apparently the mobile networks know where it's raining.\
+So you can tell you can tell a signal that from the signal degradation how much it's raining where \
+
+\f0\b Harvind: 
+\f1\b0 right right. \
+
+\f0\b Tim: 
+\f1\b0 It's not data. They've ever got around to selling but they know where it's rained. Exactly. \
+
+\f0\b Harvind: 
+\f1\b0 where people eat people prefer to eat where they shop or the kind of meat. [00:53:00] I can see, you know, like we found that private networks, you know, if you set up a network in a Walmart, you know, you can you know passively.\
+Figure out where people tend to you know, what aisles of the store people tend to congregate what stuff that tend to look at more than in other areas. \
+
+\f0\b Tim: 
+\f1\b0 Well that's already done with with Wi-Fi networks. That's why they all offer Wi-Fi networks in store.\
+
+\f0\b Harvind: 
+\f1\b0  Right? Right. Hmm, \
+
+\f0\b Tim: 
+\f1\b0 which is kind of not well advertised but fear \
+
+\f0\b Harvind: 
+\f1\b0 You can also use cameras.\
+
+\f0\b Tim: 
+\f1\b0 I just kind of wondering where that line is between yeah, we vision and radio like, you know, I suppose you're looking at kind of X-ray and telescopes you're starting to. Blur that definition but I guess on the ground it's clearer cut really?\
+
+\f0\b Harvind: 
+\f1\b0  I mean, you know that there was a concern the early days of the software-defined radios that net.\
+Well if it's accessible to the [00:54:00] masses the radio wave forms, you know, there can be some people can get in some nefarious stuff interfering with networks and \
+
+\f0\b Tim: 
+\f1\b0 right right \
+
+\f0\b Harvind: 
+\f1\b0 and privacy issue me so that I mean there's a whole lot of it. There's a other side to it to me with any technology. Enables a lot of element can be some drawbacks to for not careful about.\
+
+\f0\b Tim: 
+\f1\b0 Yeah. I mean the one that you see in the security space that I've seen in the security space is this thing about amplifying the signal from the set of keys. So you have a set of keys that are sitting like on the table in your hall and the car is like down the drive and so the car doors are locked because this keys are too far away, but like if you\
+effectively amplify the signal from the keys. You can convince the car that your keys are right next to it. And so it'll open the doors for you. I've seen I've seen video. I mean it's not just amplify you have to mess with the timing because they're [00:55:00] smarter than that. They like, you know, so you can you can basically kind of relay the signal from the keys to the car and from the car to the keys so that they think that they're closer than they really are.\
+
+\f0\b Harvind: 
+\f1\b0 Right there\
+
+\f0\b Tim: 
+\f1\b0  seen video of that being done live, which is kind of interesting. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah. I mean, that's the really like you can buy these really really cheap SDR the only receive and transmit anything only receive so you can only scan. I mean, they're  look down in the 20 $30 range now it's right and.\
+Write the write signal processing software and protocol analyzer software you could probably and I'm sure people do this. You can see all kinds of stuff going on that you probably shouldn't \
+
+\f0\b Tim: 
+\f1\b0 well like I did about shouldn't it's being published. It's just an assumption. Yeah, but you're not going to be able to when the people who wrote the who designed the analog kind of key fob or whatever.\
+This is assuming that [00:56:00] like. It was going to be expensive to decode but less so now cool. So so we kind of moderately positive but the big thing is is Spectrum. \
+
+\f0\b Harvind: 
+\f1\b0 Yeah, I think spectrums going to be the big enabler to really blessed you and then yeah, but really that's the are. Take over. \
+
+\f0\b Tim: 
+\f1\b0 This is like fun.\
+I'm kind of looking forward to have it have it, you know and and you know, you're right you'll have to come when you like know more about the astronomy. You're going to have to come back and talk about that because like, you know self self done astronomy sounds like a like, you know, backyard astronomy without a telescope sounds like something quite cool actually.\
+
+\f0\b Harvind: 
+\f1\b0 Excellent. \
+
+\f0\b Tim: 
+\f1\b0 Brilliant. All right. Thanks for that. Goodbye. \
+
+\f0\b Harvind: 
+\f1\b0 Thank you. All right. \
+
+\f0\b Tim: 
+\f1\b0 Cheers \
+
+\f0\b Harvind: 
+\f1\b0 Bye}

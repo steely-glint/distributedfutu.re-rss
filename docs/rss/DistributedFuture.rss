@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 07 Jan 2019 22:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jan 2019 13:05:13 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Software eats the radio.</title>
+      <link>https://distributedfutu.re/episodes/16/</link>
+      <description>Learn about how software, specifically software defined radio, is taking over the world. What are the risks, what are the benefits?</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/16/</guid>
+      <pubDate> Sun, 20 Jan 2019 12:54:33 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/16/distributedFuture-16.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3408">
+        <media:title type="plain">Software eats the radio.</media:title>
+        <media:description>Learn about how software, specifically software defined radio, is taking over the world. What are the risks, what are the benefits?</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/16/thumb.jpg"/>
+        <media:keywords>futurism,SDR,privacy,mobile-networks,radio</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/16/distributedFuture-16.mp3" length="68171273" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/16/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:56:48</itunes:duration>
+    </item>
     <item>
       <title>Food and work culture</title>
       <link>https://distributedfutu.re/episodes/15/</link>
