@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jan 2019 13:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Feb 2019 15:41:16 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of education</title>
+      <link>https://distributedfutu.re/episodes/17/</link>
+      <description>What sort of education will best prepare our childern for the future? We discuss the balance between technology, problem solving and just getting out doors. </description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/17/</guid>
+      <pubDate> Mon, 04 Feb 2019 15:30:04 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/17/distributedFuture-17.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2693">
+        <media:title type="plain">The future of education</media:title>
+        <media:description>What sort of education will best prepare our childern for the future? We discuss the balance between technology, problem solving and just getting out doors. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/17/thumb.jpg"/>
+        <media:keywords>education,technology,futurism,outdoors,early years</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/17/distributedFuture-17.mp3" length="64653120" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/17/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:44:53</itunes:duration>
+    </item>
     <item>
       <title>Software eats the radio.</title>
       <link>https://distributedfutu.re/episodes/16/</link>
