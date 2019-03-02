@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 18 Feb 2019 22:37:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 14:32:00 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Hydrogen for green energy?</title>
+      <link>https://distributedfutu.re/episodes/19/</link>
+      <description>We discuss Hydrogen production and how it can make renewable energy available when and where we need it.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/19/</guid>
+      <pubDate> Sat, 02 Mar 2019 14:19:22 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/19/distributedFuture-19.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2712">
+        <media:title type="plain">Hydrogen for green energy?</media:title>
+        <media:description>We discuss Hydrogen production and how it can make renewable energy available when and where we need it.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/19/thumb.jpg"/>
+        <media:keywords>hydrogen,energy,storage,environment,tech</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/19/distributedFuture-19.mp3" length="43403910" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/19/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:45:12</itunes:duration>
+    </item>
     <item>
       <title>VR and wine</title>
       <link>https://distributedfutu.re/episodes/18/</link>
