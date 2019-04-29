@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 15 Apr 2019 11:04:51 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 23:21:31 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Leaky things</title>
+      <link>https://distributedfutu.re/episodes/23/</link>
+      <description>Do you your smart devices share your secrets with anyone? Do you care? What can be done?</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/23/</guid>
+      <pubDate> Sat, 27 Apr 2019 22:33:58 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/23/distributedFuture-23.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2720">
+        <media:title type="plain">Leaky things</media:title>
+        <media:description>Do you your smart devices share your secrets with anyone? Do you care? What can be done?</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/23/thumb.jpg"/>
+        <media:keywords>privacy,iot,tech,future</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/23/distributedFuture-23.mp3" length="43523449" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/23/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:45:20</itunes:duration>
+    </item>
     <item>
       <title>A podcast on trends and directions in podcasting</title>
       <link>https://distributedfutu.re/episodes/22/</link>
