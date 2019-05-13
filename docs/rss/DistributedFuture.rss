@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2019 23:21:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 13:56:44 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,26 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Provenance and accountability for automated systems</title>
+      <link>https://distributedfutu.re/episodes/24/</link>
+      <description>"We've got all these new artificial intelligent machine learning algorithm systems.
+How can we make sure that they're accountable and we understand the process that has led to that decision making?"</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/24/</guid>
+      <pubDate> Mon, 13 May 2019 13:45:05 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/24/distributedFuture-24.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2610">
+        <media:title type="plain">Provenance and accountability for automated systems</media:title>
+        <media:description>"We've got all these new artificial intelligent machine learning algorithm systems.
+How can we make sure that they're accountable and we understand the process that has led to that decision making?"</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/24/thumb.jpg"/>
+        <media:keywords>AI, Machine learning, Law, accountability, design fiction, Turing red flag</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/24/distributedFuture-24.mp3" length="41772901" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/24/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:43:30</itunes:duration>
+    </item>
     <item>
       <title>Leaky things</title>
       <link>https://distributedfutu.re/episodes/23/</link>
