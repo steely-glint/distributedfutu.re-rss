@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 13 May 2019 13:56:44 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 09:44:15 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The benefits of inclusion in the workplace</title>
+      <link>https://distributedfutu.re/episodes/25/</link>
+      <description>The workplace is changing, inclusive teams perform better, the old top down management styles are fading. In this chat we learn about how growing companies can benefit from these changes.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/25/</guid>
+      <pubDate> Sat, 25 May 2019 20:22:49 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/25/distributedFuture-25.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3181">
+        <media:title type="plain">The benefits of inclusion in the workplace</media:title>
+        <media:description>The workplace is changing, inclusive teams perform better, the old top down management styles are fading. In this chat we learn about how growing companies can benefit from these changes.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/25/thumb.jpg"/>
+        <media:keywords>inclusion,workforce,future,teams</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/25/distributedFuture-25.mp3" length="50907522" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/25/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:53:01</itunes:duration>
+    </item>
     <item>
       <title>Provenance and accountability for automated systems</title>
       <link>https://distributedfutu.re/episodes/24/</link>
