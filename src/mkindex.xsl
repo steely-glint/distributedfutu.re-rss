@@ -73,12 +73,19 @@
                     <xsl:value-of select="description"/>
                 </p>
                 <!-- Postcast Podcast Link ID -->
+                <audio controls="controls">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="$mp3Url"/>
+                    </xsl:attribute>
+                </audio>
+                <xsl:text> </xsl:text>
                 <a class="btn btn-primary">
                     <xsl:attribute name="href">
                         <xsl:value-of select="$mp3Url"/>
                     </xsl:attribute>
-                    <i class="fa fa-headphones-alt fa-lg"></i>Listen Now</a><xsl:text> </xsl:text>
-                <a href="episodes/1/DistributedFuture1.rtf" class="btn btn-primary">
+                    <span><i class="fa fa-headphones-alt fa-lg"></i></span>Download</a>
+                <xsl:text> </xsl:text>
+                <a class="btn btn-primary">
                     <xsl:attribute name="href">
                         <xsl:value-of select="$transUrl"/>
                     </xsl:attribute>Read Transcript</a>
@@ -86,12 +93,12 @@
                 <div class="podcast-details row">
                     <!-- Postcast Guests-->
                     <div class="col text-left">Guest: <xsl:value-of select="guest"/>
-                    <br/>
-                    <img height="40" width="40">
-                        <xsl:attribute name="src">
-                        <xsl:value-of select="$thumbUrl"/>
-                    </xsl:attribute>
-                    </img>
+                        <br/>
+                        <img height="40" width="40">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="$thumbUrl"/>
+                            </xsl:attribute>
+                        </img>
                     </div>
                     <!-- Postcast Date-->
                     <div class="col text-right">
@@ -99,15 +106,17 @@
                     </div>
                 </div>
                 <div class="podcast-links row well ">
-                       Links: <div>
-                    <xsl:for-each select="links/link">
-                       <xsl:variable name="href" select="."/>
-                       <a><xsl:attribute name="href">
-                            <xsl:value-of select="$href"/>
-                          </xsl:attribute>
-                          <xsl:value-of select="$href"/>
-                       </a><br/>
-                    </xsl:for-each>
+                    Links: <div>
+                        <xsl:for-each select="links/link">
+                            <xsl:variable name="href" select="."/>
+                            <a>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="$href"/>
+                                </xsl:attribute>
+                                <xsl:value-of select="$href"/>
+                            </a>
+                            <br/>
+                        </xsl:for-each>
                     </div>
                 </div>
             </div>
@@ -138,10 +147,31 @@
                         <p>
                             In this podcast we interview interesting people who are doing new things that may give us some insight into the future.
                         </p>
-                        <p class="text-primary">Vim and Tim</p>
-                        <p>
-                            <a class="btn btn-success" href="rss/DistributedFuture.rss"><span> <i class="fa fa-rss"></i></span>subscribe</a>
-                        </p>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-auto">
+                                <a href="https://twitter.com/thatgirlvim">
+                                    <img height="40" width="40" src="./img/vim.jpg"> 
+                                    </img>
+                                    <br/>Vim
+                                </a>
+                            </div>
+
+                            <div class="col-md-auto">
+                                <a href="https://twitter.com/steely_glint">
+                                    <img height="40" width="40" src="./img/tim.jpg">
+                                    </img>
+                                    <br/>Tim
+                                </a>
+                            </div>
+                            <div class="col"/>
+                            <div class="col-md-auto right">
+                                <a class="btn btn-success" href="rss/DistributedFuture.rss">
+                                    <span> 
+                                        <i class="fa fa-rss"></i>
+                                    </span>subscribe</a>
+                            </div>
+                        </div>
                     </div>
                 </header>
                 <div class="container">
@@ -152,7 +182,7 @@
                     </div>
                 </div>
                 <footer>
-                <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a>, transcribed with the help of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by <a href="https://www.instagram.com/allegro_alchemist/">Ellie</a>, website help from <a href="http://www.birgitpohl.com/">Birgit Pohl</a> and graphic by Chris Panton </p>
+                    <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a>, transcribed with the help of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by <a href="https://www.instagram.com/allegro_alchemist/">Ellie</a>, website help from <a href="http://www.birgitpohl.com/">Birgit Pohl</a> and graphic by Chris Panton </p>
                 </footer>
             </body>
         </html>
