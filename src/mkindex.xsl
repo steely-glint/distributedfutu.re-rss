@@ -73,23 +73,33 @@
                     <xsl:value-of select="description"/>
                 </p>
                 <!-- Postcast Podcast Link ID -->
-                <audio controls="controls">
-                    <xsl:attribute name="src">
-                        <xsl:value-of select="$mp3Url"/>
-                    </xsl:attribute>
-                </audio>
-                <xsl:text> </xsl:text>
-                <a class="btn btn-primary">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="$mp3Url"/>
-                    </xsl:attribute>
-                    <span><i class="fa fa-headphones-alt fa-lg"></i></span>Download</a>
-                <xsl:text> </xsl:text>
-                <a class="btn btn-primary">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="$transUrl"/>
-                    </xsl:attribute>Read Transcript</a>
-
+                <div class="row">
+                    <div class="col">
+                        <audio controls="controls">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="$mp3Url"/>
+                            </xsl:attribute>
+                        </audio>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-auto">
+                        <a class="btn btn-primary">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="$mp3Url"/>
+                            </xsl:attribute>
+                            <span>
+                                <i class="fa fa-headphones-alt fa-lg"></i>
+                            </span>Download mp3</a>
+                    </div>
+                    <div class="col-md-auto">                
+                        <a target="_blank" class="btn btn-primary">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="substring-before($transUrl,'.')"/>
+                                <xsl:text>.html</xsl:text>
+                            </xsl:attribute>Transcript</a>
+                    </div>
+                </div>
                 <div class="podcast-details row">
                     <!-- Postcast Guests-->
                     <div class="col text-left">Guest: <xsl:value-of select="guest"/>
@@ -149,6 +159,7 @@
                         </p>
                         <br/>
                         <div class="row">
+                            <div class="col-md-auto">Co-hosts:</div>
                             <div class="col-md-auto">
                                 <a href="https://twitter.com/thatgirlvim">
                                     <img height="40" width="40" src="./img/vim.jpg"> 
@@ -156,7 +167,7 @@
                                     <br/>Vim
                                 </a>
                             </div>
-
+                            <div class="col-md-auto">and</div>
                             <div class="col-md-auto">
                                 <a href="https://twitter.com/steely_glint">
                                     <img height="40" width="40" src="./img/tim.jpg">

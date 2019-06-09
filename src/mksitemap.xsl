@@ -50,7 +50,8 @@
         <xsl:variable name="transUrl">
             <xsl:value-of select="$secureUrl"/>
             <xsl:value-of select="$epDir"/>
-            <xsl:value-of select="number"/>/<xsl:value-of select="transcription"/>
+            <xsl:value-of select="number"/>/<xsl:value-of select="substring-before(transcription,'.')"/>
+            <xsl:text>.html</xsl:text>
         </xsl:variable>
         <url>
             <loc><xsl:value-of select="$transUrl"/></loc>
