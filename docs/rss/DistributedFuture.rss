@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 09 Jun 2019 19:38:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2019 20:01:29 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>A virtual year of Distributed Future</title>
+      <link>https://distributedfutu.re/episodes/26/</link>
+      <description>We have a virtual year of episodes under our belts, so this is a look at the episodes, why we do the podcast and what's next</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/26/</guid>
+      <pubDate> Mon, 10 Jun 2019 19:55:02 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/26/distributedFuture-26.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1592">
+        <media:title type="plain">A virtual year of Distributed Future</media:title>
+        <media:description>We have a virtual year of episodes under our belts, so this is a look at the episodes, why we do the podcast and what's next</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/26/thumb.jpg"/>
+        <media:keywords>podcast,future,summary,tech,society</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/26/distributedFuture-26.mp3" length="25482288" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/26/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:26:32</itunes:duration>
+    </item>
     <item>
       <title>The benefits of inclusion in the workplace</title>
       <link>https://distributedfutu.re/episodes/25/</link>
