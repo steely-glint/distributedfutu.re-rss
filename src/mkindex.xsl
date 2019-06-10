@@ -75,7 +75,7 @@
                 <!-- Postcast Podcast Link ID -->
                 <div class="row">
                     <div class="col">
-                        <audio controls="controls">
+                        <audio controls="controls" preload="none">
                             <xsl:attribute name="src">
                                 <xsl:value-of select="$mp3Url"/>
                             </xsl:attribute>
