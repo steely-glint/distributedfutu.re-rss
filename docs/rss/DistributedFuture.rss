@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 09 Jul 2019 14:06:37 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 15:04:03 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,28 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>New organizational structures for crisis and aid.</title>
+      <link>https://distributedfutu.re/episodes/29/</link>
+      <description>Willow describes best practice in aid or crisis response:
+"It was always about finding the people who are already doing the work and showing up and saying here are the resources I have.
+How can I help you? Or do you want me to go away?"</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/29/</guid>
+      <pubDate> Mon, 22 Jul 2019 14:45:41 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/29/distributedFuture-29.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2476">
+        <media:title type="plain">New organizational structures for crisis and aid.</media:title>
+        <media:description>Willow describes best practice in aid or crisis response:
+"It was always about finding the people who are already doing the work and showing up and saying here are the resources I have.
+How can I help you? Or do you want me to go away?"</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/29/thumb.jpg"/>
+        <media:keywords>crisis,aid,organization,communication,government</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/29/distributedFuture-29.mp3" length="39629027" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/29/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:41:16</itunes:duration>
+    </item>
     <item>
       <title>The Riz test - questioning Muslim representation in Film and TV</title>
       <link>https://distributedfutu.re/episodes/28/</link>
