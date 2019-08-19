@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Aug 2019 14:33:28 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 13:52:00 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -30,14 +30,32 @@
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
     <item>
+      <title>Shaping the future of farming with apps</title>
+      <link>https://distributedfutu.re/episodes/31/</link>
+      <description>How apps can help make farming more ecologically sustainable</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/31/</guid>
+      <pubDate> Mon, 19 Aug 2019 13:39:59 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/31/distributedFuture-31.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2927">
+        <media:title type="plain">Shaping the future of farming with apps</media:title>
+        <media:description>How apps can help make farming more ecologically sustainable</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/31/thumb.jpg"/>
+        <media:keywords>regenerative farming, soil quality, apps, seasonality</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/31/distributedFuture-31.mp3" length="46838542" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/31/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:48:47</itunes:duration>
+    </item>
+    <item>
       <title>The future of languages</title>
       <link>https://distributedfutu.re/episodes/30/</link>
-      <description>Learning languages through apps, Esperanto an the future of English</description>
+      <description>Learning languages through apps, Esperanto and the future of English</description>
       <guid isPermaLink="true">https://distributedfutu.re/episodes/30/</guid>
       <pubDate> Mon, 05 Aug 2019 14:19:27 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/30/distributedFuture-30.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2759">
         <media:title type="plain">The future of languages</media:title>
-        <media:description>Learning languages through apps, Esperanto an the future of English</media:description>
+        <media:description>Learning languages through apps, Esperanto and the future of English</media:description>
         <media:rating scheme="urn:simple">nonadult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/30/thumb.jpg"/>
         <media:keywords>Esperanto,English,second language,apps</media:keywords>
