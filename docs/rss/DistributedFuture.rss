@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Aug 2019 10:57:18 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 10:51:02 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Will the social enterprise model help us make better tech?</title>
+      <link>https://distributedfutu.re/episodes/32/</link>
+      <description>Imran talks about his hopes for 30 Chapel St, a new Arts, tech and Social Enterprise Hub in Bradford. </description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/32/</guid>
+      <pubDate> Sun, 01 Sep 2019 19:09:58 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/32/distributedFuture-32.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2723">
+        <media:title type="plain">Will the social enterprise model help us make better tech?</media:title>
+        <media:description>Imran talks about his hopes for 30 Chapel St, a new Arts, tech and Social Enterprise Hub in Bradford. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/32/thumb.jpg"/>
+        <media:keywords>Social Enerprise, Culture, Ethics in tech</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/32/distributedFuture-32.mp3" length="43576870" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/32/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:45:23</itunes:duration>
+    </item>
     <item>
       <title>Shaping the future of farming with apps</title>
       <link>https://distributedfutu.re/episodes/31/</link>
