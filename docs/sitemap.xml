@@ -2,9 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://distributedfutu.re/index.html</loc>
-    <lastmod>2019-09-02</lastmod>
+    <lastmod>2019-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://distributedfutu.re/episodes/33/DistributedFuture33.html</loc>
   </url>
   <url>
     <loc>https://distributedfutu.re/episodes/32/DistributedFuture32.html</loc>

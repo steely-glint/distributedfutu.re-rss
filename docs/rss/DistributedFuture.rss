@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 02 Sep 2019 10:51:02 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2019 12:40:58 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of voice and voice interfaces</title>
+      <link>https://distributedfutu.re/episodes/33/</link>
+      <description>We talk with Allison Smith about the experience of being the voice of many inanimate objects!</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/33/</guid>
+      <pubDate> Thu, 19 Sep 2019 12:23:29 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/33/distributedFuture-33.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2929">
+        <media:title type="plain">The future of voice and voice interfaces</media:title>
+        <media:description>We talk with Allison Smith about the experience of being the voice of many inanimate objects!</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/33/thumb.jpg"/>
+        <media:keywords>voice,tech,ivr</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/33/distributedFuture-33.mp3" length="46880481" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/33/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:48:49</itunes:duration>
+    </item>
     <item>
       <title>Will the social enterprise model help us make better tech?</title>
       <link>https://distributedfutu.re/episodes/32/</link>
