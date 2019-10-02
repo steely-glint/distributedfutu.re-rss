@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Sep 2019 12:52:48 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2019 06:05:04 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Illustration and the future of adult education</title>
+      <link>https://distributedfutu.re/episodes/34/</link>
+      <description>Is the future visual? How much of that is digital media? How should we educate future media creators? A chat with some answers...</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/34/</guid>
+      <pubDate> Wed, 02 Oct 2019 05:51:39 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/34/distributedFuture-34.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2631">
+        <media:title type="plain">Illustration and the future of adult education</media:title>
+        <media:description>Is the future visual? How much of that is digital media? How should we educate future media creators? A chat with some answers...</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/34/thumb.jpg"/>
+        <media:keywords>illustrator,digital,hyperisland,education</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/34/distributedFuture-34.mp3" length="42105364" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/34/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:43:51</itunes:duration>
+    </item>
     <item>
       <title>The future of voice and voice interfaces</title>
       <link>https://distributedfutu.re/episodes/33/</link>
