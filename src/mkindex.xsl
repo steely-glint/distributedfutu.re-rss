@@ -15,10 +15,7 @@
     </xsl:variable>
     <xsl:variable name="insecureUrl">http://<xsl:value-of select="/cast/site"/>/
     </xsl:variable>
-    <xsl:variable name="epDir">
-        <xsl:value-of select="/cast/epDir"/>/
-    </xsl:variable>
-
+    <xsl:variable name="epDir"><xsl:value-of select="/cast/epDir"/>/</xsl:variable>
     <xsl:variable name="rssUrl">
         <xsl:value-of select="$secureUrl"/>
         <xsl:value-of select="/cast/rssDir"/>
@@ -51,29 +48,13 @@
         </xsl:apply-templates>
     </xsl:template>
     <xsl:template match="episode">
-        <xsl:variable name="mp3Url">
-            <xsl:value-of select="$epDir"/>
-            <xsl:value-of select="number"/>/
-            <xsl:value-of select="mp3"/>
-        </xsl:variable>
-        <xsl:variable name="transUrl">
-            <xsl:value-of select="$epDir"/>
-            <xsl:value-of select="number"/>/
-            <xsl:value-of select="transcription"/>
-        </xsl:variable>
-        <xsl:variable name="thumbUrl">
-            <xsl:value-of select="$epDir"/>
-            <xsl:value-of select="number"/>
-            <xsl:text>/thumb.jpg</xsl:text>
-        </xsl:variable>
+        <xsl:variable name="mp3Url"><xsl:value-of select="$epDir"/><xsl:value-of select="number"/>/<xsl:value-of select="mp3"/></xsl:variable>
+        <xsl:variable name="transUrl"><xsl:value-of select="$epDir"/><xsl:value-of select="number"/>/<xsl:value-of select="transcription"/></xsl:variable>
+        <xsl:variable name="thumbUrl"><xsl:value-of select="$epDir"/><xsl:value-of select="number"/><xsl:text>/thumb.jpg</xsl:text></xsl:variable>
         <xsl:variable name="hh" select="floor(duration div 3600)"/>
         <xsl:variable name="mm" select="floor(duration div 60) mod 3600"/>
         <xsl:variable name="ss" select="duration mod 60"/>
-        <xsl:variable name="hmsDur">
-            <xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:
-            <xsl:value-of
-                    select='format-number( $ss ,"00")'/>
-        </xsl:variable>
+        <xsl:variable name="hmsDur"><xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/></xsl:variable>
         <div class="card podcast-element">
             <xsl:attribute name="id">episode
                 <xsl:value-of select="number"/>
