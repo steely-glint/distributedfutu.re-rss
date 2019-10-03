@@ -205,7 +205,7 @@
                 <header class="home-header">
                     <img class="card-img-top" src="./img/dist.jpg" alt="Distributed Future"/>
                     <h2 class="card-title">"The future is out there, it just isn't evenly distributed
-                        - yet" :William Gibson
+                        - yet" :- William Gibson
                     </h2>
                     <h4 class="card-text">
                         In this podcast we interview interesting people who are doing new things that may give us
