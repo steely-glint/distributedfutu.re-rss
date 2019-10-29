@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 15 Oct 2019 13:25:35 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 16:24:24 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Immersive StoryLab</title>
+      <link>https://distributedfutu.re/episodes/36/</link>
+      <description>A discussion about immersive storytelling, AR, VR and the politics of new power</description>
+      <guid isPermaLink="true">https://distributedfutu.re/episodes/36/</guid>
+      <pubDate> Tue, 29 Oct 2019 16:05:53 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/36/distributedFuture-36.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2421">
+        <media:title type="plain">Immersive StoryLab</media:title>
+        <media:description>A discussion about immersive storytelling, AR, VR and the politics of new power</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/36/thumb.jpg"/>
+        <media:keywords>AR, VR, Storytelling, empowerment</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/36/distributedFuture-36.mp3" length="38740336" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/36/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:40:21</itunes:duration>
+    </item>
     <item>
       <title>Amateur space and open source rocketry</title>
       <link>https://distributedfutu.re/episodes/35/</link>
