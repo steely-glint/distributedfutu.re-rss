@@ -1,7 +1,7 @@
 <buttons>
  <button>
   <name>Apple Podcasts</name>
-  <link>https://podcasts.apple.com/us/podcast/the-future-of-education/id1419603601?i=1000429148128&amp;mt=2&amp;app=podcast</link>
+  <link>https://podcasts.apple.com/us/podcast/distributed-future-podcast/id1419603601</link>
   <image>buttons/apple-podcasts/podcast.svg</image>
   <svg><a href="https://podcasts.apple.com/us/podcast/the-future-of-education/id1419603601?i=1000429148128&amp;mt=2&amp;app=podcast" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-02-04T00:00:00Z&amp;kind=podcastepisode&amp;bubble=podcasts) no-repeat;width:165px;height:40px;"></a></svg>
  </button>
@@ -35,7 +35,7 @@
   <link>https://open.spotify.com/show/0bjRi7VkXARmvZl6ZnDPLS</link>
   <image>buttons/spotify-podcast-badges/PNG/spotify-podcast-badge-wht-grn-165x40.png</image>
  </button>
- <button size="40" dotext="true">
+ <button size="100">
   <name>PodcastAddict</name>
   <link>http://podplayer.net/?podId=2267908</link>
   <image>buttons/podcastadict/banner.png</image>
