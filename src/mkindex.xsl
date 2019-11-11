@@ -56,7 +56,7 @@
         <xsl:variable name="ss" select="duration mod 60"/>
         <xsl:variable name="hmsDur"><xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/></xsl:variable>
         <div class="card podcast-element">
-            <xsl:attribute name="id">episode
+            <xsl:attribute name="id"><xsl:text>episode</xsl:text>
                 <xsl:value-of select="number"/>
             </xsl:attribute>
             <!-- Postcast Image-->
