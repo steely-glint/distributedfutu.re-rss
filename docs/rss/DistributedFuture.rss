@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 10:34:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 12:29:51 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -30,10 +30,28 @@
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
     <item>
+      <title>Intentional communities, tiny houses and artistic creation.</title>
+      <link>https://distributedfutu.re/#episode38/</link>
+      <description>Josh describes how he's intentionally changing his local community with art, tiny houses and by encouraging creativity.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode38/</guid>
+      <pubDate> Mon, 25 Nov 2019 12:21:38 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/38/distributedFuture-38.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3188">
+        <media:title type="plain">Intentional communities, tiny houses and artistic creation.</media:title>
+        <media:description>Josh describes how he's intentionally changing his local community with art, tiny houses and by encouraging creativity.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/38/thumb.jpg"/>
+        <media:keywords>tags,here,please</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/38/distributedFuture-38.mp3" length="51020744" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/38/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:53:08</itunes:duration>
+    </item>
+    <item>
       <title>Telemedicine - the future of health care?</title>
-      <link>https://distributedfutu.re/episodes/37/</link>
+      <link>https://distributedfutu.re/#episode37/</link>
       <description>Telehealth allows patients to consult experts thousands of km away, we discuss how this works in rural Australia and the benefits it brings.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/37/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode37/</guid>
       <pubDate> Sun, 10 Nov 2019 17:31:45 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/37/distributedFuture-37.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2154">
         <media:title type="plain">Telemedicine - the future of health care?</media:title>
@@ -49,9 +67,9 @@
     </item>
     <item>
       <title>Immersive StoryLab</title>
-      <link>https://distributedfutu.re/episodes/36/</link>
+      <link>https://distributedfutu.re/#episode36/</link>
       <description>A discussion about immersive storytelling, AR, VR and the politics of new power</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/36/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode36/</guid>
       <pubDate> Tue, 29 Oct 2019 16:05:53 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/36/distributedFuture-36.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2421">
         <media:title type="plain">Immersive StoryLab</media:title>
@@ -67,9 +85,9 @@
     </item>
     <item>
       <title>Amateur space and open source rocketry</title>
-      <link>https://distributedfutu.re/episodes/35/</link>
+      <link>https://distributedfutu.re/#episode35/</link>
       <description>We discuss building your own satellite and sending it to space as well as amateur rocketry along with the communities and organizations that make this possible. </description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/35/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode35/</guid>
       <pubDate> Tue, 15 Oct 2019 13:17:43 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/35/distributedFuture-35.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2857">
         <media:title type="plain">Amateur space and open source rocketry</media:title>
@@ -85,9 +103,9 @@
     </item>
     <item>
       <title>Illustration and the future of adult education</title>
-      <link>https://distributedfutu.re/episodes/34/</link>
+      <link>https://distributedfutu.re/#episode34/</link>
       <description>Is the future visual? How much of that is digital media? How should we educate future media creators? A chat with some answers...</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/34/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode34/</guid>
       <pubDate> Wed, 02 Oct 2019 05:51:39 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/34/distributedFuture-34.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2631">
         <media:title type="plain">Illustration and the future of adult education</media:title>
@@ -103,9 +121,9 @@
     </item>
     <item>
       <title>The future of voice and voice interfaces</title>
-      <link>https://distributedfutu.re/episodes/33/</link>
+      <link>https://distributedfutu.re/#episode33/</link>
       <description>We talk with Allison Smith about the experience of being the voice of many inanimate objects!</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/33/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode33/</guid>
       <pubDate> Thu, 19 Sep 2019 12:23:29 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/33/distributedFuture-33.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2929">
         <media:title type="plain">The future of voice and voice interfaces</media:title>
@@ -121,9 +139,9 @@
     </item>
     <item>
       <title>Will the social enterprise model help us make better tech?</title>
-      <link>https://distributedfutu.re/episodes/32/</link>
+      <link>https://distributedfutu.re/#episode32/</link>
       <description>Imran talks about his hopes for 30 Chapel St, a new Arts, tech and Social Enterprise Hub in Bradford. </description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/32/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode32/</guid>
       <pubDate> Sun, 01 Sep 2019 19:09:58 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/32/distributedFuture-32.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2723">
         <media:title type="plain">Will the social enterprise model help us make better tech?</media:title>
@@ -139,9 +157,9 @@
     </item>
     <item>
       <title>Shaping the future of farming with apps</title>
-      <link>https://distributedfutu.re/episodes/31/</link>
+      <link>https://distributedfutu.re/#episode31/</link>
       <description>How apps can help make farming more ecologically sustainable</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/31/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode31/</guid>
       <pubDate> Mon, 19 Aug 2019 13:39:59 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/31/distributedFuture-31.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2927">
         <media:title type="plain">Shaping the future of farming with apps</media:title>
@@ -157,9 +175,9 @@
     </item>
     <item>
       <title>The future of languages</title>
-      <link>https://distributedfutu.re/episodes/30/</link>
+      <link>https://distributedfutu.re/#episode30/</link>
       <description>Learning languages through apps, Esperanto and the future of English</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/30/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode30/</guid>
       <pubDate> Mon, 05 Aug 2019 14:19:27 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/30/distributedFuture-30.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2759">
         <media:title type="plain">The future of languages</media:title>
@@ -175,11 +193,11 @@
     </item>
     <item>
       <title>New organizational structures for crisis and aid.</title>
-      <link>https://distributedfutu.re/episodes/29/</link>
+      <link>https://distributedfutu.re/#episode29/</link>
       <description>Willow describes best practice in aid or crisis response:
 "It was always about finding the people who are already doing the work and showing up and saying here are the resources I have.
 How can I help you? Or do you want me to go away?"</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/29/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode29/</guid>
       <pubDate> Mon, 22 Jul 2019 14:45:41 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/29/distributedFuture-29.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2476">
         <media:title type="plain">New organizational structures for crisis and aid.</media:title>
@@ -197,9 +215,9 @@ How can I help you? Or do you want me to go away?"</media:description>
     </item>
     <item>
       <title>The Riz test - questioning Muslim representation in Film and TV</title>
-      <link>https://distributedfutu.re/episodes/28/</link>
+      <link>https://distributedfutu.re/#episode28/</link>
       <description>The Riz test is a set of 5 questions that help film and TV makers see how they represent Muslim characters, based on crowdsourced feedback from viewers. We chat about how tech helped form and promote the test. We also discuss what impact it has and will have in the future.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/28/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode28/</guid>
       <pubDate> Tue, 09 Jul 2019 13:42:12 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/28/distributedFuture-28.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2904">
         <media:title type="plain">The Riz test - questioning Muslim representation in Film and TV</media:title>
@@ -215,9 +233,9 @@ How can I help you? Or do you want me to go away?"</media:description>
     </item>
     <item>
       <title>Recycling houses, routers and bandwidth</title>
-      <link>https://distributedfutu.re/episodes/27/</link>
+      <link>https://distributedfutu.re/#episode27/</link>
       <description>A chat about how to reuse old houses, routers etc with the help of open source and grain legs.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/27/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode27/</guid>
       <pubDate> Mon, 24 Jun 2019 22:24:43 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/27/distributedFuture-27.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3230">
         <media:title type="plain">Recycling houses, routers and bandwidth</media:title>
@@ -233,9 +251,9 @@ How can I help you? Or do you want me to go away?"</media:description>
     </item>
     <item>
       <title>A virtual year of Distributed Future</title>
-      <link>https://distributedfutu.re/episodes/26/</link>
+      <link>https://distributedfutu.re/#episode26/</link>
       <description>We have a virtual year of episodes under our belts, so this is a look at the episodes, why we do the podcast and what's next</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/26/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode26/</guid>
       <pubDate> Mon, 10 Jun 2019 19:55:02 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/26/distributedFuture-26.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1592">
         <media:title type="plain">A virtual year of Distributed Future</media:title>
@@ -251,9 +269,9 @@ How can I help you? Or do you want me to go away?"</media:description>
     </item>
     <item>
       <title>The benefits of inclusion in the workplace</title>
-      <link>https://distributedfutu.re/episodes/25/</link>
+      <link>https://distributedfutu.re/#episode25/</link>
       <description>The workplace is changing, inclusive teams perform better, the old top down management styles are fading. In this chat we learn about how growing companies can benefit from these changes.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/25/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode25/</guid>
       <pubDate> Sat, 25 May 2019 20:22:49 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/25/distributedFuture-25.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3181">
         <media:title type="plain">The benefits of inclusion in the workplace</media:title>
@@ -269,10 +287,10 @@ How can I help you? Or do you want me to go away?"</media:description>
     </item>
     <item>
       <title>Provenance and accountability for automated systems</title>
-      <link>https://distributedfutu.re/episodes/24/</link>
+      <link>https://distributedfutu.re/#episode24/</link>
       <description>"We've got all these new artificial intelligent machine learning algorithm systems.
 How can we make sure that they're accountable and we understand the process that has led to that decision making?"</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/24/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode24/</guid>
       <pubDate> Mon, 13 May 2019 13:45:05 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/24/distributedFuture-24.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2610">
         <media:title type="plain">Provenance and accountability for automated systems</media:title>
@@ -289,9 +307,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Leaky things</title>
-      <link>https://distributedfutu.re/episodes/23/</link>
+      <link>https://distributedfutu.re/#episode23/</link>
       <description>Do you your smart devices share your secrets with anyone? Do you care? What can be done?</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/23/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode23/</guid>
       <pubDate> Sat, 27 Apr 2019 22:33:58 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/23/distributedFuture-23.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2720">
         <media:title type="plain">Leaky things</media:title>
@@ -307,9 +325,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>A podcast on trends and directions in podcasting</title>
-      <link>https://distributedfutu.re/episodes/22/</link>
+      <link>https://distributedfutu.re/#episode22/</link>
       <description>How are podcasts changing? Where and how do people listen to podcasts? How can they be used by charities? Do mics matter?</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/22/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode22/</guid>
       <pubDate> Mon, 15 Apr 2019 11:00:49 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/22/distributedFuture-22.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3092">
         <media:title type="plain">A podcast on trends and directions in podcasting</media:title>
@@ -325,9 +343,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Future insights on user behaviour</title>
-      <link>https://distributedfutu.re/episodes/21/</link>
+      <link>https://distributedfutu.re/#episode21/</link>
       <description>A converstion about research on user behaviour, the insights it gives us and what the future may hold</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/21/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode21/</guid>
       <pubDate> Tue, 02 Apr 2019 11:47:56 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/21/distributedFuture-21.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2538">
         <media:title type="plain">Future insights on user behaviour</media:title>
@@ -343,9 +361,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Play, playfulness and enchanted objects (AKA IoT)</title>
-      <link>https://distributedfutu.re/episodes/20/</link>
+      <link>https://distributedfutu.re/#episode20/</link>
       <description>A chat about Playful Anywhere, the nature of play and how it crosses from offline to online</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/20/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode20/</guid>
       <pubDate> Mon, 18 Mar 2019 23:13:47 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/20/distributedFuture-20.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2922">
         <media:title type="plain">Play, playfulness and enchanted objects (AKA IoT)</media:title>
@@ -361,9 +379,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Hydrogen for green energy?</title>
-      <link>https://distributedfutu.re/episodes/19/</link>
+      <link>https://distributedfutu.re/#episode19/</link>
       <description>We discuss Hydrogen production and how it can make renewable energy available when and where we need it.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/19/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode19/</guid>
       <pubDate> Sat, 02 Mar 2019 14:19:22 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/19/distributedFuture-19.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2712">
         <media:title type="plain">Hydrogen for green energy?</media:title>
@@ -379,9 +397,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>VR and wine</title>
-      <link>https://distributedfutu.re/episodes/18/</link>
+      <link>https://distributedfutu.re/#episode18/</link>
       <description>How VR can help wine appreciation</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/18/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode18/</guid>
       <pubDate> Mon, 18 Feb 2019 22:25:58 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/18/distributedFuture-18.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2004">
         <media:title type="plain">VR and wine</media:title>
@@ -397,9 +415,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of education</title>
-      <link>https://distributedfutu.re/episodes/17/</link>
+      <link>https://distributedfutu.re/#episode17/</link>
       <description>What sort of education will best prepare our children for the future? We discuss the balance between technology, problem solving and just getting out doors. </description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/17/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode17/</guid>
       <pubDate> Mon, 04 Feb 2019 15:30:04 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/17/distributedFuture-17.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2693">
         <media:title type="plain">The future of education</media:title>
@@ -415,9 +433,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Software eats the radio.</title>
-      <link>https://distributedfutu.re/episodes/16/</link>
+      <link>https://distributedfutu.re/#episode16/</link>
       <description>Learn about how software, specifically software defined radio, is taking over the world. What are the risks, what are the benefits?</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/16/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode16/</guid>
       <pubDate> Sun, 20 Jan 2019 12:54:33 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/16/distributedFuture-16.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3408">
         <media:title type="plain">Software eats the radio.</media:title>
@@ -433,9 +451,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Food and work culture</title>
-      <link>https://distributedfutu.re/episodes/15/</link>
+      <link>https://distributedfutu.re/#episode15/</link>
       <description>We discuss the role of food in the workplace and how it can improve the culture of a workplace.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/15/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode15/</guid>
       <pubDate> Mon, 07 Jan 2019 22:03:46 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/15/distributedFuture-15.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3041">
         <media:title type="plain">Food and work culture</media:title>
@@ -451,9 +469,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The role of online and offline groups in the future of marketing.</title>
-      <link>https://distributedfutu.re/episodes/14/</link>
+      <link>https://distributedfutu.re/#episode14/</link>
       <description>We discuss how women are informed about cannabis in the USA and general lessons about detoxifying a brand.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/14/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode14/</guid>
       <pubDate> Sun, 16 Dec 2018 18:38:26 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/14/distributedFuture-14.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3517">
         <media:title type="plain">The role of online and offline groups in the future of marketing.</media:title>
@@ -469,9 +487,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>A better future through Walking, Wellness, Whisky and work</title>
-      <link>https://distributedfutu.re/episodes/13/</link>
+      <link>https://distributedfutu.re/#episode13/</link>
       <description>A conversation about the benefits of getting out from behind our screens everyday</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/13/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode13/</guid>
       <pubDate> Sun, 02 Dec 2018 20:08:03 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/13/distributedFuture-13.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3155">
         <media:title type="plain">A better future through Walking, Wellness, Whisky and work</media:title>
@@ -487,9 +505,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of transport including personal jetsuits!</title>
-      <link>https://distributedfutu.re/episodes/12/</link>
+      <link>https://distributedfutu.re/#episode12/</link>
       <description>We start with the lack of innovation in civic transport, then discuss Gravity Industries jetsuits and finally touch on future business models for cars.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/12/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode12/</guid>
       <pubDate> Sun, 18 Nov 2018 15:53:53 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/12/distributedFuture-12.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3145">
         <media:title type="plain">The future of transport including personal jetsuits!</media:title>
@@ -505,9 +523,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of AI and how to avoid bias.</title>
-      <link>https://distributedfutu.re/episodes/11/</link>
+      <link>https://distributedfutu.re/#episode11/</link>
       <description>AI can produce results that are biased, in this episode we discuss how this happens and how such bias can be avoided in future.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/11/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode11/</guid>
       <pubDate> Sun, 04 Nov 2018 14:34:09 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/11/distributedFuture-11.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2783">
         <media:title type="plain">The future of AI and how to avoid bias.</media:title>
@@ -523,9 +541,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The Ecological future of data centers</title>
-      <link>https://distributedfutu.re/episodes/10/</link>
+      <link>https://distributedfutu.re/#episode10/</link>
       <description>Conversation on the ecological future of Server hosting</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/10/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode10/</guid>
       <pubDate> Mon, 22 Oct 2018 23:43:53 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/10/distributedFuture-10.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2771">
         <media:title type="plain">The Ecological future of data centers</media:title>
@@ -541,9 +559,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of (personal) branding.</title>
-      <link>https://distributedfutu.re/episodes/9/</link>
+      <link>https://distributedfutu.re/#episode9/</link>
       <description>What is a brand? How do you build a startup's brand? How does it relate to your personal brand? Where does brand building happen? Get (some) answers here...</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/9/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode9/</guid>
       <pubDate> Sun, 07 Oct 2018 23:09:54 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/9/distributedFuture-9.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2426">
         <media:title type="plain">The future of (personal) branding.</media:title>
@@ -559,9 +577,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Privacy and the Quantified Self</title>
-      <link>https://distributedfutu.re/episodes/8/</link>
+      <link>https://distributedfutu.re/#episode8/</link>
       <description>We discuss the ethical and privacy problems associated with fitness trackers and other 'Quantified Self' data collection.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/8/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode8/</guid>
       <pubDate> Sun, 23 Sep 2018 20:12:01 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/8/distributedFuture-8.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3096">
         <media:title type="plain">Privacy and the Quantified Self</media:title>
@@ -577,9 +595,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Remote working - it it the Future?</title>
-      <link>https://distributedfutu.re/episodes/7/</link>
+      <link>https://distributedfutu.re/#episode7/</link>
       <description>Our guest works for Gitlab where all staff are remote. We discuss from both employee and employer points of view.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/7/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode7/</guid>
       <pubDate> Sun, 09 Sep 2018 23:27:29 +0200</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/7/distributedFuture-7.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2829">
         <media:title type="plain">Remote working - it it the Future?</media:title>
@@ -595,9 +613,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Makers and individuals</title>
-      <link>https://distributedfutu.re/episodes/6/</link>
+      <link>https://distributedfutu.re/#episode6/</link>
       <description>A conversation about personalization and the maker movement</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/6/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode6/</guid>
       <pubDate> Sun, 12 Aug 2018 17:36:13 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/6/distributedFuture-6.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2364">
         <media:title type="plain">Makers and individuals</media:title>
@@ -613,9 +631,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of love and dating</title>
-      <link>https://distributedfutu.re/episodes/5/</link>
+      <link>https://distributedfutu.re/#episode5/</link>
       <description>A discussion about the impact technology is having on the future of love and dating</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/5/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode5/</guid>
       <pubDate> Sun, 05 Aug 2018 14:33:23 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/5/distributedFuture-5.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3399">
         <media:title type="plain">The future of love and dating</media:title>
@@ -631,9 +649,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Ethics and The Long Night</title>
-      <link>https://distributedfutu.re/episodes/4/</link>
+      <link>https://distributedfutu.re/#episode4/</link>
       <description>In which we discuss ethics in tech and how to teach each generation about the Holocaust</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/4/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode4/</guid>
       <pubDate>Fri, 20 Jul 2018 17:13:37 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/4/distributedFuture-4.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2411">
         <media:title type="plain">Ethics and The Long Night</media:title>
@@ -649,9 +667,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>The future of money</title>
-      <link>https://distributedfutu.re/episodes/3/</link>
+      <link>https://distributedfutu.re/#episode3/</link>
       <description>In which we discuss the future of money.</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/3/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode3/</guid>
       <pubDate>Wed, 13 Jun 2018 14:40:14 +0000</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/3/distributedFuture-3.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2909">
         <media:title type="plain">The future of money</media:title>
@@ -667,9 +685,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Quantified self</title>
-      <link>https://distributedfutu.re/episodes/2/</link>
+      <link>https://distributedfutu.re/#episode2/</link>
       <description>A conversation about how the future of our well-being is in our own data</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/2/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode2/</guid>
       <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1852">
         <media:title type="plain">Quantified self</media:title>
@@ -685,9 +703,9 @@ How can we make sure that they're accountable and we understand the process that
     </item>
     <item>
       <title>Magic and Blockchain</title>
-      <link>https://distributedfutu.re/episodes/1/</link>
+      <link>https://distributedfutu.re/#episode1/</link>
       <description>A conversation about the future impact of blockchain on society</description>
-      <guid isPermaLink="true">https://distributedfutu.re/episodes/1/</guid>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode1/</guid>
       <pubDate>Tue, 27 Feb 2018 12:00:00 GMT</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
         <media:title type="plain">Magic and Blockchain</media:title>

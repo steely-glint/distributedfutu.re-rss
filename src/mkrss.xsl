@@ -45,7 +45,7 @@
     <xsl:template match="episode">
         <xsl:variable name="epUrl">
             <xsl:value-of select="$secureUrl"/>
-            <xsl:value-of select="$epDir"/>
+            <xsl:text>#episode</xsl:text>
             <xsl:value-of select="number"/>/</xsl:variable>
         <xsl:variable name="mp3Url">
             <xsl:value-of select="$insecureUrl"/>
