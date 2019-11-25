@@ -105,7 +105,7 @@
                     <div class="col text-left">Guest:
                         <xsl:value-of select="guest"/>
                         <br/>
-                        <img height="60" width="60">
+                        <img height="100" width="100">
                             <xsl:attribute name="src">
                                 <xsl:value-of select="$thumbUrl"/>
                             </xsl:attribute>
