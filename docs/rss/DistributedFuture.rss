@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Dec 2019 10:56:29 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2019 11:13:29 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -32,12 +32,12 @@
     <item>
       <title>Organizing Matrix - how to protect and grow an ambitious project.</title>
       <link>https://distributedfutu.re/#episode39/</link>
-      <description>Matrix.org aims to be the future of communications, a secure ditributed, open layer on top of the internet. We discuss how the organizational structure of the project can help keep it true to it's goals.</description>
+      <description>Matrix.org aims to be the future of communications: a secure, distributed, open layer on top of the internet. We discuss how the organizational structure of the project can help keep it true to it's goals.</description>
       <guid isPermaLink="true">https://distributedfutu.re/#episode39/</guid>
       <pubDate> Mon, 09 Dec 2019 23:12:38 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/39/distributedFuture-39.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3025">
         <media:title type="plain">Organizing Matrix - how to protect and grow an ambitious project.</media:title>
-        <media:description>Matrix.org aims to be the future of communications, a secure ditributed, open layer on top of the internet. We discuss how the organizational structure of the project can help keep it true to it's goals.</media:description>
+        <media:description>Matrix.org aims to be the future of communications: a secure, distributed, open layer on top of the internet. We discuss how the organizational structure of the project can help keep it true to it's goals.</media:description>
         <media:rating scheme="urn:simple">nonadult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/39/thumb.jpg"/>
         <media:keywords>tags,here,please</media:keywords>
