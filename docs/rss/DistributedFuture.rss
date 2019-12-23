@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Dec 2019 11:13:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 14:07:51 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Taking a break</title>
+      <link>https://distributedfutu.re/#episode40/</link>
+      <description>We are taking a break, normal service will be resumed in January</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode40/</guid>
+      <pubDate> Mon, 23 Dec 2019 14:01:50 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/40/distributedFuture-40.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="137">
+        <media:title type="plain">Taking a break</media:title>
+        <media:description>We are taking a break, normal service will be resumed in January</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/40/thumb.jpg"/>
+        <media:keywords/>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/40/distributedFuture-40.mp3" length="1099065" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/40/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:02:17</itunes:duration>
+    </item>
     <item>
       <title>Organizing Matrix - how to protect and grow an ambitious project.</title>
       <link>https://distributedfutu.re/#episode39/</link>
