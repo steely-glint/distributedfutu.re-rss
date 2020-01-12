@@ -52,7 +52,7 @@
         <xsl:variable name="transUrl"><xsl:value-of select="$epDir"/><xsl:value-of select="number"/>/<xsl:value-of select="transcription"/></xsl:variable>
         <xsl:variable name="thumbUrl"><xsl:value-of select="$epDir"/><xsl:value-of select="number"/><xsl:text>/thumb.jpg</xsl:text></xsl:variable>
         <xsl:variable name="hh" select="floor(duration div 3600)"/>
-        <xsl:variable name="mm" select="floor(duration div 60) mod 3600"/>
+        <xsl:variable name="mm" select="floor(duration div 60) mod 60"/>
         <xsl:variable name="ss" select="duration mod 60"/>
         <xsl:variable name="hmsDur"><xsl:value-of select='format-number( $hh ,"00")'/>:<xsl:value-of select='format-number( $mm ,"00")'/>:<xsl:value-of select='format-number( $ss ,"00")'/></xsl:variable>
         <div class="card podcast-element">

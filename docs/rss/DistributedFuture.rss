@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 23 Dec 2019 14:07:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 12:11:38 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Infosec - the skills shortage.</title>
+      <link>https://distributedfutu.re/#episode41/</link>
+      <description>Why is there a skills shortage in information security? We discuss toxic workplaces and an immature industry.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode41/</guid>
+      <pubDate> Sun, 12 Jan 2020 11:51:51 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/41/distributedFuture-41.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3636">
+        <media:title type="plain">Infosec - the skills shortage.</media:title>
+        <media:description>Why is there a skills shortage in information security? We discuss toxic workplaces and an immature industry.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/41/thumb.jpg"/>
+        <media:keywords>infosec,diversity,security</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/41/distributedFuture-41.mp3" length="58178119" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/41/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:60:36</itunes:duration>
+    </item>
     <item>
       <title>Taking a break</title>
       <link>https://distributedfutu.re/#episode40/</link>
