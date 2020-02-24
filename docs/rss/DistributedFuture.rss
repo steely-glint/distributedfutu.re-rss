@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 11 Feb 2020 09:53:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 13:43:32 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Long distance overland travel, now and in the future.</title>
+      <link>https://distributedfutu.re/#episode44/</link>
+      <description>The availability of highspeed trains and internet has transformed long distance overland travel. We chat about an overland (and sea) trip from Japan to Munich and beyond.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode44/</guid>
+      <pubDate> Mon, 24 Feb 2020 13:16:38 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/44/distributedFuture-44.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3584">
+        <media:title type="plain">Long distance overland travel, now and in the future.</media:title>
+        <media:description>The availability of highspeed trains and internet has transformed long distance overland travel. We chat about an overland (and sea) trip from Japan to Munich and beyond.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/44/thumb.jpg"/>
+        <media:keywords>train,boat,travel,overland,future,internet</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/44/distributedFuture-44.mp3" length="57347484" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/44/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:59:44</itunes:duration>
+    </item>
     <item>
       <title>Future of the Corporation</title>
       <link>https://distributedfutu.re/#episode43/</link>
