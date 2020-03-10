@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2020 13:43:32 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 14:07:18 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Influencers influencing politics and effecting social change.</title>
+      <link>https://distributedfutu.re/#episode45/</link>
+      <description>An uplifting discussion about how influencers are effecting social change and will replace the current established brands.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode45/</guid>
+      <pubDate> Tue, 10 Mar 2020 13:50:32 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/45/distributedFuture-45.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3490">
+        <media:title type="plain">Influencers influencing politics and effecting social change.</media:title>
+        <media:description>An uplifting discussion about how influencers are effecting social change and will replace the current established brands.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/45/thumb.jpg"/>
+        <media:keywords>influencers,politics,tech,brands</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/45/distributedFuture-45.mp3" length="55851830" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/45/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:58:10</itunes:duration>
+    </item>
     <item>
       <title>Long distance overland travel, now and in the future.</title>
       <link>https://distributedfutu.re/#episode44/</link>
