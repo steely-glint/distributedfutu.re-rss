@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2020 16:01:38 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 09:46:52 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Video calls</title>
+      <link>https://distributedfutu.re/#episode49/</link>
+      <description>A short thought about video calls</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode49/</guid>
+      <pubDate> Tue, 05 May 2020 09:41:28 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/49/distributedFuture-49.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="270">
+        <media:title type="plain">Video calls</media:title>
+        <media:description>A short thought about video calls</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/49/thumb.jpg"/>
+        <media:keywords>Webrtc, video, zoom, social</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/49/distributedFuture-49.mp3" length="4322031" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/49/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:04:30</itunes:duration>
+    </item>
     <item>
       <title>How crafting intersects with social media and other technologies</title>
       <link>https://distributedfutu.re/#episode48/</link>
