@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2020 12:24:37 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 13:36:43 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The Internet in Malawi</title>
+      <link>https://distributedfutu.re/#episode53/</link>
+      <description>We discuss the current state of the Internet in Africa, concentrationg on Malawi. The future is dependent on a mix of politics, business and tech. </description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode53/</guid>
+      <pubDate> Tue, 04 Aug 2020 13:18:13 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/53/distributedFuture-53.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2725">
+        <media:title type="plain">The Internet in Malawi</media:title>
+        <media:description>We discuss the current state of the Internet in Africa, concentrationg on Malawi. The future is dependent on a mix of politics, business and tech. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/53/thumb.jpg"/>
+        <media:keywords>Malawi, Internet, Loon, future, peering</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/53/distributedFuture-53.mp3" length="43608306" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/53/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:45:25</itunes:duration>
+    </item>
     <item>
       <title>Art, VR, Fashion and mental health</title>
       <link>https://distributedfutu.re/#episode52/</link>
