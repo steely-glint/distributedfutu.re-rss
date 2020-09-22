@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2020 15:50:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 08:58:45 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>News and Media trends in New Zeeland.</title>
+      <link>https://distributedfutu.re/#episode55/</link>
+      <description>What's new in Media New Zeeland? Can you run a site ad-free? Our guest answers these questions and more... </description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode55/</guid>
+      <pubDate> Mon, 21 Sep 2020 12:22:18 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/55/distributedFuture-55.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2989">
+        <media:title type="plain">News and Media trends in New Zeeland.</media:title>
+        <media:description>What's new in Media New Zeeland? Can you run a site ad-free? Our guest answers these questions and more... </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/55/thumb.jpg"/>
+        <media:keywords>Media,New Zeeland,Future</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/55/distributedFuture-55.mp3" length="47836214" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/55/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:49:49</itunes:duration>
+    </item>
     <item>
       <title>The future as seen by a Pan-African challenger bank.</title>
       <link>https://distributedfutu.re/#episode54/</link>
