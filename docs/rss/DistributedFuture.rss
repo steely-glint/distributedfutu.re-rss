@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2020 08:58:45 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 11:50:26 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,26 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Thoughts on AI in Black History Month</title>
+      <link>https://distributedfutu.re/#episode56/</link>
+      <description>How does AI become biased, how can we change this.
+Tim and Vim try and see what the future might hold.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode56/</guid>
+      <pubDate> Thu, 22 Oct 2020 11:35:02 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/56/distributedFuture-56.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2079">
+        <media:title type="plain">Thoughts on AI in Black History Month</media:title>
+        <media:description>How does AI become biased, how can we change this.
+Tim and Vim try and see what the future might hold.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/56/thumb.jpg"/>
+        <media:keywords>AI,diversity,equity,equality,future,tech</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/56/distributedFuture-56.mp3" length="33267968" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/56/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:34:39</itunes:duration>
+    </item>
     <item>
       <title>News and Media trends in New Zeeland.</title>
       <link>https://distributedfutu.re/#episode55/</link>
