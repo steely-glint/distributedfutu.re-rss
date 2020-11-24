@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2020 13:09:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 13:13:37 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Responsible standards</title>
+      <link>https://distributedfutu.re/#episode58/</link>
+      <description>A discussion about practical tech ethics. Tim describes a potential issue in a draft standard and Vim tells him to act on it.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode58/</guid>
+      <pubDate> Tue, 24 Nov 2020 12:58:03 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/58/distributedFuture-58.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1666">
+        <media:title type="plain">Responsible standards</media:title>
+        <media:description>A discussion about practical tech ethics. Tim describes a potential issue in a draft standard and Vim tells him to act on it.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/58/thumb.jpg"/>
+        <media:keywords>standards,equality,ai,facetracking</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/58/distributedFuture-58.mp3" length="26662400" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/58/thumb.jpg"/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:27:46</itunes:duration>
+    </item>
     <item>
       <title>Internet standards and concensus making</title>
       <link>https://distributedfutu.re/#episode57/</link>
