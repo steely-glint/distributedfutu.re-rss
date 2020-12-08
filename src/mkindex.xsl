@@ -98,6 +98,17 @@
                             </xsl:attribute>
                             Transcript
                         </a>
+                        <xsl:if test="transcriber">
+                        <xsl:text> (by </xsl:text>
+                        <a> 
+                            <xsl:attribute name="href">
+			       <xsl:value-of select="transcriber"/>
+                            </xsl:attribute>
+                               <xsl:value-of select="transcriber"/>
+                        </a>
+                        <xsl:text>)</xsl:text>
+                        </xsl:if>
+                        
                     </div>
                 </div>
                 <div class="podcast-details row">

@@ -91,7 +91,7 @@
                 <media:description>
                     <xsl:value-of select="description"/>                        
                 </media:description>
-                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:rating scheme="urn:simple">adult</media:rating>
                 <media:thumbnail url="{$thumbUrl}"/>
                 <media:keywords>
                     <xsl:value-of select="tags"/>
@@ -99,7 +99,7 @@
             </media:content>
             <enclosure url="{$mp3Url}" length="{size}" type="audio/mpeg"/>
             <itunes:image href="{$thumbUrl}"/>
-            <itunes:explicit>clean</itunes:explicit>
+            <itunes:explicit>no</itunes:explicit>
             <itunes:duration>
                 <xsl:value-of select="$hmsDur"/>
             </itunes:duration>
@@ -153,7 +153,7 @@
 
                 <itunes:category text="Technology"/>
 
-                <itunes:explicit>clean</itunes:explicit>
+                <itunes:explicit>no</itunes:explicit>
                 <itunes:image >
                     <xsl:attribute name="href">
                         <xsl:value-of select="$insecureUrl"/>img/distributedFutureIcon.jpeg</xsl:attribute>

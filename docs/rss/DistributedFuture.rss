@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2020 13:13:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 14:09:21 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -23,12 +23,32 @@
     <itunes:author>Distributed Future Podcast</itunes:author>
     <itunes:keywords>future,technology,society</itunes:keywords>
     <itunes:category text="Technology"/>
-    <itunes:explicit>clean</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:image href="http://distributedfutu.re/img/distributedFutureIcon.jpeg"/>
     <itunes:owner>
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of (local) politics.</title>
+      <link>https://distributedfutu.re/#episode59/</link>
+      <description>What will (local) politics look like in the future?
+We talked to a young politican about how she sees the future of power (both sorts), transport and media. CW: We discuss the law on rape in this episode.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode59/</guid>
+      <pubDate> Sun, 06 Dec 2020 20:05:23 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/59/distributedFuture-59.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3962">
+        <media:title type="plain">The future of (local) politics.</media:title>
+        <media:description>What will (local) politics look like in the future?
+We talked to a young politican about how she sees the future of power (both sorts), transport and media. CW: We discuss the law on rape in this episode.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/59/thumb.jpg"/>
+        <media:keywords>Future, tech, politics, nuclear power, social media</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/59/distributedFuture-59.mp3" length="63401978" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/59/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:06:02</itunes:duration>
+    </item>
     <item>
       <title>Responsible standards</title>
       <link>https://distributedfutu.re/#episode58/</link>
@@ -38,13 +58,13 @@
       <media:content medium="audio" url="http://distributedfutu.re/episodes/58/distributedFuture-58.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1666">
         <media:title type="plain">Responsible standards</media:title>
         <media:description>A discussion about practical tech ethics. Tim describes a potential issue in a draft standard and Vim tells him to act on it.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/58/thumb.jpg"/>
         <media:keywords>standards,equality,ai,facetracking</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/58/distributedFuture-58.mp3" length="26662400" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/58/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:27:46</itunes:duration>
     </item>
     <item>
@@ -56,13 +76,13 @@
       <media:content medium="audio" url="http://distributedfutu.re/episodes/57/distributedFuture-57.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3109">
         <media:title type="plain">Internet standards and concensus making</media:title>
         <media:description>How are internet standards made? Do they define our future? What is the IETF? Our guest answers these questions and more!</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/57/thumb.jpg"/>
         <media:keywords>Internet,future,IETF</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/57/distributedFuture-57.mp3" length="49752322" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/57/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:51:49</itunes:duration>
     </item>
     <item>
@@ -76,13 +96,13 @@ Tim and Vim try and see what the future might hold.</description>
         <media:title type="plain">Thoughts on AI in Black History Month</media:title>
         <media:description>How does AI become biased, how can we change this.
 Tim and Vim try and see what the future might hold.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/56/thumb.jpg"/>
         <media:keywords>AI,diversity,equity,equality,future,tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/56/distributedFuture-56.mp3" length="33267968" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/56/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:34:39</itunes:duration>
     </item>
     <item>
@@ -94,13 +114,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/55/distributedFuture-55.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2989">
         <media:title type="plain">News and Media trends in New Zeeland.</media:title>
         <media:description>What's new in Media New Zeeland? Can you run a site ad-free? Our guest answers these questions and more... </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/55/thumb.jpg"/>
         <media:keywords>Media,New Zeeland,Future</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/55/distributedFuture-55.mp3" length="47836214" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/55/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:49:49</itunes:duration>
     </item>
     <item>
@@ -112,13 +132,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/54/distributedFuture-54.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3373">
         <media:title type="plain">The future as seen by a Pan-African challenger bank.</media:title>
         <media:description>We discuss what fintech looks like in Zambia, how to find and educate your market with SMS, the power of radio, the growth of internet in Africa and much much more.  </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/54/thumb.jpg"/>
         <media:keywords>Fintech,Africa,Zazu,Community</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/54/distributedFuture-54.mp3" length="53980964" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/54/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:56:13</itunes:duration>
     </item>
     <item>
@@ -130,13 +150,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/53/distributedFuture-53.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2725">
         <media:title type="plain">The Internet in Malawi</media:title>
         <media:description>We discuss the current state of the Internet in Africa, concentrationg on Malawi. The future is dependent on a mix of politics, business and tech. </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/53/thumb.jpg"/>
         <media:keywords>Malawi, Internet, Loon, future, peering</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/53/distributedFuture-53.mp3" length="43608306" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/53/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:45:25</itunes:duration>
     </item>
     <item>
@@ -148,13 +168,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/52/distributedFuture-52.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3483">
         <media:title type="plain">Art, VR, Fashion and mental health</media:title>
         <media:description>In a wide ranging chat we talk about how VR can be harnessed for BAME mental health, how haptics can enhance the immersiveness of illusions and much much more.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/52/thumb.jpg"/>
         <media:keywords>Art, VR, Fashion, mental health</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/52/distributedFuture-52.mp3" length="55741952" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/52/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:58:03</itunes:duration>
     </item>
     <item>
@@ -166,13 +186,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/51/distributedFuture-51.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2397">
         <media:title type="plain">Black Lives Matter and the future of social change</media:title>
         <media:description>We take a moment to reflect on the state of the world. The pandemic and technology are causing a huge shift in our way of living and working. We also see huge shifts in social movements and protests. What are our hopes for the future?</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/51/thumb.jpg"/>
         <media:keywords>BLM, Quakers, diversity, inclusion, future, tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/51/distributedFuture-51.mp3" length="38367514" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/51/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:39:57</itunes:duration>
     </item>
     <item>
@@ -184,13 +204,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/50/distributedFuture-50.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3418">
         <media:title type="plain">Art in lockdown</media:title>
         <media:description>A discussion about how lockdown impacts interactive fine art</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/50/thumb.jpg"/>
         <media:keywords>fine art, burning man, tech, lockdown</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/50/distributedFuture-50.mp3" length="54697424" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/50/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:56:58</itunes:duration>
     </item>
     <item>
@@ -202,13 +222,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/49/distributedFuture-49.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="270">
         <media:title type="plain">Video calls</media:title>
         <media:description>A short thought about video calls</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/49/thumb.jpg"/>
         <media:keywords>Webrtc, video, zoom, social</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/49/distributedFuture-49.mp3" length="4322031" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/49/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:04:30</itunes:duration>
     </item>
     <item>
@@ -220,13 +240,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/48/distributedFuture-48.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2664">
         <media:title type="plain">How crafting intersects with social media and other technologies</media:title>
         <media:description>Georgia casts a light on how social media platforms and other technologies are used in the world of crafting.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/48/thumb.jpg"/>
         <media:keywords>craft, social media, upcycling, preloved</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/48/distributedFuture-48.mp3" length="42627992" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/48/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:44:24</itunes:duration>
     </item>
     <item>
@@ -238,13 +258,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/47/distributedFuture-47.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3294">
         <media:title type="plain">The future of standup</media:title>
         <media:description>What is the future of standup comedy? How does it interact with technology?</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/47/thumb.jpg"/>
         <media:keywords>standup,comedy,future,tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/47/distributedFuture-47.mp3" length="52712542" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/47/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:54:54</itunes:duration>
     </item>
     <item>
@@ -258,13 +278,13 @@ Tim and Vim try and see what the future might hold.</media:description>
         <media:title type="plain">Using conflict resolution techniques to de-polarize social media.</media:title>
         <media:description>How can we start to restore civility to online discourse? Vim chatswith Jabob Lefton about techniques to depolarize social media. 
 "Regardless of how we disagree with our (physical) neighbors, we still share the street."</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/46/thumb.jpg"/>
         <media:keywords>conflict,resolution,depolarize,peace,social</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/46/distributedFuture-46.mp3" length="46085176" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/46/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:00</itunes:duration>
     </item>
     <item>
@@ -276,13 +296,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/45/distributedFuture-45.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3490">
         <media:title type="plain">Influencers influencing politics and effecting social change.</media:title>
         <media:description>An uplifting discussion about how influencers are effecting social change and will replace the current established brands.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/45/thumb.jpg"/>
         <media:keywords>influencers,politics,tech,brands</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/45/distributedFuture-45.mp3" length="55851830" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/45/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:58:10</itunes:duration>
     </item>
     <item>
@@ -294,13 +314,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/44/distributedFuture-44.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3584">
         <media:title type="plain">Long distance overland travel, now and in the future.</media:title>
         <media:description>The availability of highspeed trains and internet has transformed long distance overland travel. We chat about an overland (and sea) trip from Japan to Munich and beyond.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/44/thumb.jpg"/>
         <media:keywords>train,boat,travel,overland,future,internet</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/44/distributedFuture-44.mp3" length="57347484" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/44/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:59:44</itunes:duration>
     </item>
     <item>
@@ -312,13 +332,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/43/distributedFuture-43.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3053">
         <media:title type="plain">Future of the Corporation</media:title>
         <media:description>We discuss the necessary paradigm shift that redefines business for the 21st century and builds trust between business and society. </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/43/thumb.jpg"/>
         <media:keywords>future,corporation,purpose,profit</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/43/distributedFuture-43.mp3" length="48861498" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/43/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:50:53</itunes:duration>
     </item>
     <item>
@@ -330,13 +350,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/42/distributedFuture-42.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3076">
         <media:title type="plain">Positive action on inclusion in tech.</media:title>
         <media:description>An optimistic view about how to tackle the challenges.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/42/thumb.jpg"/>
         <media:keywords>inclusion,tech,optimisim,youth</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/42/distributedFuture-42.mp3" length="49229734" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/42/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:51:16</itunes:duration>
     </item>
     <item>
@@ -348,13 +368,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/41/distributedFuture-41.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3636">
         <media:title type="plain">Infosec - the skills shortage.</media:title>
         <media:description>Why is there a skills shortage in information security? We discuss toxic workplaces and an immature industry.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/41/thumb.jpg"/>
         <media:keywords>infosec,diversity,security</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/41/distributedFuture-41.mp3" length="58178119" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/41/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>01:00:36</itunes:duration>
     </item>
     <item>
@@ -366,13 +386,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/40/distributedFuture-40.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="137">
         <media:title type="plain">Taking a break</media:title>
         <media:description>We are taking a break, normal service will be resumed in January</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/40/thumb.jpg"/>
         <media:keywords/>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/40/distributedFuture-40.mp3" length="1099065" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/40/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:02:17</itunes:duration>
     </item>
     <item>
@@ -384,13 +404,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/39/distributedFuture-39.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3025">
         <media:title type="plain">Organizing Matrix - how to protect and grow an ambitious project.</media:title>
         <media:description>Matrix.org aims to be the future of communications: a secure, distributed, open layer on top of the internet. We discuss how the organizational structure of the project can help keep it true to it's goals.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/39/thumb.jpg"/>
         <media:keywords>tags,here,please</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/39/distributedFuture-39.mp3" length="48414971" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/39/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:50:25</itunes:duration>
     </item>
     <item>
@@ -402,13 +422,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/38/distributedFuture-38.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3188">
         <media:title type="plain">Intentional communities, tiny houses and artistic creation.</media:title>
         <media:description>Josh describes how he's intentionally changing his local community with art, tiny houses and by encouraging creativity.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/38/thumb.jpg"/>
         <media:keywords>tags,here,please</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/38/distributedFuture-38.mp3" length="51020744" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/38/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:53:08</itunes:duration>
     </item>
     <item>
@@ -420,13 +440,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/37/distributedFuture-37.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2154">
         <media:title type="plain">Telemedicine - the future of health care?</media:title>
         <media:description>Telehealth allows patients to consult experts thousands of km away, we discuss how this works in rural Australia and the benefits it brings.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/37/thumb.jpg"/>
         <media:keywords>tags,here,please</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/37/distributedFuture-37.mp3" length="34468040" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/37/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:35:54</itunes:duration>
     </item>
     <item>
@@ -438,13 +458,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/36/distributedFuture-36.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2421">
         <media:title type="plain">Immersive StoryLab</media:title>
         <media:description>A discussion about immersive storytelling, AR, VR and the politics of new power</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/36/thumb.jpg"/>
         <media:keywords>AR, VR, Storytelling, empowerment</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/36/distributedFuture-36.mp3" length="38740336" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/36/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:40:21</itunes:duration>
     </item>
     <item>
@@ -456,13 +476,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/35/distributedFuture-35.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2857">
         <media:title type="plain">Amateur space and open source rocketry</media:title>
         <media:description>We discuss building your own satellite and sending it to space as well as amateur rocketry along with the communities and organizations that make this possible. </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/35/thumb.jpg"/>
         <media:keywords>space,opensource,rocketry,amateur</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/35/distributedFuture-35.mp3" length="45719575" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/35/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:47:37</itunes:duration>
     </item>
     <item>
@@ -474,13 +494,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/34/distributedFuture-34.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2631">
         <media:title type="plain">Illustration and the future of adult education</media:title>
         <media:description>Is the future visual? How much of that is digital media? How should we educate future media creators? A chat with some answers...</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/34/thumb.jpg"/>
         <media:keywords>illustrator,digital,hyperisland,education</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/34/distributedFuture-34.mp3" length="42105364" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/34/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:43:51</itunes:duration>
     </item>
     <item>
@@ -492,13 +512,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/33/distributedFuture-33.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2929">
         <media:title type="plain">The future of voice and voice interfaces</media:title>
         <media:description>We talk with Allison Smith about the experience of being the voice of many inanimate objects!</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/33/thumb.jpg"/>
         <media:keywords>voice,tech,ivr</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/33/distributedFuture-33.mp3" length="46880481" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/33/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:49</itunes:duration>
     </item>
     <item>
@@ -510,13 +530,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/32/distributedFuture-32.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2723">
         <media:title type="plain">Will the social enterprise model help us make better tech?</media:title>
         <media:description>Imran talks about his hopes for 30 Chapel St, a new Arts, tech and Social Enterprise Hub in Bradford. </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/32/thumb.jpg"/>
         <media:keywords>Social Enerprise, Culture, Ethics in tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/32/distributedFuture-32.mp3" length="43576870" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/32/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:45:23</itunes:duration>
     </item>
     <item>
@@ -528,13 +548,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/31/distributedFuture-31.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2927">
         <media:title type="plain">Shaping the future of farming with apps</media:title>
         <media:description>How apps can help make farming more ecologically sustainable</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/31/thumb.jpg"/>
         <media:keywords>regenerative farming, soil quality, apps, seasonality</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/31/distributedFuture-31.mp3" length="46838542" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/31/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:47</itunes:duration>
     </item>
     <item>
@@ -546,13 +566,13 @@ Tim and Vim try and see what the future might hold.</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/30/distributedFuture-30.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2759">
         <media:title type="plain">The future of languages</media:title>
         <media:description>Learning languages through apps, Esperanto and the future of English</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/30/thumb.jpg"/>
         <media:keywords>Esperanto,English,second language,apps</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/30/distributedFuture-30.mp3" length="44149404" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/30/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:45:59</itunes:duration>
     </item>
     <item>
@@ -568,13 +588,13 @@ How can I help you? Or do you want me to go away?"</description>
         <media:description>Willow describes best practice in aid or crisis response:
 "It was always about finding the people who are already doing the work and showing up and saying here are the resources I have.
 How can I help you? Or do you want me to go away?"</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/29/thumb.jpg"/>
         <media:keywords>crisis,aid,organization,communication,government</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/29/distributedFuture-29.mp3" length="39629027" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/29/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:41:16</itunes:duration>
     </item>
     <item>
@@ -586,13 +606,13 @@ How can I help you? Or do you want me to go away?"</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/28/distributedFuture-28.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2904">
         <media:title type="plain">The Riz test - questioning Muslim representation in Film and TV</media:title>
         <media:description>The Riz test is a set of 5 questions that help film and TV makers see how they represent Muslim characters, based on crowdsourced feedback from viewers. We chat about how tech helped form and promote the test. We also discuss what impact it has and will have in the future.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/28/thumb.jpg"/>
         <media:keywords>tech,representation,Riz test,</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/28/distributedFuture-28.mp3" length="46465536" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/28/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:24</itunes:duration>
     </item>
     <item>
@@ -604,13 +624,13 @@ How can I help you? Or do you want me to go away?"</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/27/distributedFuture-27.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3230">
         <media:title type="plain">Recycling houses, routers and bandwidth</media:title>
         <media:description>A chat about how to reuse old houses, routers etc with the help of open source and grain legs.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/27/thumb.jpg"/>
         <media:keywords>recycling,openwrt,asterisk,opensource</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/27/distributedFuture-27.mp3" length="51684632" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/27/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:53:50</itunes:duration>
     </item>
     <item>
@@ -622,13 +642,13 @@ How can I help you? Or do you want me to go away?"</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/26/distributedFuture-26.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1592">
         <media:title type="plain">A virtual year of Distributed Future</media:title>
         <media:description>We have a virtual year of episodes under our belts, so this is a look at the episodes, why we do the podcast and what's next</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/26/thumb.jpg"/>
         <media:keywords>podcast,future,summary,tech,society</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/26/distributedFuture-26.mp3" length="25482288" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/26/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:26:32</itunes:duration>
     </item>
     <item>
@@ -640,13 +660,13 @@ How can I help you? Or do you want me to go away?"</media:description>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/25/distributedFuture-25.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3181">
         <media:title type="plain">The benefits of inclusion in the workplace</media:title>
         <media:description>The workplace is changing, inclusive teams perform better, the old top down management styles are fading. In this chat we learn about how growing companies can benefit from these changes.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/25/thumb.jpg"/>
         <media:keywords>inclusion,workforce,future,teams</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/25/distributedFuture-25.mp3" length="50907522" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/25/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:53:01</itunes:duration>
     </item>
     <item>
@@ -660,13 +680,13 @@ How can we make sure that they're accountable and we understand the process that
         <media:title type="plain">Provenance and accountability for automated systems</media:title>
         <media:description>"We've got all these new artificial intelligent machine learning algorithm systems.
 How can we make sure that they're accountable and we understand the process that has led to that decision making?"</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/24/thumb.jpg"/>
         <media:keywords>AI, Machine learning, Law, accountability, design fiction, Turing red flag</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/24/distributedFuture-24.mp3" length="41772901" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/24/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:43:30</itunes:duration>
     </item>
     <item>
@@ -678,13 +698,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/23/distributedFuture-23.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2720">
         <media:title type="plain">Leaky things</media:title>
         <media:description>Do you your smart devices share your secrets with anyone? Do you care? What can be done?</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/23/thumb.jpg"/>
         <media:keywords>privacy,iot,tech,future</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/23/distributedFuture-23.mp3" length="43523449" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/23/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:45:20</itunes:duration>
     </item>
     <item>
@@ -696,13 +716,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/22/distributedFuture-22.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3092">
         <media:title type="plain">A podcast on trends and directions in podcasting</media:title>
         <media:description>How are podcasts changing? Where and how do people listen to podcasts? How can they be used by charities? Do mics matter?</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/22/thumb.jpg"/>
         <media:keywords>podcasts,podcasting,future,marketing</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/22/distributedFuture-22.mp3" length="49486096" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/22/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:51:32</itunes:duration>
     </item>
     <item>
@@ -714,13 +734,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/21/distributedFuture-21.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2538">
         <media:title type="plain">Future insights on user behaviour</media:title>
         <media:description>A converstion about research on user behaviour, the insights it gives us and what the future may hold</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/21/thumb.jpg"/>
         <media:keywords>research,digital,behaviour,future,tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/21/distributedFuture-21.mp3" length="40609479" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/21/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:42:18</itunes:duration>
     </item>
     <item>
@@ -732,13 +752,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/20/distributedFuture-20.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2922">
         <media:title type="plain">Play, playfulness and enchanted objects (AKA IoT)</media:title>
         <media:description>A chat about Playful Anywhere, the nature of play and how it crosses from offline to online</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/20/thumb.jpg"/>
         <media:keywords>tags,here,please</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/20/distributedFuture-20.mp3" length="46767712" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/20/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:42</itunes:duration>
     </item>
     <item>
@@ -750,13 +770,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/19/distributedFuture-19.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2712">
         <media:title type="plain">Hydrogen for green energy?</media:title>
         <media:description>We discuss Hydrogen production and how it can make renewable energy available when and where we need it.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/19/thumb.jpg"/>
         <media:keywords>hydrogen,energy,storage,environment,tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/19/distributedFuture-19.mp3" length="43403910" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/19/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:45:12</itunes:duration>
     </item>
     <item>
@@ -768,13 +788,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/18/distributedFuture-18.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2004">
         <media:title type="plain">VR and wine</media:title>
         <media:description>How VR can help wine appreciation</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/18/thumb.jpg"/>
         <media:keywords>wine,future,VR,tech,ethics</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/18/distributedFuture-18.mp3" length="40097976" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/18/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:33:24</itunes:duration>
     </item>
     <item>
@@ -786,13 +806,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/17/distributedFuture-17.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2693">
         <media:title type="plain">The future of education</media:title>
         <media:description>What sort of education will best prepare our children for the future? We discuss the balance between technology, problem solving and just getting out doors. </media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/17/thumb.jpg"/>
         <media:keywords>education,technology,futurism,outdoors,early years</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/17/distributedFuture-17.mp3" length="64653120" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/17/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:44:53</itunes:duration>
     </item>
     <item>
@@ -804,13 +824,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/16/distributedFuture-16.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3408">
         <media:title type="plain">Software eats the radio.</media:title>
         <media:description>Learn about how software, specifically software defined radio, is taking over the world. What are the risks, what are the benefits?</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/16/thumb.jpg"/>
         <media:keywords>futurism,SDR,privacy,mobile-networks,radio</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/16/distributedFuture-16.mp3" length="68171273" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/16/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:56:48</itunes:duration>
     </item>
     <item>
@@ -822,13 +842,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/15/distributedFuture-15.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3041">
         <media:title type="plain">Food and work culture</media:title>
         <media:description>We discuss the role of food in the workplace and how it can improve the culture of a workplace.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/15/thumb.jpg"/>
         <media:keywords>food,workplace culture,canteen,remote working</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/15/distributedFuture-15.mp3" length="60836612" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/15/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:50:41</itunes:duration>
     </item>
     <item>
@@ -840,13 +860,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/14/distributedFuture-14.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3517">
         <media:title type="plain">The role of online and offline groups in the future of marketing.</media:title>
         <media:description>We discuss how women are informed about cannabis in the USA and general lessons about detoxifying a brand.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/14/thumb.jpg"/>
         <media:keywords>Future, cannabis, Brand, Gatherings</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/14/distributedFuture-14.mp3" length="70346751" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/14/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:58:37</itunes:duration>
     </item>
     <item>
@@ -858,13 +878,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/13/distributedFuture-13.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3155">
         <media:title type="plain">A better future through Walking, Wellness, Whisky and work</media:title>
         <media:description>A conversation about the benefits of getting out from behind our screens everyday</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/13/thumb.jpg"/>
         <media:keywords>Walking, Wellness, Whisky, work</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/13/distributedFuture-13.mp3" length="63121806" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/13/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:52:35</itunes:duration>
     </item>
     <item>
@@ -876,13 +896,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/12/distributedFuture-12.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3145">
         <media:title type="plain">The future of transport including personal jetsuits!</media:title>
         <media:description>We start with the lack of innovation in civic transport, then discuss Gravity Industries jetsuits and finally touch on future business models for cars.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/12/thumb.jpg"/>
         <media:keywords>flight,jetsuit,car, electric vehicle</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/12/distributedFuture-12.mp3" length="62918573" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/12/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:52:25</itunes:duration>
     </item>
     <item>
@@ -894,13 +914,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/11/distributedFuture-11.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2783">
         <media:title type="plain">The future of AI and how to avoid bias.</media:title>
         <media:description>AI can produce results that are biased, in this episode we discuss how this happens and how such bias can be avoided in future.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/11/thumb.jpg"/>
         <media:keywords>AI,Bias,politics,future,tech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/11/distributedFuture-11.mp3" length="55676908" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/11/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:46:23</itunes:duration>
     </item>
     <item>
@@ -912,13 +932,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/10/distributedFuture-10.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2771">
         <media:title type="plain">The Ecological future of data centers</media:title>
         <media:description>Conversation on the ecological future of Server hosting</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/10/thumb.jpg"/>
         <media:keywords>DataCenters, Renewables, Serverless, Fog, Bitcoin</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/10/distributedFuture-10.mp3" length="55425088" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/10/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:46:11</itunes:duration>
     </item>
     <item>
@@ -930,13 +950,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/9/distributedFuture-9.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2426">
         <media:title type="plain">The future of (personal) branding.</media:title>
         <media:description>What is a brand? How do you build a startup's brand? How does it relate to your personal brand? Where does brand building happen? Get (some) answers here...</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/9/thumb.jpg"/>
         <media:keywords>Brand, tech, privacy</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/9/distributedFuture-9.mp3" length="48535018" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/9/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:40:26</itunes:duration>
     </item>
     <item>
@@ -948,13 +968,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/8/distributedFuture-8.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3096">
         <media:title type="plain">Privacy and the Quantified Self</media:title>
         <media:description>We discuss the ethical and privacy problems associated with fitness trackers and other 'Quantified Self' data collection.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/8/thumb.jpg"/>
         <media:keywords>data,Quantified self,fitness,privacy</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/8/distributedFuture-8.mp3" length="61930099" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/8/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:51:36</itunes:duration>
     </item>
     <item>
@@ -966,13 +986,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/7/distributedFuture-7.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2829">
         <media:title type="plain">Remote working - it it the Future?</media:title>
         <media:description>Our guest works for Gitlab where all staff are remote. We discuss from both employee and employer points of view.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/7/thumb.jpg"/>
         <media:keywords>remote working, future, gitlab, handbook</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/7/distributedFuture-7.mp3" length="56589609" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/7/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:47:09</itunes:duration>
     </item>
     <item>
@@ -984,13 +1004,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/6/distributedFuture-6.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2364">
         <media:title type="plain">Makers and individuals</media:title>
         <media:description>A conversation about personalization and the maker movement</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/6/thumb.jpg"/>
         <media:keywords>maker,individual,custom</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/6/distributedFuture-6.mp3" length="47291601" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/6/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:39:24</itunes:duration>
     </item>
     <item>
@@ -1002,13 +1022,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/5/distributedFuture-5.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3399">
         <media:title type="plain">The future of love and dating</media:title>
         <media:description>A discussion about the impact technology is having on the future of love and dating</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/5/thumb.jpg"/>
         <media:keywords>love,dating,tech,ai</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/5/distributedFuture-5.mp3" length="67989968" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/5/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:56:39</itunes:duration>
     </item>
     <item>
@@ -1020,13 +1040,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/4/distributedFuture-4.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2411">
         <media:title type="plain">Ethics and The Long Night</media:title>
         <media:description>In which we discuss ethics in tech and how to teach each generation about the Holocaust</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/4/thumb.jpg"/>
         <media:keywords>education,ethics,holocaust,new-media</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/4/distributedFuture-4.mp3" length="48235899" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/4/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:40:11</itunes:duration>
     </item>
     <item>
@@ -1038,13 +1058,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/3/distributedFuture-3.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2909">
         <media:title type="plain">The future of money</media:title>
         <media:description>In which we discuss the future of money.</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/3/thumb.jpg"/>
         <media:keywords>digital,money,future,central-bank,fintech</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/3/distributedFuture-3.mp3" length="97761859" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/3/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:48:29</itunes:duration>
     </item>
     <item>
@@ -1056,13 +1076,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1852">
         <media:title type="plain">Quantified self</media:title>
         <media:description>A conversation about how the future of our well-being is in our own data</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/2/thumb.jpg"/>
         <media:keywords>Quantified self, wellness, sleep</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/2/distributedFuture-2.mp3" length="35862903" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/2/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:30:52</itunes:duration>
     </item>
     <item>
@@ -1074,13 +1094,13 @@ How can we make sure that they're accountable and we understand the process that
       <media:content medium="audio" url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1560">
         <media:title type="plain">Magic and Blockchain</media:title>
         <media:description>A conversation about the future impact of blockchain on society</media:description>
-        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/1/thumb.jpg"/>
         <media:keywords>blockchain,society,technology,magic</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/1/distributedFuture-1.mp3" length="35862903" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/1/thumb.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:26:00</itunes:duration>
     </item>
   </channel>
