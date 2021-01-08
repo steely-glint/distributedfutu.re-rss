@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2020 14:17:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2021 09:47:12 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>2020 Roundup</title>
+      <link>https://distributedfutu.re/#episode61/</link>
+      <description>A roundup of the year on the podcast and a look at the future</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode61/</guid>
+      <pubDate> Sun, 03 Jan 2021 17:38:12 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/61/distributedFuture-61.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="1393">
+        <media:title type="plain">2020 Roundup</media:title>
+        <media:description>A roundup of the year on the podcast and a look at the future</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/61/thumb.jpg"/>
+        <media:keywords>Tech,AI,future,socialmedia</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/61/distributedFuture-61.mp3" length="22303228" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/61/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:23:13</itunes:duration>
+    </item>
     <item>
       <title>The future of internet social media platforms</title>
       <link>https://distributedfutu.re/#episode60/</link>
