@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 14:10:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Apr 2021 12:02:33 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of open source software</title>
+      <link>https://distributedfutu.re/#episode65/</link>
+      <description>Who contributes to opensource? What are their motivations? How will cloud computing change the picture? We talked with a creator of a successful open source project to find some answers.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode65/</guid>
+      <pubDate> Wed, 21 Apr 2021 20:52:02 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/65/distributedFuture-65.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3139">
+        <media:title type="plain">The future of open source software</media:title>
+        <media:description>Who contributes to opensource? What are their motivations? How will cloud computing change the picture? We talked with a creator of a successful open source project to find some answers.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/65/thumb.jpg"/>
+        <media:keywords>opensource,software,future,webrtc,cloud</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/65/distributedFuture-65.mp3" length="50230014" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/65/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:52:19</itunes:duration>
+    </item>
     <item>
       <title>Digital humans and identity</title>
       <link>https://distributedfutu.re/#episode64/</link>
