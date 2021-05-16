@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Apr 2021 12:02:33 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 May 2021 13:18:58 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Saffron: a case for modern farming?</title>
+      <link>https://distributedfutu.re/#episode66/</link>
+      <description>We talk about farming a high value crop in new way - our guests are farming saffron Cheshire.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode66/</guid>
+      <pubDate> Sun, 09 May 2021 20:58:12 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/66/distributedFuture-66.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3113">
+        <media:title type="plain">Saffron: a case for modern farming?</media:title>
+        <media:description>We talk about farming a high value crop in new way - our guests are farming saffron Cheshire.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/66/thumb.jpg"/>
+        <media:keywords>tech,hydroponics,farming,agriculture</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/66/distributedFuture-66.mp3" length="49818430" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/66/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:51:53</itunes:duration>
+    </item>
     <item>
       <title>The future of open source software</title>
       <link>https://distributedfutu.re/#episode65/</link>

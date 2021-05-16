@@ -14,6 +14,7 @@ afinfo docs/episodes/$1/*.mp3 | awk '/^estimated duration:/ { print "<duration>"
 echo "<title>Title here</title>" >> $EP
 echo "<guest>Text here please</guest>" >> $EP
 echo "<transcription>DistributedFuture$1.rtf</transcription>" >> $EP
+echo "<transcriber>https://twitter.com/Betty_Bett_</transcriber>">> $EP
 echo "<links><link></link></links>" >> $EP
 echo "</episode>" >> $EP
 echo now please edit $EP
