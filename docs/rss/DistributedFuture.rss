@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 04 Jun 2021 11:40:11 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 12:13:18 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>New Browser, Who dis ?</title>
+      <link>https://distributedfutu.re/#episode68/</link>
+      <description>Building a new browser. We talk about the browser landscape, why it is important and how to make a new one.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode68/</guid>
+      <pubDate> Tue, 15 Jun 2021 17:02:00 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/68/distributedFuture-68.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2952">
+        <media:title type="plain">New Browser, Who dis ?</media:title>
+        <media:description>Building a new browser. We talk about the browser landscape, why it is important and how to make a new one.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/68/thumb.jpg"/>
+        <media:keywords>web,tech,future,browser,chromium</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/68/distributedFuture-68.mp3" length="47247114" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/68/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:49:12</itunes:duration>
+    </item>
     <item>
       <title>The speed of news media and our ability to respond</title>
       <link>https://distributedfutu.re/#episode67/</link>

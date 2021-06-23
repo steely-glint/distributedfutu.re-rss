@@ -1,0 +1,243 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Calibri;\f1\fnil\fcharset0 Calibri-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440
+\deftab720
+\pard\pardeftab720\sl276\slmult1\sa200\partightenfactor0
+
+\f0\fs22 \cf2 \up0 \nosupersub \ulnone [intro music]\
+\pard\pardeftab720\sl276\slmult1\sa200\partightenfactor0
+
+\f1\b \cf2 Tim Panton:
+\f0\b0  This is the Distributed Future podcast and I'm Tim Panton. The podcast is aimed to help people understand what the future might look like by looking at and talking to technologists who are working at the edges of society and technology and seeing what they're doing and hopefully, that teaches us what the future might look like. So, this week is hopefully all about the browser. Maybe our guest could introduce herself.\
+
+\f1\b Patricia Aas:
+\f0\b0  Hi, my name is Patricia Aas. I work in a small company that I co-founded called TurtleSec. I do all sorts of different things, but I\'92m also trying to make a browser. That's one of the things I'm trying to do.\
+
+\f1\b Tim Panton:
+\f0\b0  Why would you make a browser? I mean, there are some out there, why do we need another one?\
+
+\f1\b Patricia Aas:
+\f0\b0  I think the problem is that we lost a few and that's unfortunate. Opera decided to end their own engine and now Microsoft decided to do the same and we're ending up in a situation where the largest browser engine by far is controlled by an ad company basically, which is what Google is. This is the platform that we are basing a lot of our societies on and I think that we need actors with different motivations to keep things in check. If you come from a capitalistic standpoint you will say that competition makes everyone sharper, but I don't think necessarily that. I think competition in the browser space usually tends to make everything better for everyone. I used to work at Opera working on the original Opera browser and I went to a party once-- a lot of times when I went to parties, people would corner me and they would say, \'93I heard you work on Opera.\'94 And I would say, yeah, and they would say, \'93Yeah, I tried it once. I didn't like it.\'94 And then they would just stand there cornering me [Patricia laughs] and telling me that they didn't like it. [Tim laughs] And I was like, \'93Okay, but did you try it?\'94 [Patricia laughs] And they were like, \'93Yeah, three years ago, I tried it once.\'94 And I was like, \'93Yeah, well, you might want to try it again, you know? Things happen in three years.\'94 But this other guy was like, "Oh, I like..." whatever browser he was using. And then I asked him, \'93So, does your browser have tabs?\'94 And he was like, \'93Yeah, of course my browser has tabs.\'94 And I was like, \'93You're welcome.\'94 [Patricia and Tim laugh] And he was like, \'93What are you talking about?\'94 And I was like, \'93Why do you think all browsers have tabs? Because Opera made a browser with tabs.\'94 Even if you don't have a market share, even if your market share is really tiny, other browser devs are paying attention to your innovations and those innovations then spread throughout the whole ecosystem. So even if you have small actors which have like maybe 1% market share, they can make a massive difference for everyone's experience even if that is on other browsers.\
+
+\f1\b Tim Panton:
+\f0\b0  That's fascinating. I remember back when there were a lot of browsers from lots of different codebases and I remember there was one that was only on-- I want to say it was only on NeXTSTEP-- I can't remember what it was but it had a completely different way of handling the screen [unintelligible 00:03:27.09] and navigation, the whole thing was completely different. Probably out of that maybe one idea got out into the mainstream, but what you're saying is that that's important.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah, I think it is extremely important. And I think you're seeing that now as well, that a lot of the browsers are slowly moving into a situation where they're expected to protect the user from ads on the internet in some way. This is really difficult for [Patricia laughs] Google whose whole business model is based on showing you ads on the web, right? But this is coming from other actors and it came in the beginning from like addons and extensions to browsers that could block ads online. Then you would have a built-in into certain browsers then you have more and more of these blocking browsers that will block all sorts of different things. In the end it is pushing the big actors into a situation where we have to care about privacy or this is not going to end well for us. Even if you as a user you stay on your own browser that you've been on forever, you will see these changes anyway because they are like waves in a pond, right? They will reach you even if you don't know who threw that stone. And I think it's important that we continue to throw stones because if not, we'll\'85 Last time we had a massively dominating actor was one when Microsoft was working on IE and then decided that they were done, you know? They just dissolved the team and decided that it's game over and we ended up with a stale internet for many years.\
+
+\f1\b Tim Panton:
+\f0\b0  At least part of that though was to do with the fight with the European Commission. It was a political move as well as a commercial one, I think.\
+
+\f1\b Patricia Aas:
+\f0\b0  I don't believe that's true though. \
+
+\f1\b Tim Panton:
+\f0\b0  No? Okay.\
+
+\f1\b Patricia Aas:
+\f0\b0  No. It's a problem that people didn't really believe in the Web, and I think that's been true for a long time. Even though people feel like the web is everywhere and of course everyone believes in it, I think a lot of people thought it would be replaced by other things that were 'better' in some way. And you saw that with the whole push for making mobile apps that suddenly you not only needed to have a website but you needed to have like an app for Android and an app for iOS and they had to lay different tool chains and so now you have to have like three times as many people. And you would go to a website and the first thing it would do is give you a pop up saying, please download our app. \
+
+\f1\b Tim Panton:
+\f0\b0  Right, right. [Patricia laughs] That was a bizarre success metric. I don't know if it's still there but that was one of the metrics that people were gaming their websites to achieve. An app download. And I think in the misplaced idea that that was more loyalty than using-- app users were more loyal than users from the web. Do you think that makes any sense or is that just delusional marketing?\
+
+\f1\b Patricia Aas:
+\f0\b0  I think there's been a lot of delusional marketing and I think probably the question is if it's better or not better when it comes to attention, I don't know. The question is more, is it worth it? It's an extremely expensive way to work. Having more or less permanent teams working on your apps from various platforms. It has to gain that value internally. And also, the problem became that as an installed app, you have more access to the device and so you could suddenly mine the device for all sorts of personal information. That was done and so lots of these apps were mining the device, mining your contacts, mining whatever they could find on your phone that was your private information and then they were using that information either internally, but also sellingit to third party actors. That was also one of the reasons why they wanted to push you off the web, because the web had really strict restrictions. It was built on open standards which was built on restrictions, right? And instead now the user has installed it on the device so therefore it must be good versus the typical web thing. I don't know what this website is but it could be malicious, so we need to protect the machine from this website. That also meant that we ended up with, especially like social media, networks that were pushing you towards the app because that made it possible to surveil you.\
+
+\f1\b Tim Panton:
+\f0\b0  Actually, maybe we should step back a couple of steps and clarify; this browser you're making, is it for mobile or is it for laptops or is it for both? I mean, what's your\'85\
+
+\f1\b Patricia Aas:
+\f0\b0  Right now it's super early stages. Right now it's basically I need to make an architecture in the system that will work or will be sustainable to work in over time. But the goal is to have an app on Android and iOS as well and then a desktop application on Linux, Mac and Windows. That's the basics. Currently, right now what I'm working on is Linux, Mac and Windows to have a cross platform codebase for that. It's a browser. It's not very feature rich, it\'92s the opposite of feature rich. It has like basic tabs and you can go to websites, basically. [Patricia laughs] It doesn't have much.\
+
+\f1\b Tim Panton:
+\f0\b0  No, I actually understand that that's a huge achievement. Every now and then, I look at the codebase of Chrome as we were saying and it's huge. There's an enormous amount of stuff going on there. The minimal browser I've used recently, I say recently but over the last year or so, was in Plan 9 where I don't know if you remember or ever ran across Plan 9, but basically, as far as Plan 9 is concerned everything's a file system. They basically built a browser which treated the web as a file system and you ran this process that just basically treated the web as a file system and then there was a graphical process that would walk that. It was interesting disconnect between the two. They didn't really do graphics any of them so it was like very minimal but an interesting separation between the data and the display in a way that we've lost in the browser.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah,I think that's so important because right now, I feel like all the browsers look basically the same. You can switch from one browser to another and it's basically the same. And the reason why they're basically the same is to make it easy for people to migrate. You want people to move to your browser versus another browser but you don't want to create any friction in that move, so you basically make all the browser's look the same and then you add some addon features that make them hooked on your browser or might motivate them to move to your browser. But the thing is then we ended up with all the browsers being almost exactly the same and then it was like, "Yeah, I can use Edge, I can use Chrome, I can use Firefox, but they all look and act the same." I think we've lost some of the innovation. I would like more like that. Like, what if? What if the web was a file system, what would that look like? How would that make sense?\
+
+\f1\b Tim Panton:
+\f0\b0  I have to ask since you've mentioned it. Why are you not just working on Firefox?\
+
+\f1\b Patricia Aas:
+\f0\b0  Well, there are many reasons. [Tim laughs] First of all, I think it's great that Firefox exists and I really think that Firefox should have more users than they have today because I think we need some weight on the other side of this ecosystem. But in this case, I want to make something else that isn't Firefox and if I make it myself, then I can actually make those decisions. There are some activities in the space that are interesting but right now, I don't feel that there's enough innovation. And it's maybe because it's so big, but browsers have always been big though. I think the problem is that we don't have any way to fund this. Yeah.\
+
+\f1\b Tim Panton:
+\f0\b0  I was going to go to ask what are the economics of browsers? If you're implicitly ruling out ad-based surveillance capitalism models then what other ways are there to fund your browser?\
+
+\f1\b Patricia Aas:
+\f0\b0  The funny thing is like today basically all browsers are funded by ads either directly or indirectly. Even Firefox is funded by ads and they get most of their money from Google. This whole ecosystem has a foundation which is based on the idea that online ads work, which is a questionable idea. [Tim laughs] I'm not sure if that's true. [Patricia laughs] In my picture, it might not be true. I think it's a truth that is worth investigating because I'm not sure this is as effective as people would like it to be. Search certainlyworks.The question is if ads work. Maybe ads in Search work but ads outside of Search, I'm not sure. But the interesting fact is that you don't actually as a browser with a deal with Google, for example, which is like the biggest actor in paying for things, you don't get that much. If you get a good deal with Google, maybe you canget $1 per user a year. So, imagine that people would say, I could give you a browser, you could use it. It's open-source so you can build it for yourself if you want or you can just download a package and have it auto and update it for you and it's going to cost you $1 a year. And for that you get to be the customer, you get to not be the product, you get to be the person, you know? So, it will turn the tables on who is the customer in this relationship.\
+
+\f1\b Tim Panton:
+\f0\b0  I guess then the question is, how many users do you need in order for that to be sustainable and whether that's to do with how big a team you need to manage if you're really aiming for all of those platforms? The other thing we haven't talked about and I'll just kind of mention it now and maybe we'll come back to in a second is Apple. We have to talk about Apple in a bit. But anyway. How many people paying a dollar a year do you need in order to fund a browser development platform team?\
+
+\f1\b Patricia Aas:
+\f0\b0  Wow, what we've seen so far is if you look at for example Vivaldi, Vivaldi has 40-50 people. I've talked to several browser devs in different organizations and I think we get to the point where you should be fine and will be totally like elite world class if you have 200 devs. Or not only devs, like UI, all sorts of things, the designers... everything. But you can get pretty far with a small team. Like what I've done so far, it's basically me. And not me full time either, me like because-of-Corona-some-of-my-stuff-got-canceled time, you know? [Patricia laughs]\
+
+\f1\b Tim Panton:
+\f0\b0  Right. No, I\'92m not sure how this got written. The thing we were using, that's why this got written[Patricia laughs] so I totally relate to that.\
+
+\f1\b Patricia Aas:
+\f0\b0  And it does help that I've worked on browsers a lot before, so I don't have to reinvent the wheel or understand how things work. I've made these things previously. I've made tab bars, I\'92ve made URL fields with auto completion, I\'92ve made some of them many times. So, the typical UI of a browser and the typical architecture of browser, I know. So, for me to make it is probably much easier than somebody who just like sits down and goes, \'93Yeah, I should make a browser but I don't know what browsers. I don't know what they are like.\'94 [Patricia laughs]\
+
+\f1\b Tim Panton:
+\f0\b0  Playing the far side of that argument, do you not think that actually maybe that's some of the thinking that we need? People who don't have preconceptions about the browser.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah, but what they usually end up making is proof of concept, so we can't really actually get anywhere. What I want is to have a platform where what you make\'85 One of the design things that I've made in this browser, there are several different decisions I don't think I've necessarily talked about all of them. But one of them is that I have decided that the UI is specified and the UI toolkit I use is Qt. Qt is very, very mature. It's been around for over two decades now or more probably and it has lots of features that are supported across all desktop platforms and also on mobile. That will make a lot of things easier to do that you can make something once and it works across platform. But in addition, Qt has this really nice UI definition language called the QML which I joke that it's like if JavaScript and CSS and JSON had a had a baby, that's what it looks like. It is really, really good. It's probably the best UI language I've ever seen and it's really excellent. \
+The reason why I wanted that was because one of the things that I've seen with like hard-coded UIs previously is that they're often very difficult to change because there's a lot of code that you need to change. And when I was at Cisco, we had a QML UI and what I thought was fantastic is how big or massive experiments we could do that change the UI completely, but it was possible for just one person just to demonstrate an idea. Like, what if we did something like this and it would be totally different? Like absolutely a totally different idea of things? And so, I want to make a project where that kind of experimentation is possible. That's part of the architecture of the project, to try to make that possible.\
+
+\f1\b Tim Panton:
+\f0\b0  I vaguely remember there was a Firefox initiative to have a UI definition language that all of the components will be defined in. Somehow that got sidetracked or it died, I've forgotten the history of it. Did you look at why that failed?\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. I think the reason why it failed was because they used it for extensions as well and that was also one of the reasons why you had to keep doing it. The problem was that all of the extensions were being made for Chromium-based browsers and so they were losing traction basically in the extension space. And with Firefox, that was super important, right? Firefox was basically like a bare bones browser. This was way back when\'85 So, to get it even to a functional state, you generally had to have half a dozen extensions or it justwas useless. [Patricia laughs] \
+
+\f1\b Tim Panton:
+\f0\b0  I think that's training people for disaster, training people that they have to install a few extensions. It's like risky for your security point of view. \
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah, yeah. And that was one of the reasons why we didn't actually have extensions in the old Opera, exactly because of that. We didn't want to end up with having something both slowing down the browser because who knows what is in there and it needs to run, but also who are they who are running code in the context of this browser, in the context of our users\'92 web pages, and can they be trusted? And that is a problem that Google has today. They have to have security teams focus specifically on the Chrome extension store because they have malicious extensions that need to be removed and they need to scan them and figure out if they're malicious or not. It's an issue. But that is a design choice. And what I like is-- you went back to how many users do you need, right? If we go back to that question, one of the things that fascinates me about browsers is that there are so many users. This is like a ridiculously large market. The browser market is basically the population of the Earth and that makes it really interesting because you generally don't need a lot of market share before you're hitting really high numbers. It's like you can end up with having just a point-something percent and still be in the millions of users, which is really interesting because suddenly value is sitting there. Okay, let's say I have 5 million users worldwide. 4 million of those are paying $1 a year. 1 million they build it from scratch from open-source and do it themselves. From those 4 million, you can pay devs, you know? You can have quite a robust team. \
+If we can make something like that work-- I still wanted to make it possible to use for free and have everything be open-source and have everybody being able to use it for free if they want and pay if that is more convenient-- But paying $1 a year I think is something that is much more overcomeable than $10 a month or some of these subscriptions that we're in.\
+
+\f1\b Tim Panton:
+\f0\b0  Right. That's the model that WhatsApp used. I think they were $1 a year originally? In fact, most of the time they would discount it to nothing. But when they felt\'85 It was fascinating. I looked at this at one point, they were so clever. I can't believe how clever those people were but they used to do this thing where when they were running short of money, they'd turn the monetization tap on and say, \'93Okay, you have to pay $1.\'94 And when they were flushed or their bank account was flushed, they would just turn it off and grow. [Patricia laughs] And when they started, the other thing they did which was really interesting was when they like decided they were going to need a new server, they would turn the monetization on. Which would both slow down the inflow, but it also produced them some cash so they could buy a new server to run it on. It was just like they were actually balancing the business on the free versus pay thing. They are really clever people. \
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. I like that. I like that. Because the thing is I don't want to make a browser to make lots of money. I want to make a browser because I think it's important. I do believe that people need to have a healthy life. They need to be paid for their work, they need to be able to take care of their families and not go to bed with a knot in their stomach because they can't pay their bills. People live in a world where things cost money. So, I think that everyone that works on something should be paid, but I'm not in it to be rich. I don't really think it's possible to get rich off of browsers unless you have some other agenda. And I think that's the problem thoughyou'll see when companies get bigger is that you get lots of business people coming in and they have an agenda and that's usually to make money and so then you will have people walking around saying words like monetization and stuff like that and how can we monetize our users and it's a downhill from there. [Patricia and Tim laugh]\
+
+\f1\b Tim Panton:
+\f0\b0 Yeah. So, maybe we should step back a little bit on the off chance that we haven't really covered this. I think at the beginning, you said something to the effect that they were like we've lost a lot of browsers and that there was only\'85 Did you actually say there was only one left or didI imagine that?\
+
+\f1\b Patricia Aas:
+\f0\b0  No, I would say there are two left. Out of four, we lost two.\
+
+\f1\b Tim Panton:
+\f0\b0 So, there you're lumping Chrome and Edge and Safari as a single browser and then the alternative is Firefox. Am I right?\
+
+\f1\b Patricia Aas:
+\f0\b0 Yeah. Well, I mean, you can argue today that the Safari WebKit codebase is a different codebase. Of course, it is, but it is a fork of the same thing. They're all from the same root, so the same architectural design of the codebases is there. The codebase itself isn't that different, but it has been retrofitted a lot and changed a lot under Google to what Google is dealing with today. But I mean, Apple didn't make that codebase either. They got that from Kitty.\
+
+\f1\b Tim Panton:
+\f0\b0 I was going to say it and it wasn't there. I vaguely remember there was a Qt layer on top of that, so there's some history there forwhat you did. \
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah, that's the origin story of the whole thing. And it's funny because a lot of Kitty, Qt and these like Konqueror browser and all that grew out of Trotec here, who were the people who made Qt. And when I worked at Opera, they were in the floor belowme [Patricia laughs] in the same building. They moved out, I don't know, a short time after I started at Opera, but there was a close relationship there as well. So, although Opera didn't use Qt much, we used a little bit on Linux, but I think they really wanted us to use it, but I think Opera management were worried about the licensing model which considering what we know today probably was a reasonable decision. [Patricia laughs]\
+
+\f1\b Tim Panton:
+\f0\b0  Yeah. And so actually, you were saying well, you just like changed or you're basing this on Qt now, so how you're going to handle licensing?\
+
+\f1\b Patricia Aas:
+\f0\b0  Well, the biggest part of handling licensing when it comes to Qt, it has a really complex licensing model. So basically, making sure that everything is open source is going to hopefully deal with most of the issues, but there's lots of open-source in here and I think that's one of the things that lots of people don't realize how much open sources and everything. But in one of the first UI feature that I made in the browser was a licensed display thing. So, it's like a tab, you open it up but thenit has like a navigation thing on the left where you can go through the licenses of all different things and you can even search [Patricia laughs] for things. And inside of the Chromium codebase, there's a whole node modules thing. If you have like a JavaScript framework on NPM, it\'92s like it might be inside of Chrome. So [Patricia laughs] you might want to go and take a look at that. But for Chrome it's like full of open-source projects. It is basically like a mixed bag of open-source projects put together with glue.\
+
+\f1\b Tim Panton:
+\f0\b0  It really is one of those. I mean, I've built it and I can't tell you how long it took me to get it to build. I mean, you know this better than I do but the first time, it's a real shot. The other thing that shocked me was this kind of "download the whole universe" thing, this endless stream of third-party projects that got downloaded and built. You watch this going past on the screen and think like, "What are they doing with that?" There's certainly a lot of complexity in that. Do you think there's scope for your browser to be simpler? Or do you think that browsers are intrinsically complicated?\
+
+\f1\b Patricia Aas:
+\f0\b0  I was probably not clear about that but currently I'm using Chromium myself as the web viewer in my browser, which is complicated mostly because I have to keep it up to date and that's not something that Qt does and so I have to do it on my own. But what I hope to do is if I could get to a point where I had enough users so I could pay the devs, then we could actually make our own engine. I think there's a lot of room for making things simpler than they are. It's a little bit like the project how I'm making it currently is that it is small because it has to be, or it is small in cross platform and I make decisions based on me being one person. I can't be making custom solutions for everything because then I'll get stuck on something for a long time. I do use open source but I use it for components and I think the whole web engine thing could be simpler, but at the same time the web as a platform in the intersection of all of the standards that exist, it's much more complex and much more in-depth than it was 10 20 years ago. Just like now, we are talking over WebRTC, right? That is a whole thing. You have to have audio and video and streaming and handle firewalls. It is immensely complex underneath the hood and all of that has to be in place for you to be able to have this feature in your browser. And so today is like a lot of people are using the same open-source project for most of that, right?\
+
+\f1\b Tim Panton:
+\f0\b0  Right, right.I mean, there's an argument which says that assembling all the bits to do that without really thinking it through has meant that the implementation is more complicated than it needs to be. But as you say, the standard in itself is quite complicated. I mean, there's a lot going on. So, I think there's a level of needless complexity, but it is an intrinsically complicated problem because the internet wasn't really built to do this and so the fact that we're getting a real time audio caught doing this indecent quality wasn't envisaged when the internet was builtand certainly it wasn't envisaged when browsers were built. So, we're playing against the stream to some extent there.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. But also has the fact that we're making a desktop application that is supposed to run the same no matter what machine you put it on. I\'92ve hadthe pleasure I guess [Patricia laughs] of looking a lot at the code around GPUs and how you do composition and things in Chromium-based browsers, you would not believe how much code is involved in getting pixels drawn on screen in this project. Alot of it is because of the inherent complexity of it. It is a distributed system and you can see that if you look in your whatever like top bar, a task program or something, you will see that your browser starts a whole bunch of different processes, but you only see one window. And so, all of this has to be composed into one final window and all of these processes have to communicate and are individually sandboxed and it's a thing, it's complicated. And then you have access to the GPU and everybody has different GPUs and they have different bugs and different things. And so, if you go in your browser and go like I think it's like chrome://gpu, suddenly, you'll see like, oh, my gosh, it's like a whole page. And it just goes on and on and on and on and that's the reasonbecause there's so much code that is involved with just figuring out which GPU you have, what kind of driver version do you have, what kind of existing bugs exist and then all sorts of workarounds for those bugs, and it's complex.\
+
+\f1\b Tim Panton:
+\f0\b0  I'm hearing that you want to cover quite a wide territory of platforms. It sounds like you've ruled out the idea of just saying, well, I'm going to make a really good browser for this phone. It's going to be the best browser that ever was on thewhatever it is phone or for iPads or something. You're going to build a browser for quite a narrow niche where you understand the hardware and you don't have to make all of those kinds of workarounds for the fact that somebody's got a terrible windows graphics card [Patricia laughs] from last century, you know?\
+
+\f1\b Patricia Aas:
+\f0\b0  Well, the thing is that is a great projectand somebody should definitely do that. But I want to approach this specific problem of having a cross platform browserthat has the typical features that people think about when they have a browser but they are, I don't want your data, I'm not going to deal with your dat a[Patricia laughs] and see where that goes. I don't necessarily want to pre-plan everything on where it goes. What I hope is that if I get to a stage that makes this more interesting than other people show up and they go like, \'93I have this idea that I want to try. What do you think?\'94 It's not like I have like a grand plan. What I do, I have the skills to make the foundations of a browser, but exactly which direction that will go I think is something that is open for creativity and also because it is an open-source project. Once I have like the basics down like here is a fully functioning codebase that which we\'92ll package and create installers for whichever platform and packages for everything, then that's a great starting point for anybody, right? So, they can just fork the project and go on running and make something, you know?\
+
+\f1\b Tim Panton:
+\f0\b0  I was going to say thatthat's a very open-source Ethos there like we're going to build something and then hopefully somebody will pick it up and do something interesting with it that isn't necessarily what you would have imagined. I mean, it's always a delight when that happens. It's a really scary moment there.\
+
+\f1\b Patricia Aas:
+\f0\b0  But the thing is I guess I think it comes down to the basic thing here is that I don't see this as a business. I see this as a typical open-source project, so I don't view it as business. Even if it's going toprobably need to be able to charge people, you will need some company structure or something, some legal entity for this, but I don't see it as a business, you know?We have other things. My business partner doesn't see this as a business. My business partner thinks this is Patricia doing her thing. She can do that, that's fine. [Patricia laughs]\
+
+\f1\b Tim Panton:
+\f0\b0  But your business security is internet security and so I think it's not unrelated and I think maybe that's the thing we should be talking about the idea of the browser being like the application firewall. It's the firewall between you and the site, you as a user and the site and the standards people always and they correct me when I call it the browser, they say no, it's the user agent [Patricia laughs] with the idea of emphasizing that it's supposed to be acting on behalf of the user. And I think fundamentally, what you're doing is interesting because it's trying to reestablish that whereas Google in the ad-based model takes here is that actually the browser isn't the user agent, it's the site agent.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. It is also Google's program on your machine, and that becomes an issue because to what degree do you think that your incentives are aligned? One of the things that I think is interesting about Google as opposed to many other companies is that they have a deep interest in keeping the web alive. That's one of the problems that Google has seen, is that it's very difficult to monetize a lot of things when it moves over to mobile and to app-based stuff. Like, how are you going to monetize that? Whereas their biggest product is Search, right? You need people to search, you need people to see ads when they search. I don't necessarily think that it necessarily works but the point is that people believe it works enough to pay Google for it. I don't know if I had a point here.\
+
+\f1\b Tim Panton:
+\f0\b0 Yeah. No, I mean, I think that's probably right. I think what's even more complicated than Google's relationship with the web browser is Apple's relationship with the web browser. They go through these complicated waves of-- Like originally, Jobs\'92 idea for the iPhone was that the only third-party apps would be web apps. There was no third-party developer kit. And whether you believed that or not is opaque to me, but you know? And then they finally decided, "Okay, we're going to release a kit." But then even the development kit kind of aped a bunch of the web's behaviors in terms of the way that it sandboxed things and the way that it restricted what the app could do on your device in the same way, not exactly, but in the same kind of style that the web does. I think that's interesting. They still believed in it while simultaneously being the thing that probably did the most damage to the web. Everybody has to have an app on iOS because somehow it became mandatory. And then they don't allow you to run another browser on there. It's a kind of weird love-hate thing going on in Apple and I don't actually think they know what they think about that.\
+
+\f1\b Patricia Aas:
+\f0\b0  No, I think they're getting away with it and I don't think they should. [Patricia laughs] I think they're getting away with it. I think they got away with it when there was a lot of litigation around this problem and Microsoft was in the middle of it, but Apple got away with it because they were relatively small at the time and so it didn't seem as bad because they were a small actor. But today, I think they're getting away with very anti-competitive behavior that they shouldn't get away with.\
+
+\f1\b Tim Panton:
+\f0\b0  What's interesting though is that they are now starting to use the fact that there is a web browser as a way of excusing the locked-in-ness of the App Store. Like you start to see in court cases, they're starting to say, \'93But there's an option, people could just build this on the web.\'94 [Patricia laughs] There's a kind of interesting point where I guess that must turn into funding for the Safari team or I don\'92t know but anyway, it's interesting that they are starting to change at least their external language about it.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. Maybe that will be good for Safari. Safari is also one of those very underfunded web browser teams where the parent organization decided that we're done making a browser. It's finished, it's here, so we don't need that many people working on it. I think for the web itself, it would be a very good thing if Safari was well-funded because it would bring Safari up to date on a lot of web standards and that would make it easier for web developers to create sites that work well across multiple devices without lots of hacks at which we've sort of managed to do across the rest of the ecosystem, but Safari has been a lagger.\
+
+\f1\b Tim Panton:
+\f0\b0  I have to say that my experience which is narrow in the WebRTC field is that they haven't quite caught up but they're pretty close. This app and the other one which didn't work for you but like the other app worked just fine in Safari. There's a tiny amount of work we had to do to make that happen but actually, surprisingly little. And I want to hope that we're starting to see the Safari team beefing up a bit and actually starting to deliver on standards. There's a huge backlog, I'm sure, and there's huge areas like WebGPU I know nothing about so maybe they've implemented it, maybe they haven't. I couldn't tell you. There's a bunch of stuff I'm utterly ignorant about because it's a huge space.\
+
+\f1\b Patricia Aas:
+\f0\b0  It is. It is massive. And I agree. I guess that's what surprises people a lot like I am totally rooting for the Safari team, I am so much rooting for the Firefox team. I really think that we need cutting edge browser engines that are outside of Chromium and I also believe that Chromium should not be controlled by Google. That's another thing. I think Chromium should bean open-source project under open-source management, and Google should just be a user of it and not control it like now.\
+
+\f1\b Tim Panton:
+\f0\b0  Yeah, that leaves you with a problem about Chrome and the rest there. \
+
+\f1\b Patricia Aas:
+\f0\b0  They can be a user just like everyone else. \
+
+\f1\b Tim Panton:
+\f0\b0  [laughs] Yeah, I can't see them welcoming that strategy but that\'92s good.\
+
+\f1\b Patricia Aas:
+\f0\b0  No, the problem is that we're ending up in a situation where all decisions are basically what Google wants and that's not a healthy situation when they are basically controlling the browser engine in almost all browsers.\
+
+\f1\b Tim Panton:
+\f0\b0  Yeah, I go to Standards Committee meetings so that's like a voice you don't hear around the table but everybody's thinking it. \
+
+\f1\b Patricia Aas:
+\f0\b0  I can say it because it doesn't matter because I'm nobody here. So? [Patricia laughs]\
+
+\f1\b Tim Panton:
+\f0\b0  No, but you know the space which is kind of-- and the ability to speak freely is amazingly valuable. [Patricia laughs] So, what do you see happening in the browser space in the next two, three years, maybe five years? That's probably too far out to look but let's pretend.\
+
+\f1\b Patricia Aas:
+\f0\b0  I think we're going to see finally like regular normal users using progressive web apps.\
+
+\f1\b Tim Panton:
+\f0\b0  I must say this, I saw an absolutely brilliant one the other day which was for mountain rescue. The idea is that if you load the progressive web app-- at any point in the last six months you've loaded the progressive web app-- then at the top of the mountain with no signal, you will still get an accurate grid reference out of this web app. \
+
+\f1\b Patricia Aas:
+\f0\b0  Oh, that's awesome. \
+
+\f1\b Tim Panton:
+\f0\b0  Isn't it?\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah, that's great. \
+
+\f1\b Tim Panton:
+\f0\b0  You don't have to install the app or anything. It's just like if you've ever been there, it's in your phone and it'll work even if you can't download the megabyte of... whatever. I thought that was a really nice app. Sorry, I distracted you. Please go ahead. [Patricia laughs]\
+
+\f1\b Patricia Aas:
+\f0\b0  Yes, definitely. I hope at least that we're going- You kind of have to cross that boundary though and I saw that so much when I was at Opera. That it's hard to get regular non-tech users to understand a feature enough to use it. The maturity of it is really getting there, but we have to cross that threshold so that people understand what it means or at least understands not necessarily what it means but understands the functionality and use it. I don't think we've gotten there yet but I do hope that we do get there. Because I think we need the web because it is an anarchy platform and I think the world needs an anarchy platform where everyone can actually publish whatever they want, where everyone can communicate with each other. It's non-curated reality and I think we need that. That can be both negative and positive, but I think it's necessary.\
+
+\f1\b Tim Panton:
+\f0\b0  Yeah, totally. Just as software developers, we start to see the space in which I can permissionlessly write apps get smaller and smaller and the numbers of people who can run those apps get smaller and smaller. You look to the web as the last place you can just build a little experiment without having to kind of get it certified by somebody big.\
+
+\f1\b Patricia Aas:
+\f0\b0  Yeah. And I think that is so important for so many reasons. Just to give that outlet for creativity, let people put out absolutely silly things and play around and be creative, and make serious things as well. I think that that openness is not only good in tech, but I think it is good for society. Society needs a way to access all sorts of information, to see all sorts of different people, to hear all sorts of different stories that are outside of your normal experience, and to see the world as big and complex and dirty and wonderful as it is.\
+
+\f1\b Tim Panton:
+\f0\b0  I think that's a wonderful place to to leave the conversation. That's a nice summary of why we need the Web. If you have any kind of links that you think might help people understand more-- probably not to the Chromium codebase but you know? [Patricia laughs] Actually maybe, maybe to the build instructions of Chromium whatever-- but some links. Please send them to me and we'll put them into the show notes. And if there's any other things that you think would help people's understanding of the space then we'd be grateful for that. Thank you so much for doing it, I really do appreciate it.\
+
+\f1\b Patricia Aas:
+\f0\b0  Thank you for having me. \
+
+\f1\b Tim Panton:
+\f0\b0  Yeah, great. Okay. Have a good weekend. \
+
+\f1\b Patricia Aas:
+\f0\b0  You too. Bye-bye.\
+
+\f1\b Tim Panton:
+\f0\b0  Bye.}
