@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Wed, 23 Jun 2021 12:13:18 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jul 2021 17:28:36 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>New Tech in education, what are the rules?</title>
+      <link>https://distributedfutu.re/#episode69/</link>
+      <description>Who chooses which Edtech students use? Can they protect their privacy? Who owns that school laptop anyway? None of these questions have simple answers, but we do our best to throgh some light.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode69/</guid>
+      <pubDate> Sun, 27 Jun 2021 14:38:19 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/69/distributedFuture-69.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3250">
+        <media:title type="plain">New Tech in education, what are the rules?</media:title>
+        <media:description>Who chooses which Edtech students use? Can they protect their privacy? Who owns that school laptop anyway? None of these questions have simple answers, but we do our best to throgh some light.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/69/thumb.jpg"/>
+        <media:keywords>Edtech, privacy, schools, governance</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/69/distributedFuture-69.mp3" length="52004092" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/69/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:54:10</itunes:duration>
+    </item>
     <item>
       <title>New Browser, Who dis ?</title>
       <link>https://distributedfutu.re/#episode68/</link>
