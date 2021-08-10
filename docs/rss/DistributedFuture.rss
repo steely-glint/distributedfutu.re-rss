@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Wed, 07 Jul 2021 14:44:34 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Aug 2021 14:32:09 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Opensource hardware and the Risc-V processor</title>
+      <link>https://distributedfutu.re/#episode70/</link>
+      <description>How will the rise of opensource hardware change society? Does politic impact chip design? We talk about why Risc-V matters an where it is going.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode70/</guid>
+      <pubDate> Thu, 05 Aug 2021 16:43:21 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/70/distributedFuture-70.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2796">
+        <media:title type="plain">Opensource hardware and the Risc-V processor</media:title>
+        <media:description>How will the rise of opensource hardware change society? Does politic impact chip design? We talk about why Risc-V matters an where it is going.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/70/thumb.jpg"/>
+        <media:keywords>tags,here,please</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/70/distributedFuture-70.mp3" length="44743044" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/70/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:46:36</itunes:duration>
+    </item>
     <item>
       <title>New Tech in education, what are the rules?</title>
       <link>https://distributedfutu.re/#episode69/</link>
