@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Aug 2021 16:57:11 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 04 Nov 2021 11:53:44 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,26 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future as seen by science fiction</title>
+      <link>https://distributedfutu.re/#episode72/</link>
+      <description>We discuss how Science Fiction can (or can't) show us the future.
+We dig into the concept of an open-source panopticon and how it might work.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode72/</guid>
+      <pubDate> Sat, 30 Oct 2021 20:39:29 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/72/distributedFuture-72.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3249">
+        <media:title type="plain">The future as seen by science fiction</media:title>
+        <media:description>We discuss how Science Fiction can (or can't) show us the future.
+We dig into the concept of an open-source panopticon and how it might work.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/72/thumb.jpg"/>
+        <media:keywords>panopticon,clean energy,datacenters,utopia,scifi,future</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/72/distributedFuture-72.mp3" length="51985660" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/72/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:54:09</itunes:duration>
+    </item>
     <item>
       <title>Climate change</title>
       <link>https://distributedfutu.re/#episode71/</link>
