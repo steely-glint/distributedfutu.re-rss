@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Thu, 04 Nov 2021 11:53:44 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Nov 2021 12:35:35 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Disinfo, cults and the future of social media</title>
+      <link>https://distributedfutu.re/#episode73/</link>
+      <description>We talk about disinfo on social media and how to combat it.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode73/</guid>
+      <pubDate> Sun, 21 Nov 2021 11:03:52 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/73/distributedFuture-73.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3039">
+        <media:title type="plain">Disinfo, cults and the future of social media</media:title>
+        <media:description>We talk about disinfo on social media and how to combat it.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/73/thumb.jpg"/>
+        <media:keywords>future,socialmedia,disinfo,cult</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/73/distributedFuture-73.mp3" length="48874712" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/73/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:50:39</itunes:duration>
+    </item>
     <item>
       <title>The future as seen by science fiction</title>
       <link>https://distributedfutu.re/#episode72/</link>
