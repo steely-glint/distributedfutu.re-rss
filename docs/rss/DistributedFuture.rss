@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 21 Nov 2021 12:35:35 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jun 2022 14:41:43 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Events, social media and video conferences</title>
+      <link>https://distributedfutu.re/#episode74/</link>
+      <description>What can classical stage managment teach us about the future of the Metaverse?</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode74/</guid>
+      <pubDate> Sun, 29 May 2022 11:27:32 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/74/distributedFuture-74.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3873">
+        <media:title type="plain">Events, social media and video conferences</media:title>
+        <media:description>What can classical stage managment teach us about the future of the Metaverse?</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/74/thumb.jpg"/>
+        <media:keywords>Metaverse,secondlife,stage,future,socialmedia,tech</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/74/distributedFuture-74.mp3" length="61975442" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/74/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:04:33</itunes:duration>
+    </item>
     <item>
       <title>Disinfo, cults and the future of social media</title>
       <link>https://distributedfutu.re/#episode73/</link>
