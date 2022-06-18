@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 03 Jun 2022 19:27:38 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jun 2022 12:45:22 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Modern and Quantum Cryptography - what does the future hold?</title>
+      <link>https://distributedfutu.re/#episode75/</link>
+      <description>What is new in cryptography? How quantum computers impact privacy? What are realistic timelines? Do we need to act today? Our guest answers all these questions and more!</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode75/</guid>
+      <pubDate> Sun, 29 May 2022 14:03:47 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/75/distributedFuture-75.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3369">
+        <media:title type="plain">Modern and Quantum Cryptography - what does the future hold?</media:title>
+        <media:description>What is new in cryptography? How quantum computers impact privacy? What are realistic timelines? Do we need to act today? Our guest answers all these questions and more!</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/75/thumb.jpg"/>
+        <media:keywords>Post-quantum, cryptography, inclusion, future, tech</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/75/distributedFuture-75.mp3" length="53910628" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/75/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:56:09</itunes:duration>
+    </item>
     <item>
       <title>Events, social media and video conferences</title>
       <link>https://distributedfutu.re/#episode74/</link>
