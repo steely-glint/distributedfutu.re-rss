@@ -1,0 +1,188 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Calibri-Bold;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 Calibri;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red60\green64\blue68;\red255\green255\blue255;
+\red26\green26\blue26;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c30196\c31765\c33725;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c13333\c13333\c13333;}
+\margl1440\margr1440
+\deftab720
+\pard\pardeftab720\sl259\slmult1\sa160\partightenfactor0
+
+\f0\b\fs22 \cf2 \up0 \nosupersub \ulnone Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I'm Tim Panton, and this is the Distributed Future Podcast. The podcast\'92s aim is to help you understand what the future might look like and give you a little peek into it by talking to subject matter experts who are working on the boundary between tech and society. And hearing from them, hopefully, we can learn a little bit about what's coming down the road towards us and that we can maybe cope a little better with it. As I always say, I encourage you to subscribe otherwise you'll miss out on an episode. If you like the podcast, recommend it to your friends and they can listen too. I'm going to ask our guest to introduce herself and we can get started.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, sure. Thanks for having me. My name is Abeba Birhane. I recently finished my PhD. I defended my viva last December, technically in cognitive science, but a lot of my work is around the area of what's broadly known as AI. I study computational models of human behavior, I do audits of these models, I do audits of large-scale datasets that these models are trained on. A lot of my work is critical-questioning do these models really capture human behavior, human action? Can they truly predict my next move? Can they truly predict where society's going, how people are going to behave? In my audit on datasets, I examine how our datasets are organized? What are the taxonomies? How are personalities, people culture, identities, how are they represented and captured in datasets? These are the kinds of questions I investigate. Yeah, that's a bit about me.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I did a little back reading as one should before this chat and I must say I absolutely adore the titles of your papers. They just make you want to read the papers. They're almost like pamphleteering the quality of how well you encapsulated the topic. Actually having said that, I should really have a couple of them in front of me. Here's one. So multimodal datasets; misogyny, pornography, and malignant stereotypes. I mean it's such a wonderful introduction to the problem space. Maybe you could talk a little bit about that paper and that'll give people a context for what you're doing.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, I'm glad to hear you're describing the title as wonderful. For many people it probably would come across as disturbing or offensive. And to be honest, I wouldn't blame them. Before we decided on the title of that paper, myself and my other two quarters, we had a lot of debate, we had to change it back and forth, whether the title we currently have is a bit too much or whether we should tone it down on the one hand. But on the other hand, that is exactly the problem. That title exactly captures the problem is the dataset. So, do we go ahead with seemingly unpleasant title and capture its true nature? Or do we turn it down and try not to be offensive to people who might find these topics a bit disturbing? But in the end, we did go with the title and that's how the paper ended up. \
+That paper was actually\'85 Usually as an academic, many academics would know writing papers takes a year or two years, sometimes a number of years. But that paper was written in rage in just a few weeks with myself and my quarters. At that time, I was trying to finalize my PhD thesis so I have decided I am not going to do anything else but only just finish my thesis, focus 100% concentrate on my thesis, get the PhD out of the way and then I can move on to other projects. \
+But then I came across, I follow these papers with datasets and papers with code on Twitter, I came across this newly released multimodal dataset called LAION-400M. I was curious and I was like, "Oh, let's see what the dataset is like." Of course, this is the thing as a Black person, the first thing you do is you query the dataset. How concepts that are close to you that are associated with your identity, how are they represented? So I type Black women of course and the images that it was returning were simply despicable. 99% of the images it was returning were of Black women that were completely naked, mainly sourced from porn sites. That was really disturbing. Then I decided, okay, this is bad, but I'm going to focus on my thesis. But then I kept wanting to inquire more about other concepts, how are things such as granny, auntie, or Africa? What will the datasets return if I query it with these terms? I kept wanting to see what returns with one more query and then I was like, "Okay, I'm going to go ahead and make a Twitter thread and just make this known, and then I'll move on to my thesis." And it's like, but how do I do it? Because you can't really post a lot of these images on Twitter because they are really disturbing. \
+Then I decided, "Okay, I'm going to write a quick blog post just so it's out of my system and just so people can do something about it and then I'll move back to focusing on my thesis. Then that quick blog post turned out to be a much bigger project. Then I asked these two collaborators who are friends and also people I've worked with in the past, and then I decided, "Okay, let's write a quick paper that people can reference and people can cite, just a short three, four pages paper just for awareness. Then that's three to four pages papers turned out to be something like 35 pages, but all written very quickly and highlighting how this- \
+This LAION-400M dataset is the first, as presented, is the first open-source dataset. This is the kind of dataset big companies such as OpenAI would have. But despite the names OpenAI or any other big companies, they don't really open source their datasets, so we don't really know what kind of datasets that their AI systems are trained on. On the one hand, what the creators of these datasets are doing is really showing us what goes on behind doors, what's hidden behind proprietary rights, and the kind of datasets that big corporations, big companies use. \
+On the one hand, it's really a revelation, it's good that we know. But on the other hand, as we can see from the dataset, it contained a lot of really problematic contents, especially for any concept related to women, any word related to women, the dataset is likely to bring back images from pornographic sites. So on the one hand, it's good we know what's in the dataset. On the other hand, now that we know what's in the dataset, it's really disturbing so we have to do something about it. This is the story of this paper.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Right. Now, that's fascinating. I guess the question you may not be able to answer, but do you think this is representative? I mean, it's an open-source dataset. So do you feel that it's probably representative of the closed source datasets as well?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 It's really difficult to say because we don't really have much idea about the closed source datasets that companies such as OpenAI use so it's really difficult to compare. But on the other hand, the datasets creators themselves have presented this LAION-400 as the open-source variant of datasets similar to that used by OpenAI. So give or take, it's very likely it's the datasets that are behind, the closed source datasets are very likely to be something similar to this. But unless they are opened up and we can really take a look, unless we can do that it's really difficult to say anything with any confidence.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Sure, sure. That's horrific, basically. I mean you could hope that this might be an outlier, but I suppose our experience is that it probably isn't, that it's probably representative and they're all equally bad. Which brings me to the next question which is, is it the images or is it the description that's the problem, or is it both I suppose?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 In this paper, even though it's a multimodal dataset, which means it's images and textual descriptions paired, we mainly focused on the image part. As far as our investigation goes, we were looking at image descriptions or image representations of various identities, various cultural concepts and various groups. So, our focus was on image representation rather than the textual description of concepts, if that makes sense,\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Right, absolutely. I've done a very small amount of AI modeling and it's you gather the data and then you try and find some way to classify it by ideally automatically because otherwise, it's a lot of typing, but you have an image and you want some label to associate with it. For me, that was the two phases. I think one of the things to hop back to a podcast we did quite a long time ago, now let me see, with [inaudible 00:11:27]. No, actually it was Naomi Jacobs, Dr. Naomi Jacobs was talking about the provenance of datasets and the importance of having provable provenance of the dataset in case you need to understand where it came from, which you always do. It seemed to me reading this that the problem was that people had just been somewhere between greedy and lazy in how they were acquiring this dataset. I think you used the word tainted, that taints the whole dataset. Again, is that fair?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, there's definitely an element of laziness in dataset creation. In the paper, we try to disentangle between dataset creation and dataset curation. Because over the past year or two years have pre-trained models such as CLIP where people instead of curating datasets, people are using those pre-trained models to just compile a huge, large dataset and then it's just there. There is not much human in the loop, there is no manual labor. \
+Before the abundance availability of pre-trained models such as CLIP, what dataset practitioners used to do was really curate datasets. Take for example ImageNet, it's a dataset that has been going through so many iterations, so many audits and there is so much human labor that went into it in the process of curating that dataset. People are constantly iterating it, removing undesired content, improving accuracy. Recently they even obfuscated all phases in the people's category of ImageNet. So what you have there is this constant attention to improving the dataset. The very process that the ImageNet dataset came about was through somewhat careful curation. But now you come to datasets such as LAION-400, what you find is that all that has gone, all that disappears because they are not curating dataset, but they are just creating it using this pre-trained model. \
+So that brings some element of carelessness, some element of laziness because you don't really know what's in your dataset, you don't really know how certain things and concepts are represented, you don't really know if there are offensive content, if there are contents that shouldn't be there, if there is, as we highlight in the paper, images of rape or pornography or child abuse or anything like that. This element of attentiveness and careful curation and management of the dataset is missing not only in LAION-400, but in similar data sets that are just sourced and created using these pre-trained models. We call this Crawl over Curate in the paper. So to your point, yes, there is an element of laziness and carelessness more recently in how we produce these large scale datasets.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I think one thing that strikes me as a relatively ignorant person in this area is that there isn't a collection phase. It seems to be a matter of finding data that's out there and then, as you say, trying to maybe improve it and pick and choose and label and do some work on it. But not actually creating a new dataset with a goal in mind when you start somehow. Again, that seems like an odd decision. Is there a reason for that?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 I guess it depends on what you mean by creating datasets. I mean, for much of machine learning and deep learning, say 20 years ago, it's not that the techniques didn't exist, they have existed for so long. But what has really helped is the internet, which is the availability. I say "availability" of datasets that people putting up their images or text data or voice data on the internet. These deep learning and machine learning techniques that they needed was huge volumes of data. Over the last 10, 14 years, what you find is access to these large volumes of data that have revolutionized the field itself, even though there is very little attention paid to datasets even to this state. On the one hand people do need huge volumes of datasets to train these systems. And most of the time you can only get so much dataset from the internet. So dataset creation, or dataset curation, or collection, whatever you want to call it is very much tied to what's available on the internet, if that makes sense.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Right. So basically, you're often repurposing the data. When I think an example from I think it was Google actually, ran a telephone system where you could ring it up and I think it would do this voicemail, and there are a few other things. They basically used that as a way to collect a corpus of data on people's speech, which meant that initially it assumed that everything was a voicemail, and it took them quite a lot of training to get it out of that mindset that everything was phrased in the way that you would phrase a voicemail. So repurposing that data comes with a little bit of a risk. I guess you do need to curate it such that you're removing that risk. \
+I think my next point is to outline the idea that that risk isn't equally distributed, the people who carry that risk aren't the people who necessarily are able to carry that risk? Again, do you think that's a fair place to look?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, absolutely. You're absolutely right. Risks and benefits are not evenly distributed. This is not true of only datasets but also any machine learning models that are laying, sorting, predicting the social systems. On the one hand, people that are creating these large-scale datasets or building these AI models, there is not so much onus on them. When things go wrong, if the system is open access, if then also someone goes in and does some audit, there's so many ifs. Of course, if you do audits, you will always find problems. Algorithmic systems always fail and datasets always have problematic associations, especially to marginalized communities. So when you do audits, you will find all these problems. After so many ifs if it's open accessed, if it's audited, when these problems are found and brought to light, the most any developer or dataset curator might face is maybe a criticism or some kind of reputational harm. \
+But on the other hand, if you look at the consequence of these systems, whether it's misclassification or stereotypical associations of groups and identities with categories in data sets or even algorithmic systems failing entirely, what you find is like this is a recurring theme that's been supported by a robust body of research, what you find is when these systems fail, the people whom they fail are people that are at the margins of society. So, for these people, the consequences might be exclusion from resources. Or it could be for example if the algorithmic systems are applied within the medical domain, it could even be life and death. If the systems are applied for hiring purposes, it could be exclusion from job opportunities, you name it. So, here is the imbalance between risks and benefits. \
+But as these systems are being developed and deployed, you find that people that benefit the most are of course the people that are developing and deploying these systems. Take for example like 10, 15 years ago, if you look at the most influential, the most profiting companies, you will find food chains such as McDonald's or automotive factories or anything like that. But now over the past five, seven, eight years, you look at who are at the top of the charts, you will find big tech corporations, Google, Facebook, Amazon. So these systems that have really AI and datasets at their core have really become to dominate the whole world. Through developing and deploying these systems, they are benefiting the most. While on the other hand, they are risking very little because the most they might risk is reputational harm. While on the other hand, people that are being scored and judged by these systems, when there's very little benefit, if any benefit at all goes to them, they face the ban of these systems, they face huge negative consequences for these systems. \
+Also, coming back to the dataset curation itself, the dataset curation process itself, for example for people who have just put together the LAION-400 datasets, there is some asymmetry. It was relatively easy for them. Whereas for people who are doing the dirty work of doing the audits, people like us, there is so much emotional task, so much emotional labor, and it's much more challenging and tasking to actually do the dirty work of auditing the dataset, investigating and pointing out what's wrong with it. There is asymmetries everywhere you look and the most privileged always benefit the most while the people at the margins of society always have to lose the most in any respect you look at.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 It's hard because something you just said sounded very like the content moderation problem that people who are doing the emotional dirty work as you described it that the labor of working their way through this content and filtering it often manually, they are doing really unpleasant work. I mean, it's the modern unpleasant work. It sounds to me like audit of this type of system is in some way similar to that.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, indeed. So for content moderation but also for some journalistic practices, this emotional labor is somewhat acknowledged and you have various procedures in place in how to deal with this. Because as you said, it's really emotionally taxing. During the write up of this project, during the audit of this project, it was really emotionally difficult for myself and for the whole team to an extent that we just weren't able to sleep because you look at really disturbing images on the screen. We didn't even have the language in how to discuss it amongst ourselves and how to deal with it. What we did was look up to content moderation and journalism to learn about how people have dealt with extremely graphic images and really disturbing content. Because dataset auditing is a relatively new phase. I don't even know if it's an established field yet. There is no protocol in how you communicate your research and how you present it to other people or in how you talk about it. So we leaned a lot on how content moderation has been dealing with this kind of stuff. But definitely a lot of emotional labor goes into doing this kind of dirty work.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Yeah. Stepping back a tiny bit, is there a consensus that there is a problem here? We've talked about there are people who get the benefits and there are people who take the risks, but is there enough of the consensus that there is a problem here?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 It depends who you are asking. Ask say algorithmic auditors or dataset auditors or activists or people who work at the intersection of say critical theories and theories of colonialism and afro-feminism at the intersections of AI models and of course, take a look at the AI ethics field very broadly defined, which can be from topics dealing with bias or algorithmic fairness to social injustices and historical injustices. The AI ethics field is very broad. Even within the AI ethics field that's broadly defined, from my perspective, there is somewhat a consensus that algorithmic systems go wrong, they fail, datasets are problematic. There is a consensus that when algorithmic systems go wrong, people that are most negatively impacted are people at the margins of society. Consensus are emerging, especially over the last three, four years, because there is a huge body of empirical evidence that's just piling up and you can no longer ignore it. But maybe if you ask say for example the hardcore machine learning researcher or AI researcher, they might not pay these kind of problems that much attention. They might see this problem that I think is a huge problem as a little sacrifice that can be paid for making technological progress or for making technological advancements. So, it depends who you are asking.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I guess the question is, how do we then make sure it gets fixed? What are the structures that might help it get fixed? I mean, audit is an interesting one I hadn't really thought about. That's how financial mismanagement is caught. There's a model there that's interesting. But are there other ways that you think this can be fixed?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 That's the million-dollar question, if I had the answer to that. I mean that's a big question and it's also a very broad question. There are so many ways\'85 I wouldn't call fix because fix implies some almost technical, a switch or something you do something and then you see the outcome immediately. So I wouldn't call it a fix. I would call it maybe a way forward or an improvement or something like that, something that's gradual, something that requires so many efforts, something that requires an ecological change. I would call it that. Even for that gradual change, for that ecological change, for example, the AI ethics field is very broad. Some people focus on policy and regulation because you can produce so much academic empirical work. But if that doesn't translate into policy, then it's unlikely to impact the practice of dataset auditing, or dataset curating, or dataset practices, or the practice of algorithmic development. \
+So, one approach is focusing on bringing about various policy and regulatory frameworks that will shape and that will inform how people working in the broad field of AI how they operate and ways of keeping them accountable. Another way is to focus on more of incremental changes. For example, if you take the dataset practice itself, people work on say for example filtering mechanisms for LAION-400 for example to improve the dataset itself, to remove undesirable content, to remove content that shouldn't be there, things like that. People work on various fairness metrics to make a living.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Just to make sure I've understood that, so a really simplistic example of that filtering might be that you apply a nudity filter to your images just across the board. You take existing tech, which is supposedly pornographic detection, and you run it through over all of your images and you just don't put them into the corpus, unless they pass that test. Is it that kind of-\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, something like that. Yeah, something like that. You might say a list of words and you just exclude based on those lists. The point I'm trying to make is these are more of really narrow efforts that are fine grained efforts that are focused on something specific. \
+On the one hand, you can have something specific as filtering certain things out, as you said filtering for example nudity. But on the other hand, you go broad and people look at policy and regulation. Also, for example people working from critical theories, from the colonial theories, they focus us on more of a sociological change because the dataset and algorithmic systems we are creating cannot be separated from the social systems and the social systems that currently operate are steeped with historical injustices, with racism, with White supremacy, with colonialism. \
+Changing society goes hand in hand with changing data sets, changing algorithmic systems. The idea there is to focus on the bigger picture and to also aim for a better society as opposed to trying to change algorithms or datasets on their own or separately. I guess my point is there are so many different venues and so many different subfields working on how do we improve or how do we carve out a better future, a better direction for datasets and algorithmic systems?\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I'm trying to express this and probably not going to do a particularly good job of it, but to what extent do you think the- You're basically saying that the datasets and the faults in the dataset reflect or there's an argument that says that they just reflect the biggest problems in society and that they're simply reflective of the society that we're in. There's two corollaries on that which I'm interested in your opinion, one of which is, is it amplified? Does the way that the data collection is done and the algorithmic selection of things like Twitter and the timeline and whatever, does that amplify those problems, so the data you collect is actually worse than the environment you're collecting it from? Then the other one is, does that project forward? Do you run the risk of crystalizing that into that is the accepted behavior of society because that's what the computer does?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 These are great questions. Do datasets reflect societal problems or social reality? \
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Do they amplify them?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Do they amplify it? Yes, they do amplify it. One of the arguments people make is, especially with datasets, is this society as it is so the dataset is through to society. But as you said, it's much more amplified and exaggerated rather than reflecting society as it is because the internet is not an even playground. People for example in the West have much more greater access to the internet. So you will find much more uploaded content from say for example from the Western world compared to the African continent, for example. Then what you find in the datasets is the views and the perspectives or the biases of European societies is captured in large scale dataset and their perspectives of what Africa is. This is something we investigated in the paper. \
+We, for example, compared what comes up when you type Africa versus Europe, and what you find for Africa is a really tired negative stereotype and very cliched images of baobab trees and sunsets and naked people with tribal paintings and starving people and stuff like that. This is not the reality of the African continent. This is the perception. This is the understanding or rather misunderstanding of mostly European perspectives of the African continent. What I'm trying to say is, yes, the internet is not a very even place and datasets do reflect again the status quo and the perspective of the privileged communities, and they do amplify and exacerbate inequalities and biases. Related to your second question, what was your second question?\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 The second question was, if you've got a database like that, do you run the risk of it crystallizing future opinions?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yes, yes, because a lot of machine learning systems are predictive. You take existing datasets or historical datasets and you project it into the future, you predict how a certain society will become, or how certain individuals or groups will behave, or how they will act or react. So in a sense, you are taking a really problematic and racist and White supremacist exacerbated histories and you are projecting it into the future. You are trying to create a future that resembles the past. This is the kind of topic that's been explored by books such as Cathy O'Neil's book Weapons of Math Destruction. So yes, this is a very well understood phenomenon, especially within the AI ethics space, that these algorithms do indeed project a racist and unjust past into the future, crystallize it, as you said it, and model the future based on the past, which is deeply, deeply problematic.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 So I suppose if you use one of these systems to do predictive or resource allocation, where to build roads, where to put hospitals, things like that, and the model is flawed, then you're crystallizing that thing out into the future. That's terrifying. I hadn't actually thought about that. One of the things that I love about doing these podcasts is that I have these aha moments when people tell me things and I think I hadn't thought of that. I hadn't seen it from that angle, so thank you. That was actually a really, really interesting way to look at it. \
+I should say actually, the other thing that reminds me is that we try and ask our guests to give us some links. So if you could give us a link to the author you just mentioned, that will be really useful because we can add that to the show notes and then people can look them up and read that essay and understand that space better than we can do in the time we have.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yes, I'll email you. It's a very good book. Everybody should read it. It's by a former Harvard mathematician Cathy O'Neil. It's one of the really fundamental books that has paved the way for the whole AI field. It was written in 2016 I guess, which is quite old for a really fast-moving field, but still remains very relevant and very useful.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Cool, thank you. That would be great. I guess there's a pragmatic question that maybe our listeners are mentally asking like what can they do if they're project leading or procuring an AI project so like they have an AI problem they need to solve as part of their business, what can they do to try and lessen this impact?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, I also want to end in a positive note as well. Yeah, that's a good question. For me, the immediate thought is there is so much unguaranteed, unwarranted trust in AI models. So what I would say for sure is always be critical, always question the outcome of the model, always be ready to whether it's AI models or datasets, be ready to open it up and do critical examination, do critical audits to constantly find faults, find problems. If anything, I've learned from the past number of years working in examining algorithmic systems and auditing datasets, I can say for sure unless an AI model or a dataset is actively audited, unless people are actively trying to improve it, you will always find problems. There will always be biases. There will always be discriminatory associations. There will always be stereotypical associations. \
+So start from the assumption that there is a problem with your dataset or with your model or with any tool that you're trying to apply to that will likely make your workspace simpler and more efficient. As you start with the assumption that they encourage stereotypical views and start with the assumption that they work for the status quo and work your way backwards, always question them, always try to improve them and do not put too much faith in the systems because there's so much unwarranted faith in a lot of models and there's so much overhype, whether it's within the academic field itself, whether it's research or so, whether it's media coverage there, you hear so much unwarranted overhype and overpromise of AI systems. When in fact, in reality, they're full of problems, they're full of failures, and they're full of faults. So yeah, keep that in mind.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 I mean, it's crazy that we have to be told that. Because if you look at things like accounting systems or whatever, double-entry bookkeeping was created precisely because errors are there and they need to be checked and audited. Audit comes out of exactly that space. Financial audit comes out of exactly that space. So it's insane that we think that models would be just right and they won't need that. I don't know how we got to that position, but it's crazy. We certainly shouldn't have done.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Exactly, exactly.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Looking five years out and being maybe a little optimistic, what would you like to have happened in five years' time?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 So given my current interest in audits, in keeping those responsible, holding them accountable, also with the realization that big tech corporations are gaining so much unprecedented power, the future looks scary when you think about how much control they will have in terms of harvesting data, in terms of implementing automated systems everywhere within the social, political, medical, every sphere, the prospect is quite scary. So, looking five years ahead, I guess I am hoping for a much firmer regulatory and policy framework that keeps these systems accountable, that protects individuals and communities that are disproportionately being negatively impacted by these systems. I'm also hoping for technological advancements that push against this capitalist drive that we currently have. Yeah, things along those lines, regulation and technologies that really protect the wellbeing of individuals as opposed to consolidating power.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Right. One of the things that we've stumbled across accidentally a few times in the podcast, which is really interesting, is these kinds of non-governmental organizations that go out and actually implement quite a lot of change quietly in the background to some extent standards bodies or that sort of thing where you have the accounting standards bodies and people like that. Is there anything happening in tech that's like ethical AI society or something the people become a member of and that would maybe move the game forward a level?\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Yeah, there are so many bodies along those lines, activist driven bodies but also bodies that are trying to develop AI standards and regulations. We should be optimistic. There are movements along those lines. But one thing we should be careful is there is so much involvement of people from the tech company themselves in driving these movements. For example, when we are developing frameworks for AI standards, it should be a conflict of interests for anybody working within the tech industry to be involved in developing those standards. But at the moment, that's not what you find. It's a bit like a tobacco company being involved in research that's investigating whether tobacco is associated or causes lung cancer or not. That took decades to realize and to come to terms with to implement. I hope it doesn't take as long within the tech industry to realize that the involvement of people who have invested interest in regulation shouldn't be part of the body that actually developed the regulation themselves. Yeah.\
+
+\f0\b Tim\'a0Panton:
+\f1\b0\fs21 \cf3 \cb4  
+\f2\fs22 \cf2 \cb1 Interesting, cool. Great. I want to thank you so much for doing this. I just want to appreciate you. It's great to open my mind a little and as say, to revisit this topic. I would encourage our listeners to go back and listen to the previous episodes that have covered this rough area. Dr. Naomi Jacobs was talking about the provenance of AI data and [inaudible 00:45:35] was looking at regulation and working with I think the German parliament to try and educate them on what regulation would make sense in this space. There are a couple of quite old now episodes that cover this space. I encourage you to do go back and listen to those. Also obviously, if you've enjoyed this episode, listeners, please tell your friends and definitely subscribe because otherwise you miss stuff. So anyway, thank you so much for doing this. I really do appreciate.\
+
+\f0\b Abeba Birhane:
+\f1\b0 \cf5 \cb4  
+\f2 \cf2 \cb1 Pleasure, pleasure, thank you so much for having me.\
+}

@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 08 Jul 2022 10:25:25 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jul 2022 18:41:55 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Misogyny, pornography and malignant stereotypes in AI</title>
+      <link>https://distributedfutu.re/#episode77/</link>
+      <description>We discuss auditing computational models of human behavior and the large-scale datasets they are trained on. Our guest gives examples of the consequences of a badly curated model.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode77/</guid>
+      <pubDate> Fri, 29 Jul 2022 16:03:10 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/77/distributedFuture-77.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2769">
+        <media:title type="plain">Misogyny, pornography and malignant stereotypes in AI</media:title>
+        <media:description>We discuss auditing computational models of human behavior and the large-scale datasets they are trained on. Our guest gives examples of the consequences of a badly curated model.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/77/thumb.jpg"/>
+        <media:keywords>AI,misogyny,datasets</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/77/distributedFuture-77.mp3" length="44315678" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/77/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:46:09</itunes:duration>
+    </item>
     <item>
       <title>Building a community for crowdsourced medical research - EverythingALS.org</title>
       <link>https://distributedfutu.re/#episode76/</link>
