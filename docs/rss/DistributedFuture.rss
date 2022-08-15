@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Jul 2022 18:41:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Aug 2022 13:59:45 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Education in large cohorts</title>
+      <link>https://distributedfutu.re/#episode78/</link>
+      <description>We discuss a new style of on-line learning, self paced and voluntary along with other community driven education activities.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode78/</guid>
+      <pubDate> Sat, 06 Aug 2022 16:18:57 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/78/distributedFuture-78.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2918">
+        <media:title type="plain">Education in large cohorts</media:title>
+        <media:description>We discuss a new style of on-line learning, self paced and voluntary along with other community driven education activities.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/78/thumb.jpg"/>
+        <media:keywords>mooc,learn-to-code,dev-evangelism,no-way-to-fail</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/78/distributedFuture-78.mp3" length="46698008" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/78/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:48:38</itunes:duration>
+    </item>
     <item>
       <title>Misogyny, pornography and malignant stereotypes in AI</title>
       <link>https://distributedfutu.re/#episode77/</link>
