@@ -219,8 +219,9 @@
                                 <a href="https://twitter.com/steely_glint">
                                     <img height="60" width="60" src="./img/tim.jpg">
                                     </img>
-                                    <br/>Tim
+                                    <br/>Tim on Twitter
                                 </a>
+                                <a rel="me" href="https://chaos.social/@steely_glint"> Tim on Mastodon </a>
                             </div>
                         </div>
                     </div>
