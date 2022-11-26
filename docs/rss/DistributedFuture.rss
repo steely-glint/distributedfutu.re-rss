@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2022 13:44:42 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Nov 2022 13:45:58 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -40,7 +40,7 @@
         <media:description>Our guest's pilot project is using government money to fund development and maintenance of essential opensource projects.</media:description>
         <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/79/thumb.jpg"/>
-        <media:keywords>funding,opensource,development,maintenance</media:keywords>
+        <media:keywords>funding,opensource,development,maintenance,sovtechfund</media:keywords>
       </media:content>
       <enclosure url="http://distributedfutu.re/episodes/79/distributedFuture-79.mp3" length="46246086" type="audio/mpeg"/>
       <itunes:image href="http://distributedfutu.re/episodes/79/thumb.jpg"/>
