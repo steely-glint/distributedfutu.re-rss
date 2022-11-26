@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Thu, 24 Nov 2022 11:37:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Nov 2022 13:44:42 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>How should opensouce be funded</title>
+      <link>https://distributedfutu.re/#episode79/</link>
+      <description>Our guest's pilot project is using government money to fund development and maintenance of essential opensource projects.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode79/</guid>
+      <pubDate> Thu, 24 Nov 2022 11:29:21 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/79/distributedFuture-79.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2890">
+        <media:title type="plain">How should opensouce be funded</media:title>
+        <media:description>Our guest's pilot project is using government money to fund development and maintenance of essential opensource projects.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/79/thumb.jpg"/>
+        <media:keywords>funding,opensource,development,maintenance</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/79/distributedFuture-79.mp3" length="46246086" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/79/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:48:10</itunes:duration>
+    </item>
     <item>
       <title>Education in large cohorts</title>
       <link>https://distributedfutu.re/#episode78/</link>
