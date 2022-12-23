@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2022 13:45:58 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 23 Dec 2022 15:58:18 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Will we regret computers as much as we do cars?</title>
+      <link>https://distributedfutu.re/#episode80/</link>
+      <description>Vim and Tim get together to chat about techological regret, paths not taken and the decisions we are taking now.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode80/</guid>
+      <pubDate> Sat, 17 Dec 2022 15:59:19 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/80/distributedFuture-80.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2926">
+        <media:title type="plain">Will we regret computers as much as we do cars?</media:title>
+        <media:description>Vim and Tim get together to chat about techological regret, paths not taken and the decisions we are taking now.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/80/thumb.jpg"/>
+        <media:keywords>cities,computers,cars,regret,future</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/80/distributedFuture-80.mp3" length="46821996" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/80/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:48:46</itunes:duration>
+    </item>
     <item>
       <title>How should opensouce be funded</title>
       <link>https://distributedfutu.re/#episode79/</link>
