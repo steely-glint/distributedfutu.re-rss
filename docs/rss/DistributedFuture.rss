@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Fri, 23 Dec 2022 15:58:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Feb 2023 13:00:49 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The future of music distribution</title>
+      <link>https://distributedfutu.re/#episode81/</link>
+      <description>A chat about the past, present and future of music distribution with a musician who's been at it for more than 50 years.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode81/</guid>
+      <pubDate> Sun, 05 Feb 2023 12:49:48 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/81/distributedFuture-81.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3784">
+        <media:title type="plain">The future of music distribution</media:title>
+        <media:description>A chat about the past, present and future of music distribution with a musician who's been at it for more than 50 years.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/81/thumb.jpg"/>
+        <media:keywords>music, streaming, nfts, bandcamp, hiphop, future, vinyl</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/81/distributedFuture-81.mp3" length="60662461" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/81/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:03:04</itunes:duration>
+    </item>
     <item>
       <title>Will we regret computers as much as we do cars?</title>
       <link>https://distributedfutu.re/#episode80/</link>
@@ -48,13 +66,13 @@
       <itunes:duration>00:48:46</itunes:duration>
     </item>
     <item>
-      <title>How should opensouce be funded</title>
+      <title>How should opensource be funded?</title>
       <link>https://distributedfutu.re/#episode79/</link>
       <description>Our guest's pilot project is using government money to fund development and maintenance of essential opensource projects.</description>
       <guid isPermaLink="true">https://distributedfutu.re/#episode79/</guid>
       <pubDate> Thu, 24 Nov 2022 11:29:21 +0100</pubDate>
       <media:content medium="audio" url="http://distributedfutu.re/episodes/79/distributedFuture-79.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2890">
-        <media:title type="plain">How should opensouce be funded</media:title>
+        <media:title type="plain">How should opensource be funded?</media:title>
         <media:description>Our guest's pilot project is using government money to fund development and maintenance of essential opensource projects.</media:description>
         <media:rating scheme="urn:simple">adult</media:rating>
         <media:thumbnail url="http://distributedfutu.re/episodes/79/thumb.jpg"/>
