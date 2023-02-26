@@ -30,7 +30,9 @@
     -->
     <xsl:template name="makeEpisodes">
         <xsl:param name="eNum" select="0"/>
-        <xsl:if test="$eNum > 0">
+        <xsl:param name="zero" select="0"/>
+
+        <xsl:if test="$eNum > $zero">
             <xsl:variable name="filename">
                 <xsl:value-of select="concat('episode',$eNum,'.xml')"/>
             </xsl:variable>
@@ -39,6 +41,7 @@
             </xsl:apply-templates>
             <xsl:call-template name="makeEpisodes">
                 <xsl:with-param name="eNum" select="$eNum -1"/>
+                <xsl:with-param name="zero" select="$zero"/>
             </xsl:call-template>
         </xsl:if>
     </xsl:template>
@@ -248,6 +251,7 @@
                     <div class="podcasts">
                         <xsl:call-template name="makeEpisodes">
                             <xsl:with-param name="eNum" select="$maxEpisode"/>
+                            <xsl:with-param name="zero" select="$minEpisode"/>
                         </xsl:call-template>
                     </div>
                 </div>

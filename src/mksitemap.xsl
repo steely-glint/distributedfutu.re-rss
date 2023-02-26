@@ -28,6 +28,14 @@
             <xsl:apply-templates select="document($filename)">
                     
             </xsl:apply-templates>
+        <url>
+            <loc> 
+            <xsl:value-of select="$secureUrl"/>
+            <xsl:text>episode</xsl:text>
+            <xsl:value-of select="$eNum"/>
+            <xsl:text>.html</xsl:text>
+            </loc>
+        </url>
             <xsl:call-template name="makeEpisodes">
                 <xsl:with-param name="eNum" select="$eNum -1"/>
             </xsl:call-template>
