@@ -257,10 +257,10 @@
                 </div>
                 <footer>
                     <p>Recorded using <a href="https://github.com/pipe/podcall">Podcall</a>, transcribed with the help
-                        of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by <a
-                                href="https://www.instagram.com/allegro_alchemist/">Ellie</a>, website help from <a
+                        of <a href="https://descript.com/r/BJ-AHGvDM">Descript</a>, chime by 
+                                <em>Chester Panton</em>, website help from <a
                                 href="http://www.birgitpohl.com/">Birgit Pohl
-                        </a> and graphic by Chris Panton
+                        </a> and graphic by <em>Chris Panton</em>
                     </p>
                 </footer>
             </body>

@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Feb 2023 16:05:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Mar 2023 13:55:30 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Inclusive opensource</title>
+      <link>https://distributedfutu.re/#episode82/</link>
+      <description>Why inclusiveness is good for your opensource project and how to achive it.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode82/</guid>
+      <pubDate> Wed, 15 Feb 2023 16:23:57 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/82/distributedFuture-82.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="4038">
+        <media:title type="plain">Inclusive opensource</media:title>
+        <media:description>Why inclusiveness is good for your opensource project and how to achive it.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/82/thumb.jpg"/>
+        <media:keywords>opensource,diversity,inclusion,tech,a-holes</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/82/distributedFuture-82.mp3" length="64653107" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/82/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:07:18</itunes:duration>
+    </item>
     <item>
       <title>The future of music distribution</title>
       <link>https://distributedfutu.re/#episode81/</link>
