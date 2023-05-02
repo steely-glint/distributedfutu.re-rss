@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Sun, 05 Mar 2023 13:55:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 May 2023 11:33:10 +0100</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Astronomy, Starlink, light pollution and Planet Nine</title>
+      <link>https://distributedfutu.re/#episode83/</link>
+      <description>Prof Sam Lawler describes the impact that huge numbers of new satellites are having on astronomy</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode83/</guid>
+      <pubDate> Fri, 28 Apr 2023 20:54:12 +0100</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/83/distributedFuture-83.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3164">
+        <media:title type="plain">Astronomy, Starlink, light pollution and Planet Nine</media:title>
+        <media:description>Prof Sam Lawler describes the impact that huge numbers of new satellites are having on astronomy</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/83/thumb.jpg"/>
+        <media:keywords>Astronomy,Starlink,Planet Nine,Future,darksky</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/83/distributedFuture-83.mp3" length="50639794" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/83/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:52:44</itunes:duration>
+    </item>
     <item>
       <title>Inclusive opensource</title>
       <link>https://distributedfutu.re/#episode82/</link>
