@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Tue, 02 May 2023 12:33:25 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 23 May 2023 09:33:39 +0200</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>South African Solar power</title>
+      <link>https://distributedfutu.re/#episode84/</link>
+      <description>We discuss the finances, pros and cons of solar power in a country where the grid is unreliable.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode84/</guid>
+      <pubDate> Sun, 21 May 2023 12:51:21 +0200</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/84/distributedFuture-84.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2822">
+        <media:title type="plain">South African Solar power</media:title>
+        <media:description>We discuss the finances, pros and cons of solar power in a country where the grid is unreliable.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/84/thumb.jpg"/>
+        <media:keywords>solar,tech,energy,future,africa</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/84/distributedFuture-84.mp3" length="45163906" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/84/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:47:02</itunes:duration>
+    </item>
     <item>
       <title>Astronomy, Starlink, light pollution and Planet Nine</title>
       <link>https://distributedfutu.re/#episode83/</link>
