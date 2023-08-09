@@ -182,6 +182,7 @@
         <html lang="en">
             <head>
                 <!-- Required meta tags -->
+		<meta name="google-site-verification" content="Dg5KkLzjiSUlCDipUgL5QqKcPzDj8WPMXYhZD-MrwCg" />
                 <meta charset="utf-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 

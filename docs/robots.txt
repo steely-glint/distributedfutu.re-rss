@@ -1,2 +1,10 @@
+User-agent: AdsBot-Google
+User-agent: Googlebot-Video
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
 Sitemap: https://distributedfutu.re/sitemap.xml
 
