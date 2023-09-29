@@ -1,6 +1,10 @@
 User-agent: AdsBot-Google
 User-agent: Googlebot-Video
 User-agent: GPTBot
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: Omgilibot
 Disallow: /
 
 User-agent: *
