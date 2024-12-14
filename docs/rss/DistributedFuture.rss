@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Wed, 09 Aug 2023 09:50:42 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 14:51:37 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The state of the world and the future of social media.</title>
+      <link>https://distributedfutu.re/#episode85/</link>
+      <description>A chat about the future of AI and social media.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode85/</guid>
+      <pubDate> Sat, 14 Dec 2024 14:37:41 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/85/distributedFuture-85.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2052">
+        <media:title type="plain">The state of the world and the future of social media.</media:title>
+        <media:description>A chat about the future of AI and social media.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/85/thumb.jpg"/>
+        <media:keywords>tags,here,please</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/85/distributedFuture-85.mp3" length="32836764" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/85/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:34:12</itunes:duration>
+    </item>
     <item>
       <title>South African Solar power</title>
       <link>https://distributedfutu.re/#episode84/</link>
