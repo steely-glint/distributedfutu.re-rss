@@ -105,9 +105,9 @@
                         <xsl:text> (by </xsl:text>
                         <a> 
                             <xsl:attribute name="href">
-			       <xsl:value-of select="transcriber"/>
+			       https://www.linkedin.com/in/beatrice-sulwe-5592b2305/
                             </xsl:attribute>
-                               <xsl:value-of select="transcriber"/>
+				Beatrice Sulwe
                         </a>
                         <xsl:text>)</xsl:text>
                         </xsl:if>
@@ -212,20 +212,19 @@
                         <div class="row justify-content-start">
                             <div class="col-auto">Hosts:</div>
                             <div class="col-auto">
-                                <a href="https://twitter.com/thatgirlvim">
+                                <a href="https://bsky.app/profile/thatgirlvim.bsky.social">
                                     <img height="60" width="60" src="./img/vim.jpg">
                                     </img>
-                                    <br/>Vim
+                                    <br/>Vim on Bluesky
                                 </a>
                             </div>
                             <div class="col-auto">and</div>
                             <div class="col-auto">
-                                <a href="https://twitter.com/steely_glint">
+                                <a rel="me" href="https://chaos.social/@steely_glint">
                                     <img height="60" width="60" src="./img/tim.jpg">
                                     </img>
-                                    <br/>Tim on Twitter
+                                    <br/>Tim on the fediverse
                                 </a>
-                                <a rel="me" href="https://chaos.social/@steely_glint"> Tim on Mastodon </a>
                             </div>
                         </div>
                     </div>
