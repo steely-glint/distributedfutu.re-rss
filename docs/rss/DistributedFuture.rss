@@ -13,7 +13,7 @@
                     https://creativecommons.org/licenses/by-nc-nd/4.0/
                 </creativeCommons:license>
     <pubDate>Sun, 11 Mar 2018 12:00:00 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Mar 2025 16:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 18:07:21 +0000</lastBuildDate>
     <image>
       <url>http://distributedfutu.re/img/distributedFutureIcon.jpeg</url>
       <title>Distributed Future Podcast</title>
@@ -29,6 +29,24 @@
       <itunes:name><![CDATA[Distributed Future Podcast]]></itunes:name>
       <itunes:email>tim@distributedfutu.re()</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Glowstep: A microcommunity helping people through career transitions.</title>
+      <link>https://distributedfutu.re/#episode86/</link>
+      <description>Established companies are laying off staff, the job market has changed, AI is a challenge. Meng and I discussed her microcommunity Golowstep, which helps people navigate the new jobs landscape together with their peers.</description>
+      <guid isPermaLink="true">https://distributedfutu.re/#episode86/</guid>
+      <pubDate> Sun, 14 Dec 2025 20:08:31 +0000</pubDate>
+      <media:content medium="audio" url="http://distributedfutu.re/episodes/86/distributedFuture-86.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2725">
+        <media:title type="plain">Glowstep: A microcommunity helping people through career transitions.</media:title>
+        <media:description>Established companies are laying off staff, the job market has changed, AI is a challenge. Meng and I discussed her microcommunity Golowstep, which helps people navigate the new jobs landscape together with their peers.</media:description>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:thumbnail url="http://distributedfutu.re/episodes/86/thumb.jpg"/>
+        <media:keywords>tags,here,please</media:keywords>
+      </media:content>
+      <enclosure url="http://distributedfutu.re/episodes/86/distributedFuture-86.mp3" length="43604504" type="audio/mpeg"/>
+      <itunes:image href="http://distributedfutu.re/episodes/86/thumb.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:45:25</itunes:duration>
+    </item>
     <item>
       <title>The state of the world and the future of social media.</title>
       <link>https://distributedfutu.re/#episode85/</link>
